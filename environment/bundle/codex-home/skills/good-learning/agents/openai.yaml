@@ -1,0 +1,4 @@
+interface:
+  display_name: "Good Learning Sprint"
+  short_description: "Learn from slides with guided practice and progress"
+  default_prompt: "Use $good-learning to teach from my course slides and problem sets, follow my selected study flow, and track my real attempts."

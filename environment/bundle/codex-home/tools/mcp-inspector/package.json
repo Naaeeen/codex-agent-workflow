@@ -1,0 +1,9 @@
+{
+  "name": "personal-mcp-inspector",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Isolated pinned MCP Inspector CLI; no global PATH or daemon",
+  "dependencies": {
+    "@modelcontextprotocol/inspector": "2.14.0"
+  }
+}

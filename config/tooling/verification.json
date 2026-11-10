@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-10",
+  "python": "3.14.3",
+  "node": "24.15.0",
+  "path_cli_version": "0.157.1",
+  "model_calls": 0,
+  "suites": [
+    {
+      "name": "task-and-improvement",
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    {
+      "name": "artifact-evals",
+      "tests": 28,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "native-observer-fake-cli",
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "native-eval-bridge-fake-observer",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "portable-handoff",
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1
+    }
+  ],
+  "skip_reason": "Two symbolic-link tests skipped because this Windows context cannot create symlinks; separate junction tests ran.",
+  "calibration": {
+    "cases": 8,
+    "golden_variants_per_case": 4,
+    "runner_line_coverage": 91.4,
+    "grader_line_coverage": 92.3,
+    "coverage_kind": "stdlib executable-line coverage, not branch coverage"
+  },
+  "wrapper_smoke": {
+    "help": 0,
+    "task_init_with_spaces": 0,
+    "unknown_tool": 2,
+    "per_route_help": [
+      {
+        "tool": "task",
+        "exit": 0,
+        "usage_output": true,
+        "stderr_present": false
+      },
+      {
+        "tool": "improvement-verify",
+        "exit": 0,
+        "usage_output": true,
+        "stderr_present": false
+      },
+      {
+        "tool": "eval",
+        "exit": 0,
+        "usage_output": true,
+        "stderr_present": false
+      },
+      {
+        "tool": "observe",
+        "exit": 0,
+        "usage_output": true,
+        "stderr_present": false
+      },
+      {
+        "tool": "eval-native",
+        "exit": 0,
+        "usage_output": true,
+        "stderr_present": false
+      },
+      {
+        "tool": "handoff",
+        "exit": 0,
+        "usage_output": true,
+        "stderr_present": false
+      },
+      {
+        "tool": "execution-plan",
+        "exit": 0,
+        "usage_output": true,
+        "stderr_present": false
+      }
+    ],
+    "post_fix_multiarg_exit": 0
+  },
+  "initial_failures": [
+    {
+      "cause": "Workspace alias traversed a Windows junction; native bridge correctly rejected source reparse path.",
+      "resolution": "Reran in resolved physical project directory; did not change the file guard."
+    },
+    {
+      "cause": "Initial privacy replacement used a digits-only UUID and erased the uppercase negative control.",
+      "resolution": "Changed synthetic UUID to lowercase a characters and reran 25 observer tests successfully."
+    },
+    {
+      "cause": "PowerShell conditional result unwrapped the single argument before native splatting.",
+      "resolution": "Force array after Select-Object -Skip 1; all seven per-route --help commands tested."
+    }
+  ],
+  "limits": [
+    "No real model dispatch",
+    "No full third-party CLI functionality run",
+    "No all-service MCP auth/connectivity test",
+    "No complete dependency or binary security audit"
+  ],
+  "privacy_validation": {
+    "private_markers": 0,
+    "binary_files": 0,
+    "pyc_files": 0,
+    "toml_parsed": 11,
+    "all_config_root_keys_preserved": 24
+  }
+}

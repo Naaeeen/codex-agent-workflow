@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-10",
+  "root_key_count": 24,
+  "root_keys": [
+    "model_context_window",
+    "model",
+    "model_reasoning_effort",
+    "approval_policy",
+    "approvals_reviewer",
+    "sandbox_mode",
+    "web_search",
+    "personality",
+    "service_tier",
+    "notify",
+    "marketplaces",
+    "windows",
+    "features",
+    "agents",
+    "mcp_servers",
+    "notice",
+    "projects",
+    "tui",
+    "plugins",
+    "desktop",
+    "memories",
+    "sandbox_workspace_write",
+    "shell_environment_policy",
+    "computer_use"
+  ],
+  "mcp_server_count": 11,
+  "agent_count": 4,
+  "plugin_count": 17,
+  "redactions": [
+    {
+      "key": "notify.0",
+      "category": "PATH"
+    },
+    {
+      "key": "marketplaces.openai-bundled.source",
+      "category": "PATH"
+    },
+    {
+      "key": "marketplaces.openai-primary-runtime.source",
+      "category": "PATH"
+    },
+    {
+      "key": "mcp_servers.exa.url",
+      "category": "URL"
+    },
+    {
+      "key": "mcp_servers.node_repl.command",
+      "category": "PATH"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_NODE_MODULE_DIRS",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_NODE_PATH",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_TRUSTED_CODE_PATHS",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.CODEX_HOME",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.BROWSER_USE_AVAILABLE_BACKENDS",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.BROWSER_USE_TINYSKY_ENABLED",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.BROWSER_USE_CODEX_APP_BUILD_FLAVOR",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.BROWSER_USE_CODEX_APP_VERSION",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_TRUSTED_SERVICES",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.SKY_CUA_NATIVE_PIPE",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.SKY_CUA_NATIVE_PIPE_DIRECTORY",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.CODEX_CLI_PATH",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_UNTRUSTED_ENV_ALLOWLIST",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.node_repl.env.NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.serena.command",
+      "category": "PATH"
+    },
+    {
+      "key": "mcp_servers.serena.args.2",
+      "category": "PATH"
+    },
+    {
+      "key": "mcp_servers.serena.args.4",
+      "category": "PATH"
+    },
+    {
+      "key": "mcp_servers.serena.env.SERENA_HOME",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.serena.env.PATH",
+      "category": "VALUE"
+    },
+    {
+      "key": "shell_environment_policy.set.NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S",
+      "category": "VALUE"
+    },
+    {
+      "key": "mcp_servers.supabase.url.project_ref",
+      "category": "private project reference"
+    },
+    {
+      "key": "projects",
+      "category": "private project entries omitted"
+    },
+    {
+      "key": "desktop.open-in-target-preferences.perPath",
+      "category": "private project preferences omitted"
+    }
+  ],
+  "normalizations": [
+    {
+      "key": "agents.*.config_file",
+      "action": "absolute personal path normalized to relative agents/<filename>"
+    }
+  ],
+  "private_project_entries": "excluded; reader supplies their own trust and per-project preferences"
+}

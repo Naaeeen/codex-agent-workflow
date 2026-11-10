@@ -1,0 +1,30 @@
+# Keep the public repository limited to the skill and its supporting code
+/*
+!/SKILL.md
+!/README.md
+!/LICENSE
+!/requirements.txt
+!/.gitignore
+!/examples/
+!/references/
+!/scripts/
+/examples/*
+!/examples/*.json
+/references/*
+!/references/*.md
+/scripts/*
+!/scripts/*.py
+
+# Local generated files and caches
+**/__pycache__/
+*.py[cod]
+.DS_Store
+
+# Public static metadata and tests retained by this export
+!/PROVENANCE.json
+!/agents/
+/agents/*
+!/agents/openai.yaml
+!/tests/
+/tests/*
+!/tests/test_study_progress.py

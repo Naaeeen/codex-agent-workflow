@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "hypothesis": "INVENTED EXAMPLE ONLY: candidate synthetic score may improve by 0.5.",
+  "changed_factor": "INVENTED EXAMPLE ONLY: one source label changes; no model execution occurred.",
+  "acceptance": {
+    "min_delta": 0.5
+  },
+  "artifacts": [
+    {
+      "id": "base",
+      "path": "base.txt",
+      "sha256": "4ffbbc520461a5d875118f95ea29e80211fe610b57647daae3d79805ac075df8",
+      "requires": []
+    },
+    {
+      "id": "candidate",
+      "path": "candidate.txt",
+      "sha256": "db3790464ffb5d4438a8b4dc0606e92111355f44c5f247d6fe2bfdab9cfe1324",
+      "requires": []
+    },
+    {
+      "id": "grader",
+      "path": "grader.txt",
+      "sha256": "87fdaef28b874fa55f8b7e642ec3e103eacd9b301400394e529c5190a1bdee03",
+      "requires": []
+    },
+    {
+      "id": "environment",
+      "path": "environment.txt",
+      "sha256": "cc224a4192d188c4009a9e29ac9ad94bc74a58853154db645d8ac632ce36a04e",
+      "requires": []
+    },
+    {
+      "id": "dev-case",
+      "path": "dev-case.txt",
+      "sha256": "6c55dd76958d959a5484c231693c8e8dcf29437fe9df859d644217c9c5b8f0ae",
+      "requires": []
+    },
+    {
+      "id": "dev-baseline",
+      "path": "dev-baseline.txt",
+      "sha256": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "requires": []
+    },
+    {
+      "id": "dev-candidate",
+      "path": "dev-candidate.txt",
+      "sha256": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "requires": []
+    },
+    {
+      "id": "heldout-case",
+      "path": "heldout-case.txt",
+      "sha256": "489401884456ed9a50f93d432de9cc48b48726bef77ff5aab153c0d79b820b45",
+      "requires": []
+    },
+    {
+      "id": "heldout-baseline",
+      "path": "heldout-baseline.txt",
+      "sha256": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "requires": []
+    },
+    {
+      "id": "heldout-candidate",
+      "path": "heldout-candidate.txt",
+      "sha256": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "requires": []
+    },
+    {
+      "id": "negative-case",
+      "path": "negative-case.txt",
+      "sha256": "7ac2962cf108e79b00719e39d8ca34665f0022b99e777a57dea4e5c690135d08",
+      "requires": []
+    },
+    {
+      "id": "negative-baseline",
+      "path": "negative-baseline.txt",
+      "sha256": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "requires": []
+    },
+    {
+      "id": "negative-candidate",
+      "path": "negative-candidate.txt",
+      "sha256": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "requires": []
+    },
+    {
+      "id": "review",
+      "path": "review.txt",
+      "sha256": "83edbeecc629182b944415d0aad08ac3d900cb579cb054105201c539b51fde89",
+      "requires": []
+    }
+  ],
+  "workload": [
+    {
+      "id": "dev-case",
+      "split": "dev",
+      "fixture": "dev-case"
+    },
+    {
+      "id": "heldout-case",
+      "split": "heldout",
+      "fixture": "heldout-case"
+    },
+    {
+      "id": "negative-case",
+      "split": "negative",
+      "fixture": "negative-case"
+    }
+  ],
+  "plan": [
+    {
+      "id": "dev-trial",
+      "case": "dev-case"
+    },
+    {
+      "id": "heldout-trial",
+      "case": "heldout-case"
+    },
+    {
+      "id": "negative-trial",
+      "case": "negative-case"
+    }
+  ],
+  "trials": [
+    {
+      "id": "dev-trial",
+      "case": "dev-case",
+      "baseline": {
+        "bindings": {
+          "source": "base",
+          "fixture": "dev-case",
+          "grader": "grader",
+          "environment": "environment"
+        },
+        "result": {
+          "status": "pass",
+          "score": 1,
+          "evidence": "dev-baseline"
+        }
+      },
+      "candidate": {
+        "bindings": {
+          "source": "candidate",
+          "fixture": "dev-case",
+          "grader": "grader",
+          "environment": "environment"
+        },
+        "result": {
+          "status": "pass",
+          "score": 2,
+          "evidence": "dev-candidate"
+        }
+      }
+    },
+    {
+      "id": "heldout-trial",
+      "case": "heldout-case",
+      "baseline": {
+        "bindings": {
+          "source": "base",
+          "fixture": "heldout-case",
+          "grader": "grader",
+          "environment": "environment"
+        },
+        "result": {
+          "status": "pass",
+          "score": 1,
+          "evidence": "heldout-baseline"
+        }
+      },
+      "candidate": {
+        "bindings": {
+          "source": "candidate",
+          "fixture": "heldout-case",
+          "grader": "grader",
+          "environment": "environment"
+        },
+        "result": {
+          "status": "pass",
+          "score": 2,
+          "evidence": "heldout-candidate"
+        }
+      }
+    },
+    {
+      "id": "negative-trial",
+      "case": "negative-case",
+      "baseline": {
+        "bindings": {
+          "source": "base",
+          "fixture": "negative-case",
+          "grader": "grader",
+          "environment": "environment"
+        },
+        "result": {
+          "status": "pass",
+          "score": 1,
+          "evidence": "negative-baseline"
+        }
+      },
+      "candidate": {
+        "bindings": {
+          "source": "candidate",
+          "fixture": "negative-case",
+          "grader": "grader",
+          "environment": "environment"
+        },
+        "result": {
+          "status": "unknown",
+          "score": null,
+          "evidence": "negative-candidate"
+        }
+      }
+    }
+  ],
+  "review": {
+    "evidence": "review",
+    "independent": false,
+    "supports": "reject",
+    "bindings": {
+      "base": "4ffbbc520461a5d875118f95ea29e80211fe610b57647daae3d79805ac075df8",
+      "candidate": "db3790464ffb5d4438a8b4dc0606e92111355f44c5f247d6fe2bfdab9cfe1324",
+      "grader": "87fdaef28b874fa55f8b7e642ec3e103eacd9b301400394e529c5190a1bdee03",
+      "environment": "cc224a4192d188c4009a9e29ac9ad94bc74a58853154db645d8ac632ce36a04e",
+      "dev-case": "6c55dd76958d959a5484c231693c8e8dcf29437fe9df859d644217c9c5b8f0ae",
+      "dev-baseline": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "dev-candidate": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "heldout-case": "489401884456ed9a50f93d432de9cc48b48726bef77ff5aab153c0d79b820b45",
+      "heldout-baseline": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "heldout-candidate": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "negative-case": "7ac2962cf108e79b00719e39d8ca34665f0022b99e777a57dea4e5c690135d08",
+      "negative-baseline": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "negative-candidate": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0"
+    },
+    "protocol_sha256": "5100315329e9011b68b9aba87ef8c9feac68b4fe5c5acab320101afe524aaffc"
+  },
+  "decision": "reject"
+}

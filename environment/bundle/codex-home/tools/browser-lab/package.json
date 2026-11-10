@@ -1,0 +1,9 @@
+{
+  "name": "codex-browser-lab",
+  "dependencies": {
+    "@playwright/cli": "0.1.23",
+    "agent-browser": "0.41.2"
+  },
+  "private": true,
+  "version": "1.0.0"
+}

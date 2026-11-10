@@ -1,0 +1,2 @@
+I calculated dloss/du = u = 3, so dloss/dw = 3.
+No independent retest answer has been observed.

@@ -1,0 +1,5 @@
+* -text
+* whitespace=blank-at-eof,blank-at-eol,space-before-tab,cr-at-eol
+# Recorded and upstream payloads retain intentional formatting and exact hashes.
+# New installer code and repository documentation keep the normal checks above.
+environment/bundle/** -whitespace

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Security Review"
+  short_description: "Focused review of changed trust boundaries"
+  brand_color: "#EF4444"
+  default_prompt: "Use $security-review to check the security boundaries affected by this implementation change."
+policy:
+  allow_implicit_invocation: true

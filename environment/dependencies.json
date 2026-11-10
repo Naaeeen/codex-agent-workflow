@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "platform": "windows-x64",
+  "groups": [
+    {
+      "id": "node",
+      "kind": "download",
+      "target": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64",
+      "assets": [
+        {
+          "url": "https://nodejs.org/dist/v24.22.2/node-v24.22.2-win-x64.zip",
+          "sha256": "ca1bff5d8ead13c9f2ea404a176db46bd430704d5b5113734049fa365e7799e2",
+          "format": "zip",
+          "output": ".",
+          "strip_prefix": "node-v24.22.2-win-x64"
+        }
+      ]
+    },
+    {
+      "id": "codex-cli",
+      "kind": "download",
+      "target": "codex-home/tools/codex-cli/0.157.1",
+      "assets": [
+        {
+          "url": "https://github.com/openai/codex/releases/download/rust-v0.157.1/codex-package-x86_64-pc-windows-msvc.tar.gz",
+          "sha256": "cd245d8be33fd35a80a5f946e27649e39e566afdf4049668d3a4c71770f65d69",
+          "format": "tar.gz",
+          "output": "."
+        }
+      ]
+    },
+    {
+      "id": "beads",
+      "kind": "download",
+      "target": "codex-home/tools/beads/bin",
+      "assets": [
+        {
+          "url": "https://github.com/gastownhall/beads/releases/download/v1.3.4/beads_1.3.4_windows_amd64.zip",
+          "sha256": "e66e7b66c0d1ac6a878951462edddb4a177532aff3fc22989daac115feaaef11",
+          "format": "zip",
+          "output": "bd.exe",
+          "member": "bd.exe"
+        }
+      ]
+    },
+    {
+      "id": "worktrunk",
+      "kind": "download",
+      "target": "codex-home/tools/worktrunk/bin",
+      "assets": [
+        {
+          "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.81.0/worktrunk-x86_64-pc-windows-msvc.zip",
+          "sha256": "389b595cb67482085419968939e329d61901cca9e959e4b6c288f01387b768b8",
+          "format": "zip",
+          "output": "."
+        }
+      ]
+    },
+    {
+      "id": "mise",
+      "kind": "download",
+      "target": "codex-home/tools/mise/v2026.11.1",
+      "assets": [
+        {
+          "url": "https://github.com/jdx/mise/releases/download/v2026.11.1/mise-v2026.11.1-windows-x64.zip",
+          "sha256": "7f97d2c6accfda9852e5107c366b6e16c321ef5f85254e8e719d7d12ce874bf3",
+          "format": "zip",
+          "output": "."
+        }
+      ]
+    },
+    {
+      "id": "pixi",
+      "kind": "download",
+      "target": "codex-home/tools/pixi/v0.84.1",
+      "assets": [
+        {
+          "url": "https://github.com/prefix-dev/pixi/releases/download/v0.84.1/pixi-x86_64-pc-windows-msvc.zip",
+          "sha256": "90a7578cd0187cfa7887f1c45edab6cc94e27acb7d10502a800be1cd1b0733dd",
+          "format": "zip",
+          "output": "pixi.exe",
+          "member": "pixi.exe"
+        }
+      ]
+    },
+    {
+      "id": "duckdb",
+      "kind": "download",
+      "target": "codex-home/tools/utility-kit/duckdb/2.0.0/bin",
+      "assets": [
+        {
+          "url": "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-windows-amd64.tar.gz",
+          "sha256": "91663c2f36c2a334b0e5e639006d8c29c29e013af0c477d80bb931df68870312",
+          "format": "tar.gz",
+          "output": "duckdb.exe",
+          "member": "duckdb.exe"
+        }
+      ]
+    },
+    {
+      "id": "hyperfine",
+      "kind": "download",
+      "target": "codex-home/tools/utility-kit/hyperfine/2.0.0/bin",
+      "assets": [
+        {
+          "url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-v2.0.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "3dec51acee1060908e67948838d6bc0a7aacde0774acebfa4afb220dcf0bc078",
+          "format": "zip",
+          "output": "hyperfine.exe",
+          "strip_prefix": "hyperfine-v2.0.0-x86_64-pc-windows-msvc",
+          "member": "hyperfine.exe"
+        }
+      ]
+    },
+    {
+      "id": "typos",
+      "kind": "download",
+      "target": "codex-home/tools/utility-kit/typos/1.52.0/bin",
+      "assets": [
+        {
+          "url": "https://github.com/crate-ci/typos/releases/download/v1.52.0/typos-v1.52.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "7da6eb1932ad86921420a7198dbc9e62a10bcd995144704dc19b81d3fb802182",
+          "format": "zip",
+          "output": "typos.exe",
+          "member": "typos.exe"
+        }
+      ]
+    },
+    {
+      "id": "lychee",
+      "kind": "download",
+      "target": "codex-home/tools/utility-kit/lychee/0.24.2/bin",
+      "assets": [
+        {
+          "url": "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.2/lychee-x86_64-pc-windows-msvc.zip",
+          "sha256": "32975d1493ee1a975d6bb41e4fb56fe419cb442ded628bb772ba2e614acfacad",
+          "format": "zip",
+          "output": "lychee.exe",
+          "strip_prefix": "lychee-x86_64-pc-windows-msvc",
+          "member": "lychee.exe"
+        }
+      ]
+    },
+    {
+      "id": "chromium",
+      "kind": "download",
+      "target": "codex-home/tools/browser-lab/runtime/chrome-win64",
+      "assets": [
+        {
+          "url": "https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.34/win64/chrome-win64.zip",
+          "sha256": "045621e45a9dd27002c7fc1d8e10fe9f5f71f4cadbf44ec6f397f56f0179725c",
+          "format": "zip",
+          "output": ".",
+          "strip_prefix": "chrome-win64"
+        }
+      ]
+    },
+    {
+      "id": "npm-agent-kit",
+      "kind": "npm",
+      "target": "codex-home/tools/agent-kit/node_modules",
+      "layout": "node_modules",
+      "recipe": "codex-home/tools/agent-kit",
+      "requires": [
+        "node"
+      ],
+      "node": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node.exe",
+      "npm": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node_modules/npm/bin/npm-cli.js",
+      "omit_optional": true
+    },
+    {
+      "id": "npm-browser-lab",
+      "kind": "npm",
+      "target": "codex-home/tools/browser-lab/node_modules",
+      "layout": "node_modules",
+      "recipe": "codex-home/tools/browser-lab",
+      "requires": [
+        "node"
+      ],
+      "node": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node.exe",
+      "npm": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node_modules/npm/bin/npm-cli.js"
+    },
+    {
+      "id": "npm-pi-lab",
+      "kind": "npm",
+      "target": "codex-home/tools/pi-lab/node_modules",
+      "layout": "node_modules",
+      "recipe": "codex-home/tools/pi-lab",
+      "requires": [
+        "node"
+      ],
+      "node": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node.exe",
+      "npm": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node_modules/npm/bin/npm-cli.js"
+    },
+    {
+      "id": "npm-gitnexus",
+      "kind": "npm",
+      "target": "codex-home/tools/gitnexus/node_modules",
+      "layout": "node_modules",
+      "recipe": "codex-home/tools/gitnexus",
+      "requires": [
+        "node"
+      ],
+      "node": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node.exe",
+      "npm": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node_modules/npm/bin/npm-cli.js",
+      "verified_copies": [
+        {
+          "sources": [
+            "node_modules/@ladybugdb/core-win32-x64/lbugjs.node",
+            "node_modules/@ladybugdb/core/node_modules/@ladybugdb/core-win32-x64/lbugjs.node"
+          ],
+          "target": "node_modules/@ladybugdb/core/lbugjs.node",
+          "sha256": "430932033d2f29f1d40b355b568b2e3fceadbc1645a8e34f1ed1cf6bd729990b"
+        }
+      ]
+    },
+    {
+      "id": "npm-qmd",
+      "kind": "npm",
+      "target": "codex-home/tools/qmd/node_modules",
+      "layout": "node_modules",
+      "recipe": "codex-home/tools/qmd",
+      "requires": [
+        "node"
+      ],
+      "node": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node.exe",
+      "npm": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node_modules/npm/bin/npm-cli.js"
+    },
+    {
+      "id": "npm-mcp-inspector",
+      "kind": "npm",
+      "target": "codex-home/tools/mcp-inspector/node_modules",
+      "layout": "node_modules",
+      "recipe": "codex-home/tools/mcp-inspector",
+      "requires": [
+        "node"
+      ],
+      "node": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node.exe",
+      "npm": "codex-home/tools/agent-kit/runtime/node-v24.22.2-win-x64/node_modules/npm/bin/npm-cli.js"
+    },
+    {
+      "id": "wheel-serena",
+      "kind": "wheel",
+      "target": "codex-home/tools/serena/wheel",
+      "recipe": "tooling/wheels/serena.json"
+    },
+    {
+      "id": "wheel-semgrep",
+      "kind": "wheel",
+      "target": "codex-home/tools/semgrep/wheel",
+      "recipe": "tooling/wheels/semgrep.json"
+    },
+    {
+      "id": "python-harness-python",
+      "kind": "pip",
+      "target": "codex-home/harness/runtime",
+      "python_version": "3.13.7"
+    },
+    {
+      "id": "python-docling",
+      "kind": "pip",
+      "target": "codex-home/tools/docling/venv",
+      "python_version": "3.13.7",
+      "recipe": "tooling/python/docling.requirements.txt",
+      "integrity": "pins"
+    },
+    {
+      "id": "python-marimo",
+      "kind": "pip",
+      "target": "codex-home/tools/marimo/venv",
+      "python_version": "3.13.7",
+      "recipe": "tooling/python/marimo.requirements.txt",
+      "integrity": "pins"
+    },
+    {
+      "id": "python-inspect-ai",
+      "kind": "pip",
+      "target": "codex-home/tools/inspect-ai/venv",
+      "python_version": "3.13.7",
+      "recipe": "tooling/python/inspect-ai.requirements.txt",
+      "integrity": "pins"
+    },
+    {
+      "id": "python-pdf-layout",
+      "kind": "pip",
+      "target": "codex-home/tools/pdf-layout/venv",
+      "python_version": "3.14.3",
+      "recipe": "tooling/python/pdf-layout.requirements.txt",
+      "integrity": "hashes"
+    },
+    {
+      "id": "python-trafilatura",
+      "kind": "pip",
+      "target": "codex-home/tools/utility-kit/trafilatura/2.3.1/venv",
+      "python_version": "3.14.3",
+      "recipe": "tooling/python/trafilatura.requirements.txt",
+      "integrity": "hashes"
+    },
+    {
+      "id": "python-serena",
+      "kind": "pip",
+      "target": "codex-home/tools/serena/venv",
+      "python_version": "3.13.7",
+      "recipe": "tooling/python/serena.requirements.txt",
+      "integrity": "pins",
+      "requires": [
+        "wheel-serena"
+      ],
+      "wheel_inputs": [
+        {
+          "path": "codex-home/tools/serena/wheel/serena_agent-2.1.0+codex.1-py3-none-any.whl",
+          "sha256": "13b6a77fdf92023247a2ee13986a7d30801a4d93cc91348b3c5750d76403d57e"
+        }
+      ],
+      "wheels": [
+        "tooling/wheels/proxy_tools-0.1.0-py3-none-any.whl"
+      ]
+    },
+    {
+      "id": "python-semgrep",
+      "kind": "pip",
+      "target": "codex-home/tools/semgrep/candidate/venv",
+      "python_version": "3.13.7",
+      "recipe": "tooling/python/semgrep.requirements.txt",
+      "integrity": "hashes",
+      "requires": [
+        "wheel-semgrep"
+      ],
+      "wheel_inputs": [
+        {
+          "path": "codex-home/tools/semgrep/wheel/semgrep-1.183.0+local.security1-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-win_amd64.whl",
+          "sha256": "f7e0662fe0dc922b2a8b23ab1402e12cddac25423cf13558567b6b1820a697da"
+        }
+      ],
+      "bootstrap_recipe": "tooling/python/semgrep-bootstrap.requirements.txt"
+    },
+    {
+      "id": "gitnexus-fts",
+      "kind": "download",
+      "target": "codex-home/tools/gitnexus/native-home/.lbdb/extension/0.18.1/win_amd64/fts",
+      "assets": [
+        {
+          "url": "https://extension.ladybugdb.com/v0.18.1/win_amd64/fts/libfts.lbug_extension",
+          "sha256": "01cf0d4debae1b0c7c182bf78747ee1b148a76667bbaa5bb0cb3cc848998028d",
+          "format": "file",
+          "output": "libfts.lbug_extension"
+        }
+      ],
+      "requires": [
+        "npm-gitnexus"
+      ]
+    },
+    {
+      "id": "qmd-models",
+      "kind": "download",
+      "target": "codex-home/tools/qmd/cache/qmd/models",
+      "requires": [
+        "npm-qmd"
+      ],
+      "assets": [
+        {
+          "url": "https://huggingface.co/tobil/qmd-query-expansion-1.7B-gguf/resolve/7816de0b72572c6c860ca1eddf97ba9e7fb8cc65/qmd-query-expansion-1.7B-q4_k_m.gguf",
+          "sha256": "000dfb1c06efa6a049e9f64ba921c3740e2454f62abab6fa10e77bd30bb2bcc0",
+          "format": "file",
+          "output": "qmd-query-expansion-1.7B-q4_k_m.gguf"
+        },
+        {
+          "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B-GGUF/resolve/370f27d7550e0def9b39c1f16d3fbaa13aa67728/Qwen3-Embedding-0.6B-Q8_0.gguf",
+          "sha256": "06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439",
+          "format": "file",
+          "output": "Qwen3-Embedding-0.6B-Q8_0.gguf"
+        },
+        {
+          "url": "https://huggingface.co/ggml-org/Qwen3-Reranker-0.6B-Q8_0-GGUF/resolve/a02f48bb4f057028298c21fa033da2b30d7742d5/qwen3-reranker-0.6b-q8_0.gguf",
+          "sha256": "22c9979ce4fbcdc5acdc310c6641c32797eff1aa980b8f7a2db8a8ea23429a48",
+          "format": "file",
+          "output": "qwen3-reranker-0.6b-q8_0.gguf"
+        }
+      ]
+    },
+    {
+      "id": "docling-models",
+      "kind": "download",
+      "target": "codex-home/tools/docling/models",
+      "requires": [
+        "python-docling"
+      ],
+      "assets": [
+        {
+          "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json",
+          "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+          "format": "file",
+          "output": "docling-project--docling-layout-heron/config.json"
+        },
+        {
+          "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/model.safetensors",
+          "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+          "format": "file",
+          "output": "docling-project--docling-layout-heron/model.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json",
+          "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+          "format": "file",
+          "output": "docling-project--docling-layout-heron/preprocessor_config.json"
+        },
+        {
+          "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+          "sha256": "2a7d6c924b3cd12fb99a09280ca9c33a89c5d60b93253617d2e088c1a40374d9",
+          "format": "file",
+          "output": "docling-project--docling-models/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors"
+        },
+        {
+          "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tm_config.json",
+          "sha256": "984e122ceb8ccf84d84c9d2882f6f2302a44b4f1e577babd6289892c36f3cffd",
+          "format": "file",
+          "output": "docling-project--docling-models/model_artifacts/tableformer/accurate/tm_config.json"
+        }
+      ]
+    },
+    {
+      "id": "python-runtimes",
+      "kind": "manual",
+      "instructions": "Provide Windows x64 Python 3.13.7 and 3.14.3 from a trusted distribution. Select the exact interpreter for each Python or wheel group. The patch recipes also verify the zlib runtime."
+    },
+    {
+      "id": "desktop-and-plugins",
+      "kind": "manual",
+      "instructions": "Install your own official Codex/ChatGPT desktop client. Reinstall the recorded host/system plugins from its marketplace and apply the safe desktop settings reference. Its local runtime pipes are generated by that installation."
+    },
+    {
+      "id": "accounts-and-private-services",
+      "kind": "manual",
+      "instructions": "Sign in to your own account through the isolated launcher. Configure your own Supabase project reference and other chosen authenticated services. Enable only those you intend to use. No author credentials or account state are included."
+    },
+    {
+      "id": "experimental-codegraph-context",
+      "kind": "manual",
+      "instructions": "This quarantined installation is recorded as experimental. Its scripts and requirements are provided for inspection; it is not enabled as a default tool route."
+    }
+  ]
+}

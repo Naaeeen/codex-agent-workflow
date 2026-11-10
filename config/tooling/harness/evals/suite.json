@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "description": "Synthetic local artifact contracts. No model invocation; no security sandbox.",
+  "cases": [
+    {
+      "id": "C1",
+      "title": "Python interval repair",
+      "allowed_edits": [
+        "src/intervals.py",
+        "tests/test_intervals.py"
+      ]
+    },
+    {
+      "id": "C2",
+      "title": "JavaScript API migration",
+      "allowed_edits": [
+        "src/workflow.mjs",
+        "src/retry.mjs"
+      ]
+    },
+    {
+      "id": "C3",
+      "title": "Windows manifest copying",
+      "allowed_edits": [
+        "Copy-ReceiptSet.ps1"
+      ]
+    },
+    {
+      "id": "D1",
+      "title": "Offline HTML briefing",
+      "allowed_edits": [
+        "brief.html"
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "Source-backed document revision",
+      "allowed_edits": [
+        "release-notes.md",
+        "revision.json"
+      ]
+    },
+    {
+      "id": "L1",
+      "title": "Chain-rule teaching feedback",
+      "allowed_edits": [
+        "feedback.md",
+        "progress.json"
+      ]
+    },
+    {
+      "id": "R1",
+      "title": "Bounded research synthesis",
+      "allowed_edits": [
+        "synthesis.md",
+        "analysis.json"
+      ]
+    },
+    {
+      "id": "N1",
+      "title": "Minimal-edit negative control",
+      "allowed_edits": [
+        "README.md"
+      ]
+    }
+  ]
+}

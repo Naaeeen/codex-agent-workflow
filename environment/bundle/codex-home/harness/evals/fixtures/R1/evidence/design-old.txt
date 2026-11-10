@@ -1,0 +1,1 @@
+[DESIGN-OLD] 2026-09-01 design proposal. Target: a twofold throughput improvement. This is a goal, not a benchmark result.

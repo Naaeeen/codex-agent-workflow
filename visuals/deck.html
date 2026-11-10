@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>Codex 工作流拆解</title>
+<style>
+:root{--paper:#f3f0e7;--ink:#202923;--muted:#5e675f;--line:#c9cec2;--blue:#234dc5;--red:#c9472d;--pale:#e3e8f0}*{box-sizing:border-box}body{margin:0;background:#ccc;font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:var(--ink)}.page{width:1080px;height:1440px;background:var(--paper);position:relative;overflow:hidden;padding:58px 66px 70px;margin:0}.page+.page{margin-top:24px}.top{display:flex;justify-content:space-between;font-size:24px;letter-spacing:2px;padding-bottom:19px;border-bottom:2px solid var(--ink);font-weight:600}.foot{position:absolute;left:66px;right:66px;bottom:32px;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:14px;font-size:22px;color:var(--muted)}.kicker{font:700 27px Consolas,monospace;color:var(--blue);letter-spacing:2px;margin:38px 0 18px}.title{font-size:72px;line-height:1.22;letter-spacing:-3px;font-weight:800;margin:0 0 24px}.lead{font-size:40px;line-height:1.55;margin:0;color:var(--muted)}.note{font-size:32px;line-height:1.55;color:var(--muted)}.claim{font-size:44px;line-height:1.55;margin:26px 0}.blue{color:var(--blue)}.red{color:var(--red)}.mono{font-family:Consolas,'Microsoft YaHei',monospace}.band{border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);padding:28px 0;margin-top:32px}.caption{font-size:28px;color:var(--muted);line-height:1.5}.big-number{font:300 170px/1 Consolas,monospace;letter-spacing:-14px;color:var(--blue)}svg{display:block;width:100%;overflow:visible}svg text{font-family:'Microsoft YaHei',sans-serif;fill:var(--ink);font-size:40px}svg .small{font-size:31px;fill:var(--muted)}svg .tiny{font-size:27px;fill:var(--muted)}svg .code{font:34px Consolas,monospace}svg .b{fill:var(--blue)}svg .r{fill:var(--red)}svg .bold{font-weight:700}svg .stroke{stroke:var(--blue);stroke-width:3;fill:none}svg .thin{stroke:var(--line);stroke-width:2;fill:none}svg .redstroke{stroke:var(--red);stroke-width:3;fill:none}svg .node{fill:var(--paper);stroke:var(--blue);stroke-width:3}svg .soft{fill:var(--pale)}.codeblock{background:var(--ink);color:var(--paper);padding:30px 36px;font:36px/1.65 Consolas,monospace;margin:28px 0;white-space:pre-wrap}.codeblock em{color:#b5c7ff;font-style:normal}.rows{margin-top:30px}.row{display:grid;grid-template-columns:230px 1fr;border-top:1px solid var(--line);padding:20px 0;gap:22px;font-size:37px;line-height:1.5}.row b{font-size:39px}.tag{display:inline-block;border:2px solid currentColor;padding:6px 12px;font-size:25px}.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:36px}.split h3{font-size:44px;margin:0 0 24px}.split p{font-size:37px;line-height:1.6}.mini{font-size:28px}.cover .title{font-size:101px;margin-top:56px;line-height:1.18;letter-spacing:-6px}.cover .lead{font-size:39px;margin-top:30px}.cover .serial{position:absolute;right:72px;top:225px;font:140px/1 Consolas;color:#d2d7cc;writing-mode:vertical-rl}.cover .foot{color:var(--ink)}.strap{font-size:31px;letter-spacing:3px;font-weight:600}.dark{background:var(--ink);color:var(--paper)}.dark .top{border-color:var(--paper)}.dark .lead,.dark .note,.dark .foot{color:#bcc5ba}.dark .title{color:var(--paper)}.dark .kicker{color:#b3c5ff}.dark svg text{fill:var(--paper)}.dark svg .small{fill:#bcc5ba}.dark svg .b{fill:#b3c5ff}.dark svg .node{fill:var(--ink);stroke:#b3c5ff}.dark svg .stroke{stroke:#b3c5ff}
+</style>
+<main id="deck"></main>
+<script>
+const defs=`<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#234dc5"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#c9472d"/></marker></defs>`;
+const svg=(height,body)=>`<svg viewBox="0 0 948 ${height}" role="img">${defs}${body}</svg>`;
+const line=(x1,y1,x2,y2,red=false)=>`<path d="M${x1} ${y1}L${x2} ${y2}" class="${red?'redstroke':'stroke'}" marker-end="url(#${red?'r':'a'})"/>`;
+const txt=(x,y,s,c='')=>`<text x="${x}" y="${y}" class="${c}">${s}</text>`;
+const box=(x,y,w,h,title,sub='')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" class="node"/>${txt(x+24,y+56,title,'bold')}${sub?txt(x+24,y+102,sub,'small'):''}`;
+const pages=[];
+function page(k,title,lead,body,cls=''){pages.push(`<section class="page ${cls}"><div class="top"><span>CODEX / FIELD GUIDE</span><span>工作流图解 · 2026.11</span></div>${k?`<div class="kicker">${k}</div>`:''}<h1 class="title">${title}</h1>${lead?`<p class="lead">${lead}</p>`:''}${body}<footer class="foot"><span>${pages.length===0?"结构示意 · 来源见配套手册":"我的 Codex 工作流 · V3"}</span><span>${String(pages.length+1).padStart(2,'0')} / 16</span></footer></section>`)}
+
+page('', '我的 Codex<br>工具箱', '一套还在继续折腾的工作流。<br>配置、分工、工具，还有怎么验证。',
+`<div class="serial">01—16</div><div class="strap" style="margin-top:52px;color:var(--blue)">把这段时间折腾的东西，拆开讲清楚</div>`+svg(570,
+`${txt(0,90,'输入：一个具体任务','bold')}${line(305,76,455,76)}<rect x="480" y="30" width="460" height="440" class="soft"/>${txt(512,88,'工作环境','bold')}${txt(512,164,'配置 → 能力与默认值')}${txt(512,238,'规则 → 范围与边界')}${txt(512,312,'方法 → 分工与执行')}${txt(512,386,'验证 → 可检查的证据')}${line(200,110,200,449)}${line(200,449,450,449)}${txt(0,535,'输出：文件 + 验证记录 + 明确的未完成项','b bold')}`), 'cover');
+
+page('01 / MAP','先看清：东西放在哪里','我按存放位置分三层，换项目时不容易串。',svg(805,
+`${txt(0,75,'全局环境','bold b')}${txt(0,125,'跨项目复用','small')}${box(272,25,676,155,'config.toml + 全局 AGENTS.md','运行默认值 / 长期工作约定')}${line(235,90,266,90)}
+${txt(0,315,'项目目录','bold b')}${txt(0,365,'这个项目的事实','small')}${box(272,265,676,155,'项目 AGENTS.md + README','架构 / 命令 / 文件入口 / 验收方式')}${line(235,330,266,330)}
+${txt(0,555,'当前任务','bold b')}${txt(0,605,'这一次要做什么','small')}${box(272,505,676,155,'需求 + 选定素材 + 输出','范围 / 授权 / 成功标准')}${line(235,570,266,570)}
+${txt(0,748,'项目事实随项目走；生效边界另看当前会话。','bold')}`));
+
+page('02 / CONFIG','我的默认设置，管什么','本机保存值 · 运行时再看当前任务与宿主。',
+`<div class="codeblock">model = <em>"gpt-6.1-sol"</em>\nmodel_reasoning_effort = <em>"max"</em>\nweb_search = <em>"live"</em></div><div class="rows"><div class="row"><b>模型 / effort</b><span>设定默认推理选择；<br>具体任务仍可调整。</span></div><div class="row"><b>联网</b><span>允许实时检索；<br>检索结果仍要查来源。</span></div><div class="row"><b>权限默认值</b><span class="mono">on-request<br>workspace-write</span></div><div class="row"><b>上下文覆盖值</b><span><span class="mono">872000</span> 是配置覆盖值，<br>实际容量以运行环境为准。</span></div></div>`);
+
+page('03 / BOUNDARY','先看生效边界，再看文件','先看当前会话的实际权限，再对照保存值。',svg(720,
+`<rect x="0" y="30" width="948" height="140" class="soft"/>${txt(34,89,'当前会话与宿主约束','bold b')}${txt(34,139,'实际工具权限、审批模式、可用能力','small')}${line(474,180,474,230)}${box(0,250,948,140,'用户本次请求与授权','决定当前任务范围，保留已有明确授权')}${line(474,400,474,450)}${box(0,470,948,140,'保存的默认值与工作约定','核对宿主加载后的运行状态')}${txt(0,700,'角色职责看文件；只读隔离看运行环境。','r bold')}`)+`<p class="claim">检查权限时，读当前运行状态；<br>检查习惯时，读保存的配置。</p>`);
+
+page('04 / CONTRACT','AGENTS.md：写工作约定','我希望反复遵守的做法，就写在这里。',
+`<div class="split"><div><h3 class="blue">全局</h3><p>先找证据，再动手<br>保留无关改动<br>按任务拆分与审查<br>验证结果，报告缺口</p></div><div style="border-left:2px solid var(--line);padding-left:38px"><h3>项目</h3><p>从哪个文件进入<br>使用什么技术栈<br>如何构建和测试<br>产物放在哪个目录</p></div></div>`+svg(390,
+`${box(0,60,270,130,'长期约定','如何工作')}${box(678,60,270,130,'项目事实','在哪里工作')}${line(280,125,380,125)}${line(668,125,568,125)}<circle cx="474" cy="125" r="83" class="node"/>${txt(434,140,'任务','bold b')}${line(474,215,474,280)}${txt(230,354,'形成这一次可执行的步骤','bold')}`)+`<p class="note">高频规则保持简洁；详细方法放 Skills，<br>避免把每个工具说明都塞进总规则。</p>`);
+
+page('05 / SKILLS','Skill 是按需展开的方法','先用名称和描述判断是否适用，再读取详细步骤。',svg(800,
+`${txt(0,60,'① 发现','bold b')}${box(218,5,730,140,'名称 + 适用描述','判断：这件事需要哪套方法？')}${line(580,155,580,214)}
+${txt(0,295,'② 读取','bold b')}${box(218,240,730,165,'SKILL.md 正文','步骤 / 前置条件 / 检查标准')}${line(580,415,580,474)}
+${txt(0,555,'③ 执行','bold b')}${box(218,500,730,165,'需要时再打开引用材料','脚本 / 模板 / 示例 / 参考文档')}
+<path d="M150 105V580" class="thin"/>${txt(0,760,'触发取决于任务适配，不是把所有技能一起加载。','bold')}`));
+
+page('06 / AGENTS','子代理：并行查，顺序收口','主代理负责目标、拆分、整合和最终检查。',svg(810,
+`${txt(0,64,'主代理','bold')}${txt(315,64,'探索 / 文档','bold b')}${txt(696,64,'独立审查','bold')}
+<path d="M95 95V730M460 95V730M796 95V730" class="thin"/>
+<rect x="0" y="120" width="235" height="96" class="soft"/>${txt(20,180,'定义验收')}${line(245,168,314,168)}${txt(328,165,'查源码','b')}${txt(328,216,'查官方文档','b')}
+${line(450,260,130,350)}${txt(0,414,'整合、实现','bold')}${line(245,400,680,400)}${txt(698,463,'新上下文')}${txt(698,518,'看原始证据')}${txt(698,573,'找失败路径')}
+${line(720,620,130,700)}${txt(0,780,'主代理复核发现 → 执行最终验证','bold b')}`)+`<p class="note">现有 4 类角色：explorer / docs_researcher /<br>reviewer / computer_operator。默认继承模型与 effort。</p>`);
+
+page('07 / ROUTING','按任务选代理，不固定型号','小任务可选更便宜的合适模型，或降低 effort。',svg(760,
+`${box(265,20,420,115,'先定义子任务','')}${line(475,144,475,205)}
+<path d="M475 220L725 355L475 490L225 355Z" class="node"/>${txt(320,340,'能力能覆盖？','bold')}${txt(343,392,'工具可用？','small')}
+${line(225,355,75,355)}${txt(0,312,'不确定','r')}${line(75,355,75,570)}${txt(0,636,'保留更强配置','bold')}
+${line(725,355,862,355)}${txt(787,312,'可以','b')}${line(862,355,862,570)}${txt(557,636,'低成本 / 低 effort','bold b')}
+${txt(0,735,'用结果验收；发现复杂性，再提高能力。','bold')}`)+`<p class="note">我的角色默认继承主配置；分派前，再按任务<br>选择合适的模型和 effort，记录实际结果。</p>`);
+
+page('08 / TOOLS','MCP 和 CLI：两条工具路径','一个连接服务能力，一个执行本地工具。',svg(790,
+`${txt(0,72,'当前任务','bold')}${line(210,58,365,58)}${txt(395,72,'需要什么证据或动作？','b bold')}
+<path d="M474 105V170H225V230M474 170H720V230" class="stroke" marker-end="url(#a)"/>
+${box(0,250,450,155,'MCP / 连接工具','结构化调用与服务上下文')}${box(498,250,450,155,'CLI / 本地命令','文件、代码、测试与构建')}
+${txt(0,483,'OpenAI Docs','bold')}${txt(0,541,'Context7 / Microsoft Learn','small')}${txt(498,483,'rg / DuckDB / Semgrep','bold')}${txt(498,541,'和选定项目里的实际命令','small')}
+<path d="M225 580V645H720V580" class="stroke"/>${line(474,646,474,700)}${txt(110,765,'统一检查：输入范围、输出证据、权限','bold b')}`)+`<p class="note">我的配置有 11 个服务条目。使用前，<br>核对启用状态、登录和服务是否可用。</p>`);
+
+page('09 / TOOLBOX','工具按问题归位','装过的工具不少，真正开工时按问题拿。',
+`<div class="rows"><div class="row"><b class="blue">找代码</b><span>rg → Serena / GitNexus<br><span class="caption">文字足够就停；需要结构再深入</span></span></div><div class="row"><b class="blue">拆任务</b><span>Beads / Worktrunk<br><span class="caption">依赖记录与隔离工作区</span></span></div><div class="row"><b class="blue">复现环境</b><span>mise / pixi<br><span class="caption">按项目清单管理运行环境</span></span></div><div class="row"><b class="blue">读材料</b><span>QMD / DuckDB / Trafilatura<br><span class="caption">选定文集、结构数据、网页正文</span></span></div><div class="row"><b class="blue">做检查</b><span>Semgrep / Typos / Lychee<br><span class="caption">代码规则、拼写、链接</span></span></div><div class="row"><b class="blue">做比较</b><span>Hyperfine / eval-native<br><span class="caption">执行耗时与任务结果分别评估</span></span></div></div>`);
+
+page('10 / EXECUTION','一次任务，走一个证据循环','先说清楚怎样算完成，之后每步都能回头检查。',svg(865,
+`${box(287,15,375,120,'需求与验收','')}${box(573,250,375,120,'检索实际证据','')}${box(573,560,375,120,'判断与实现','')}${box(0,560,375,120,'验证改动','')}${box(0,250,375,120,'修正假设','')}
+${line(665,100,803,232)}${line(760,385,760,540)}${line(552,620,395,620)}${line(188,540,188,392)}${line(190,230,270,118)}
+${txt(348,422,'证据不足','r bold')}${txt(348,475,'就回到上游','small')}${txt(0,804,'通过验收 → 交付文件、检查记录与剩余边界','bold b')}`));
+
+page('11 / VERIFICATION','验证要对应真实的失败方式','不同检查回答不同问题，不能互相冒充。',svg(835,
+`<path d="M0 710H948M0 510H760M0 310H575M0 110H390" class="thin"/>
+${txt(0,72,'静态检查','bold b')}${txt(430,72,'格式、类型、已知模式','small')}
+${txt(0,272,'单元 / 集成测试','bold b')}${txt(0,370,'逻辑与边界是否符合预期','small')}
+${txt(0,472,'真实浏览器 / 实际工具','bold b')}${txt(0,570,'交互、渲染、权限与失败路径','small')}
+${txt(0,672,'真实用户 / 真实部署','bold b')}${txt(0,770,'体验与外部环境结果需要单独证据','small')}
+<path d="M420 110V310H605V510H790V710H948" class="stroke"/>`)+`<p class="note">本地检查与线上运行，分别记账。<br>云端路由已准备，真实云端执行待验证。</p>`);
+
+page('12 / EVALUATION','换方法前，先做同任务比较','我的比较方式 · 以下为评估设计示意。',
+svg(660,`<rect x="0" y="40" width="948" height="90" class="soft"/>${txt(24,99,'固定条件','bold')}${txt(390,99,'A：原方法','b bold')}${txt(690,99,'B：新方法','b bold')}
+${txt(24,205,'同一任务')}${txt(400,205,'同一份输入')}${txt(700,205,'同一份输入')}
+<path d="M0 240H948" class="thin"/>${txt(24,309,'同一环境')}${txt(400,309,'独立工作区')}${txt(700,309,'独立工作区')}
+<path d="M0 345H948" class="thin"/>${txt(24,415,'同一验收')}${txt(400,415,'结果 + 证据')}${txt(700,415,'结果 + 证据')}
+<path d="M0 452H948" class="thin"/>${txt(24,520,'只变一项','r bold')}${txt(400,520,'原规则')}${txt(700,520,'候选规则')}
+<path d="M0 560H948" class="thin"/>${txt(24,635,'记录：完成度 / 错误 / 人工修正 / 时间与成本','bold')}`)+`<p class="claim">先用小样本找缺陷，<br>值得继续，再扩大验证范围。</p><p class="note">模型评分、技术测试与真人偏好分开记录。</p>`);
+
+page('13 / EVOLUTION','工作流也要留个试验区','我会看 Trending 和研究新方法，再拿自己的任务试。',svg(850,
+`${txt(0,65,'发现候选','bold b')}${txt(325,65,'Trending / 原仓库 / 论文','bold')}${line(145,90,145,135)}
+${txt(0,195,'提取原则','bold b')}${txt(325,195,'先想清楚：解决什么问题？')}${line(145,220,145,265)}
+${txt(0,325,'保留快照','bold b')}${txt(325,325,'记版本，留恢复入口')}${line(145,350,145,395)}
+${txt(0,455,'同任务试验','bold b')}${txt(325,455,'A/B + 未参与调参的验收样例')}${line(145,480,145,525)}
+${txt(0,585,'独立复核','bold b')}${txt(325,585,'看真实产物、错误和代价')}${line(145,610,145,655)}
+${txt(0,715,'决定去留','bold b')}${txt(325,715,'采用 / 局部试用 / 恢复原状')}
+<path d="M0 760H948" class="thin"/>${txt(0,825,'Harness² 给我的启发：让改进带着证据。','bold')}`));
+
+page('14 / ONE CASE','一个例子：图卡真的能读吗','这个工作台的审查，暴露了两种不同的失败。',svg(685,
+`<rect x="20" y="35" width="260" height="350" fill="none" stroke="#c9472d" stroke-width="3"/><path d="M48 105H340M48 148H340M48 191H340" class="redstroke"/>${txt(330,104,'窄屏预览溢出','bold r')}${txt(330,167,'检查页面宽度和截图','small')}${txt(330,220,'修复后再看手机尺寸','small')}
+<rect x="20" y="455" width="120" height="120" class="thin"/><rect x="80" y="500" width="120" height="120" class="thin"/><rect x="140" y="545" width="120" height="120" class="thin"/>${txt(330,506,'动画栅格导致画面漂移','bold r')}${txt(330,568,'检查实际素材格式','small')}${txt(330,621,'导出使用静态 PNG / JPG','small')}`)+`<div class="band" style="margin-top:0;padding:16px 0"><p class="claim" style="margin:0">文字、代码检查过了，<br>还要检查最终呈现的图片。</p></div><p class="note" style="margin:12px 0 0">其他产物也先明确失败方式，<br>再选对应的检查，留下实际结果。</p>`);
+
+page('15 / START SMALL','我的起步建议：少接一点','先跑通一件真事，用得上再往工具箱里加。',svg(780,
+`${txt(0,90,'01','b bold')}${txt(125,90,'写下项目入口与验收命令','bold')}${txt(125,150,'README + 项目 AGENTS.md','small')}${line(45,125,45,225)}
+${txt(0,280,'02','b bold')}${txt(125,280,'选一个真实任务和必要 Skill','bold')}${txt(125,340,'先验证触发、读取与执行是否连得上','small')}${line(45,315,45,415)}
+${txt(0,470,'03','b bold')}${txt(125,470,'接一条工具路径，完成验证','bold')}${txt(125,530,'MCP 或 CLI，按任务需要选择','small')}${line(45,505,45,605)}
+${txt(0,660,'04','b bold')}${txt(125,660,'遇到具体失败，再加规则','bold')}${txt(125,720,'保留可复现证据，不把每次偶然写成定律','small')}`)+`<p class="claim" style="margin:5px 0 14px">欢迎拍砖：你会先改哪一层？</p><p class="note" style="margin:0">配套 workflow-kit：完整配置、流程与来源。<br>也欢迎拿一个具体失败案例，聊聊怎么改。</p>`,'dark');
+
+document.getElementById('deck').innerHTML=pages.join('');
+</script></html>

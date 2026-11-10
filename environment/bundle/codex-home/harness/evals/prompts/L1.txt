@@ -1,0 +1,7 @@
+Provide Chinese-first feedback for this learner: u=2w-1, loss=0.5u^2,
+w=2. They answered dloss/dw=3. Explain the missing chain-rule factor, show the
+correct intermediate values and derivative, then ask an unanswered retest at w=0.
+Write feedback.md and progress.json. JSON fields: current:{w,u,loss,
+student_gradient,du_dw,dl_du,gradient}, status:'needs_retest',
+mastery:'not_established', next_question:{w:0,answer:null}.
+One corrected example does not establish mastery. Do not supply the retest answer.

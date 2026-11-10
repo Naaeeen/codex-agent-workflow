@@ -1,0 +1,17 @@
+{
+  "current": {
+    "w": 2,
+    "u": 3,
+    "loss": 4.5,
+    "student_gradient": 3,
+    "du_dw": 2,
+    "dl_du": 3,
+    "gradient": 3
+  },
+  "status": "mastered",
+  "mastery": "established",
+  "next_question": {
+    "w": 0,
+    "answer": null
+  }
+}

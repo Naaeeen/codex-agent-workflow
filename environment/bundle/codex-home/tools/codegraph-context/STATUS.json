@@ -1,0 +1,7 @@
+{
+  "name": "codegraph-context",
+  "version": "0.6.13",
+  "source": "https://github.com/CodeGraphContext/CodeGraphContext",
+  "status": "held_out_of_default_workflow",
+  "reason": "Observed wrong alias edge; incomplete repo-boundary facade; unresolved upstream protobuf constraints/SCIP compatibility. Installation and candidate evidence retained; no central launcher route or global MCP."
+}

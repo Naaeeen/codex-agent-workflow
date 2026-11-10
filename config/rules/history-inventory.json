@@ -1,0 +1,5 @@
+{
+  "purpose": "Historical commands and their fingerprints are private state and are not distributed. The reader creates approvals for their own projects.",
+  "included_example": "read-only.example.rules",
+  "restoration": "Review the example and configure reader-owned command approvals explicitly."
+}

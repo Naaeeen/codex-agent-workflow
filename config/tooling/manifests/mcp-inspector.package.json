@@ -1,0 +1,8 @@
+{
+  "name": "personal-mcp-inspector",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@modelcontextprotocol/inspector": "2.14.0"
+  }
+}

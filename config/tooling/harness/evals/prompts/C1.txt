@@ -1,0 +1,8 @@
+Fix src/intervals.py and add useful regression coverage in tests/test_intervals.py.
+merge_intervals accepts a list of 2-item lists/tuples containing integer endpoints.
+Return a new list of intervals sorted by start, merging overlapping OR touching
+closed intervals. A single-point interval is valid. Empty input returns [].
+Any interval with start > end must raise ValueError before modifying inputs.
+Never mutate or alias mutable input intervals. Tuple or list output intervals
+are both valid. Keep the existing public function name and stdlib-only project.
+Run the relevant tests. Do not change other files.

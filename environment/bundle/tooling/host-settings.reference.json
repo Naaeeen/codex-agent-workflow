@@ -1,0 +1,152 @@
+{
+  "marketplaces": {
+    "openai-bundled": {
+      "source_type": "local",
+      "source": "<MARKETPLACES_OPENAI_BUNDLED_SOURCE_PATH>"
+    },
+    "openai-primary-runtime": {
+      "source_type": "local",
+      "source": "<MARKETPLACES_OPENAI_PRIMARY_RUNTIME_SOURCE_PATH>"
+    }
+  },
+  "plugins": {
+    "documents@openai-primary-runtime": {
+      "enabled": true
+    },
+    "spreadsheets@openai-primary-runtime": {
+      "enabled": true
+    },
+    "presentations@openai-primary-runtime": {
+      "enabled": true
+    },
+    "github@openai-curated": {
+      "enabled": true
+    },
+    "linear@openai-curated": {
+      "enabled": true
+    },
+    "teams@openai-curated": {
+      "enabled": true
+    },
+    "computer-use@openai-bundled": {
+      "enabled": true
+    },
+    "google-drive@openai-curated": {
+      "enabled": true
+    },
+    "openai-developers@openai-curated": {
+      "enabled": true
+    },
+    "hugging-face@openai-curated": {
+      "enabled": true
+    },
+    "chrome@openai-bundled": {
+      "enabled": true
+    },
+    "pdf@openai-primary-runtime": {
+      "enabled": true
+    },
+    "template-creator@openai-primary-runtime": {
+      "enabled": true
+    },
+    "visualize@openai-bundled": {
+      "enabled": true
+    },
+    "browser@openai-bundled": {
+      "enabled": true
+    },
+    "unified-computer-use@openai-bundled": {
+      "enabled": true
+    },
+    "codex-app-tools@openai-bundled": {
+      "enabled": true
+    }
+  },
+  "notify": [
+    "<NOTIFY_0_PATH>",
+    "turn-ended",
+    "--previous-notify",
+    "[]"
+  ],
+  "desktop": {
+    "ambient-suggestions-enabled": true,
+    "conversationDetailMode": "STEPS_COMMANDS",
+    "show-context-window-usage": true,
+    "selected-avatar-id": "stacky",
+    "keepRemoteControlAwakeWhilePluggedIn": true,
+    "followUpQueueMode": "steer",
+    "hotkey-window-projectless-default-enabled": true,
+    "toys-confetti-enabled": true,
+    "external-agent-import-sync-enabled": true,
+    "enabled-reasoning-efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "ultra",
+      "persistent",
+      "max"
+    ],
+    "git-branch-prefix": "",
+    "open-in-target-preferences": {
+      "global": "pycharm",
+      "perPath": {}
+    }
+  },
+  "notice": {
+    "fast_default_opt_out": true
+  },
+  "tui": {
+    "screen_reader_detection_done": true,
+    "model_availability_nux": {
+      "gpt-5.5": 4
+    }
+  },
+  "computer_use": {
+    "windows": {
+      "always_allowed_app_ids": {
+        "msedge.exe": true,
+        "powerpnt.exe": true,
+        "OpenAI.Codex_2p2nqsd0c76g0!App": true,
+        "winword.exe": true,
+        "explorer.exe": true
+      }
+    }
+  },
+  "projects": {},
+  "host_managed_mcp": {
+    "node_repl": {
+      "args": [],
+      "command": "<MCP_SERVERS_NODE_REPL_COMMAND_PATH>",
+      "env_vars": [
+        "BROWSER_USE_ACCESS_EXECUTOR_ID",
+        "BROWSER_USE_ACCESS_PIPE_PATH",
+        "BROWSER_USE_ACCESS_VERIFYING_IDENTITY",
+        "CODEX_WINDOWS_REGISTERED_CORE"
+      ],
+      "startup_timeout_sec": 120,
+      "env": {
+        "NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS_VALUE>",
+        "NODE_REPL_NODE_MODULE_DIRS": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_NODE_MODULE_DIRS_VALUE>",
+        "NODE_REPL_NODE_PATH": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_NODE_PATH_VALUE>",
+        "NODE_REPL_TRUSTED_CODE_PATHS": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_TRUSTED_CODE_PATHS_VALUE>",
+        "CODEX_HOME": "<MCP_SERVERS_NODE_REPL_ENV_CODEX_HOME_VALUE>",
+        "BROWSER_USE_AVAILABLE_BACKENDS": "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_AVAILABLE_BACKENDS_VALUE>",
+        "BROWSER_USE_TINYSKY_ENABLED": "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_TINYSKY_ENABLED_VALUE>",
+        "NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER_VALUE>",
+        "NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME_VALUE>",
+        "BROWSER_USE_CODEX_APP_BUILD_FLAVOR": "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_CODEX_APP_BUILD_FLAVOR_VALUE>",
+        "BROWSER_USE_CODEX_APP_VERSION": "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_CODEX_APP_VERSION_VALUE>",
+        "NODE_REPL_TRUSTED_SERVICES": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_TRUSTED_SERVICES_VALUE>",
+        "SKY_CUA_NATIVE_PIPE": "<MCP_SERVERS_NODE_REPL_ENV_SKY_CUA_NATIVE_PIPE_VALUE>",
+        "SKY_CUA_NATIVE_PIPE_DIRECTORY": "<MCP_SERVERS_NODE_REPL_ENV_SKY_CUA_NATIVE_PIPE_DIRECTORY_VALUE>",
+        "CODEX_CLI_PATH": "<MCP_SERVERS_NODE_REPL_ENV_CODEX_CLI_PATH_VALUE>",
+        "NODE_REPL_UNTRUSTED_ENV_ALLOWLIST": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_UNTRUSTED_ENV_ALLOWLIST_VALUE>",
+        "NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE": "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE_VALUE>"
+      }
+    }
+  },
+  "host_generated_shell_environment": {
+    "NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S": "<SHELL_ENVIRONMENT_POLICY_SET_NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S_VALUE>"
+  }
+}

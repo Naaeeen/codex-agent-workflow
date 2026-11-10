@@ -1,0 +1,4 @@
+# Migrated from the same-named legacy profile; values preserved.
+approval_policy = "on-request"
+sandbox_mode = "read-only"
+web_search = "cached"

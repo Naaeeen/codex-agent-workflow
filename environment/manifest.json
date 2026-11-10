@@ -1,0 +1,4019 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "source": "bundle/codex-home/AGENTS.md",
+      "target": "codex-home/AGENTS.md",
+      "sha256": "ccf0b939eb348853f3a1a75205acece76b0b2f8377adf76fb12a1cf9a86b676b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/agents/computer-operator.toml",
+      "target": "codex-home/agents/computer-operator.toml",
+      "sha256": "f576eeb2d85a567398a1fe3985ee1f130b77a9a93761db5a07faf6490302585f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/agents/docs-researcher.toml",
+      "target": "codex-home/agents/docs-researcher.toml",
+      "sha256": "29ef3c74d40c3507c361e277af4073fbb9d3877cfa3e81da232ee3a5b58226d0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/agents/explorer.toml",
+      "target": "codex-home/agents/explorer.toml",
+      "sha256": "905e7140ae97950b112d3ce4d3344c800edac18ea7a47b17ff961c1e43c2ee35",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/agents/reviewer.toml",
+      "target": "codex-home/agents/reviewer.toml",
+      "sha256": "5785b2647d4b0100657ff3c656784a483cdb9c8ae17e86debda31e931ddc6881",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/config.toml",
+      "target": "codex-home/config.toml",
+      "sha256": "2d39f250663371a8b40bb47d9633a6a4450c3e26cd8ab89d4503a5bd14f7b49f",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/git-hooks/pre-commit",
+      "target": "codex-home/git-hooks/pre-commit",
+      "sha256": "8f04fd533a6c07892adce6991b66c3227154361563c22d9581b0becb5a956afb",
+      "executable": true
+    },
+    {
+      "source": "bundle/codex-home/git-hooks/pre-push",
+      "target": "codex-home/git-hooks/pre-push",
+      "sha256": "da4cf8618b84a4f0d0d45a4b5816f2d048639a489465212ce3e863b91eee8008",
+      "executable": true
+    },
+    {
+      "source": "bundle/codex-home/harness/IMPROVEMENT.md",
+      "target": "codex-home/harness/IMPROVEMENT.md",
+      "sha256": "8435319d8457281ddee680987dca71f60141f22504a0a38eeae2760318dc1bdf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/README.md",
+      "target": "codex-home/harness/README.md",
+      "sha256": "0c4a69d01a4a8ba96eb43ab9ab70338933c602898d54b5e665181fd40dcefbd2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/checks.example.json",
+      "target": "codex-home/harness/checks.example.json",
+      "sha256": "8b4247e1634afd66fa591236d376b52333574e1a58a2a12a0cf1e46da9de45c4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/README.md",
+      "target": "codex-home/harness/evals/README.md",
+      "sha256": "6affd50ef76a81a37d5b167543127a3778ae3bb9576ea28704e763aac4cd23b5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/VERIFICATION.md",
+      "target": "codex-home/harness/evals/VERIFICATION.md",
+      "sha256": "c4b1de59bceefac957a01f7eb9c5387cd057d152646e7fbf2a6c37703e12aaa0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C1/README.md",
+      "target": "codex-home/harness/evals/fixtures/C1/README.md",
+      "sha256": "19777ee17e996aae31f05095ae4b4b6515bcb64a0935d9bf39f38ba937876d52",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C1/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/C1/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C1/src/intervals.py",
+      "target": "codex-home/harness/evals/fixtures/C1/src/intervals.py",
+      "sha256": "28aa8c7224ee79382415cccadfb223187f26768b2cf2875441989960e2f8e7ba",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C1/tests/test_intervals.py",
+      "target": "codex-home/harness/evals/fixtures/C1/tests/test_intervals.py",
+      "sha256": "819b88d3ebd8cc5a123881866863f0108fbc94eadd488d46acea7edaef79dec2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C2/fixture-archive/old.mjs",
+      "target": "codex-home/harness/evals/fixtures/C2/fixture-archive/old.mjs",
+      "sha256": "acd8bd771b99358e12bf742a704b3fabda0def2684d6c04e6a9faaab50ceebab",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C2/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/C2/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C2/package.json",
+      "target": "codex-home/harness/evals/fixtures/C2/package.json",
+      "sha256": "c4448c987954636a8eabdb7f0cb3a6d467216599d6e1929e40f80e391fff6b26",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C2/src/decorations.mjs",
+      "target": "codex-home/harness/evals/fixtures/C2/src/decorations.mjs",
+      "sha256": "b9292e350d139513d4f9f0ac3c24c9f7d8137880e38ddb7d4de64119cbe255f2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C2/src/retry.mjs",
+      "target": "codex-home/harness/evals/fixtures/C2/src/retry.mjs",
+      "sha256": "3d0415da46583cc52745b0b54d53aa43ae35989af205dc0aeb07ada72b8d1911",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C2/src/workflow.mjs",
+      "target": "codex-home/harness/evals/fixtures/C2/src/workflow.mjs",
+      "sha256": "e93a4968a601680953968a2abfb70116584746e487747c62a0c7bba6ef2f5e80",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C2/tests/workflow.mjs",
+      "target": "codex-home/harness/evals/fixtures/C2/tests/workflow.mjs",
+      "sha256": "48b6bbdf65cd647a5a899b9f875c662dd10fee30984993ab8b3b18117ef748da",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C3/Copy-ReceiptSet.ps1",
+      "target": "codex-home/harness/evals/fixtures/C3/Copy-ReceiptSet.ps1",
+      "sha256": "903a7853a9acf1e8473edaa3a488762388d7ad4d3ef9fddfe72ffa59a869b70e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/C3/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/C3/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/D1/event.txt",
+      "target": "codex-home/harness/evals/fixtures/D1/event.txt",
+      "sha256": "48d37f469084e34231fb48eccfa9a5ecfb3b19f85925bde5b982de12f34be532",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/D1/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/D1/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/D2/evidence.csv",
+      "target": "codex-home/harness/evals/fixtures/D2/evidence.csv",
+      "sha256": "d6ffc0c3d9d694505cb3b9ecaa8ac658f5d6946fb6f2bddb8a9ccb4e3ad2dbfa",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/D2/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/D2/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/D2/release-notes.md",
+      "target": "codex-home/harness/evals/fixtures/D2/release-notes.md",
+      "sha256": "fbd6ac17bf29e6409e3d62cafe0cf9843505c76b6d6b9ef995b39dce394e9459",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/L1/learner.txt",
+      "target": "codex-home/harness/evals/fixtures/L1/learner.txt",
+      "sha256": "cfcf1866668ae83ae365a84ab5d10b7964b8b5af61dd148f2774564c516cb092",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/L1/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/L1/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/N1/README.md",
+      "target": "codex-home/harness/evals/fixtures/N1/README.md",
+      "sha256": "090be33e304966c662c4e929b6687708d28511bf86d9395221f7dd07b4f71191",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/N1/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/N1/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/R1/evidence/bench-new.csv",
+      "target": "codex-home/harness/evals/fixtures/R1/evidence/bench-new.csv",
+      "sha256": "1c1da3375769ae8b24504fb095405e2e235a23ee540307815947090b063ed1c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/R1/evidence/design-old.txt",
+      "target": "codex-home/harness/evals/fixtures/R1/evidence/design-old.txt",
+      "sha256": "0ace692e0ccfeac614ba4fad10f4ba04b3cdedf816d57072c54b39df4f8f5a6e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/R1/evidence/limits.txt",
+      "target": "codex-home/harness/evals/fixtures/R1/evidence/limits.txt",
+      "sha256": "9708f106a361a6c129f7ecca3b1d535c70dcfca2a0ee00fc6024234ab56a8576",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/R1/evidence/quoted-web.txt",
+      "target": "codex-home/harness/evals/fixtures/R1/evidence/quoted-web.txt",
+      "sha256": "39dfb9ea47858cfcf9299d1e2ebe84fa7c930afcd647c9c253277b9d22a84fb6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/fixtures/R1/notes/keep.txt",
+      "target": "codex-home/harness/evals/fixtures/R1/notes/keep.txt",
+      "sha256": "ea6e925686e50e516cb0a6449e269e33b83eaa658b3ecfe3eaa47928ffa772f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C1/alternative/src/intervals.py",
+      "target": "codex-home/harness/evals/golden/C1/alternative/src/intervals.py",
+      "sha256": "ff4925f12cc76ca4bbf1029dede40fb09b56c6f9f665a8b4312320aa52e6c81a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C1/bad/src/intervals.py",
+      "target": "codex-home/harness/evals/golden/C1/bad/src/intervals.py",
+      "sha256": "5edaac54276193f4313a50b0c88ccd671e18919d52207060d23fa077b4329a2f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C1/good/src/intervals.py",
+      "target": "codex-home/harness/evals/golden/C1/good/src/intervals.py",
+      "sha256": "27702481e3339934a870a9036d091965991e345050a038122d393b46e596ddc2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C1/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/C1/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C1/scope-violation/src/intervals.py",
+      "target": "codex-home/harness/evals/golden/C1/scope-violation/src/intervals.py",
+      "sha256": "27702481e3339934a870a9036d091965991e345050a038122d393b46e596ddc2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/alternative/src/retry.mjs",
+      "target": "codex-home/harness/evals/golden/C2/alternative/src/retry.mjs",
+      "sha256": "54ee4116004c2c86ceb203ba30ee32fce2aeb8e46d0d84a8bc8b6fd60f11518c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/alternative/src/workflow.mjs",
+      "target": "codex-home/harness/evals/golden/C2/alternative/src/workflow.mjs",
+      "sha256": "9b06d3aafb16d0fe1a786dcd7b65dc5724c387ecfaea47acd0134486ee416088",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/bad/src/retry.mjs",
+      "target": "codex-home/harness/evals/golden/C2/bad/src/retry.mjs",
+      "sha256": "3d0415da46583cc52745b0b54d53aa43ae35989af205dc0aeb07ada72b8d1911",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/bad/src/workflow.mjs",
+      "target": "codex-home/harness/evals/golden/C2/bad/src/workflow.mjs",
+      "sha256": "4840c9743f85e89eaeaf7cc3b781b531d310277bb33e623b41f4e000186f7aea",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/good/src/retry.mjs",
+      "target": "codex-home/harness/evals/golden/C2/good/src/retry.mjs",
+      "sha256": "1fc1f7bd696e4d5ab2907f79c481b32b23e8b22437ed9bd58914fbf476a047aa",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/good/src/workflow.mjs",
+      "target": "codex-home/harness/evals/golden/C2/good/src/workflow.mjs",
+      "sha256": "4840c9743f85e89eaeaf7cc3b781b531d310277bb33e623b41f4e000186f7aea",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/C2/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/scope-violation/src/retry.mjs",
+      "target": "codex-home/harness/evals/golden/C2/scope-violation/src/retry.mjs",
+      "sha256": "1fc1f7bd696e4d5ab2907f79c481b32b23e8b22437ed9bd58914fbf476a047aa",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C2/scope-violation/src/workflow.mjs",
+      "target": "codex-home/harness/evals/golden/C2/scope-violation/src/workflow.mjs",
+      "sha256": "4840c9743f85e89eaeaf7cc3b781b531d310277bb33e623b41f4e000186f7aea",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C3/alternative/Copy-ReceiptSet.ps1",
+      "target": "codex-home/harness/evals/golden/C3/alternative/Copy-ReceiptSet.ps1",
+      "sha256": "654e314c7108fe95c9471d82554dfe7f1221aca97923122562aa1a3616a6c517",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C3/bad/Copy-ReceiptSet.ps1",
+      "target": "codex-home/harness/evals/golden/C3/bad/Copy-ReceiptSet.ps1",
+      "sha256": "46d58107d86b5c99a6d432e0fd1f8793397878d86330aedc2ea61b97271ab167",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C3/good/Copy-ReceiptSet.ps1",
+      "target": "codex-home/harness/evals/golden/C3/good/Copy-ReceiptSet.ps1",
+      "sha256": "6d24db66cb96bf288b88a3105eb1dcfb32afc3864939127d0b867b7eb0325b90",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C3/scope-violation/Copy-ReceiptSet.ps1",
+      "target": "codex-home/harness/evals/golden/C3/scope-violation/Copy-ReceiptSet.ps1",
+      "sha256": "6d24db66cb96bf288b88a3105eb1dcfb32afc3864939127d0b867b7eb0325b90",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/C3/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/C3/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D1/alternative/brief.html",
+      "target": "codex-home/harness/evals/golden/D1/alternative/brief.html",
+      "sha256": "17ad9cba979e8197d41f9410cb4e84e663fe15e6a519f24234a7c3add33253da",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D1/bad/brief.html",
+      "target": "codex-home/harness/evals/golden/D1/bad/brief.html",
+      "sha256": "d090408741367a9cdf0f570e1c6b806e3a757063eb040f4e94d5dd9c354a658d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D1/good/brief.html",
+      "target": "codex-home/harness/evals/golden/D1/good/brief.html",
+      "sha256": "e94c884dedcbaed995d997f5fd3b30048a8934f8c408666e7ee956768807fe89",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D1/scope-violation/brief.html",
+      "target": "codex-home/harness/evals/golden/D1/scope-violation/brief.html",
+      "sha256": "e94c884dedcbaed995d997f5fd3b30048a8934f8c408666e7ee956768807fe89",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D1/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/D1/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/alternative/release-notes.md",
+      "target": "codex-home/harness/evals/golden/D2/alternative/release-notes.md",
+      "sha256": "c61403510e115ba4a7452b12fc5dd7dd1c1d2303cd11138fc18d1564dfd5130b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/alternative/revision.json",
+      "target": "codex-home/harness/evals/golden/D2/alternative/revision.json",
+      "sha256": "b4678c9503e7f33789fb942b6304f748fd6366516b906fee6821ce17ed56ce83",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/bad/release-notes.md",
+      "target": "codex-home/harness/evals/golden/D2/bad/release-notes.md",
+      "sha256": "b62da1d77e28abcce42f6a53ded135c88ef2c03e7407281f081e71c8e0d3dc85",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/bad/revision.json",
+      "target": "codex-home/harness/evals/golden/D2/bad/revision.json",
+      "sha256": "57ae5e445154a67f8cf72278977a62da6822a2d7e4d61d8b6737b7c6e9ab3a07",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/good/release-notes.md",
+      "target": "codex-home/harness/evals/golden/D2/good/release-notes.md",
+      "sha256": "1147d3b1fa091d5ff50eec3190c57ada89f403652905ead344433f76ab341a11",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/good/revision.json",
+      "target": "codex-home/harness/evals/golden/D2/good/revision.json",
+      "sha256": "b4678c9503e7f33789fb942b6304f748fd6366516b906fee6821ce17ed56ce83",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/D2/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/scope-violation/release-notes.md",
+      "target": "codex-home/harness/evals/golden/D2/scope-violation/release-notes.md",
+      "sha256": "1147d3b1fa091d5ff50eec3190c57ada89f403652905ead344433f76ab341a11",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/D2/scope-violation/revision.json",
+      "target": "codex-home/harness/evals/golden/D2/scope-violation/revision.json",
+      "sha256": "b4678c9503e7f33789fb942b6304f748fd6366516b906fee6821ce17ed56ce83",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/alternative/feedback.md",
+      "target": "codex-home/harness/evals/golden/L1/alternative/feedback.md",
+      "sha256": "1dc2be2e9080c9d940b0dabad1a86bbe649320bfd319b8554668474ca6c92403",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/alternative/progress.json",
+      "target": "codex-home/harness/evals/golden/L1/alternative/progress.json",
+      "sha256": "5c93ce92f5cc2bab92890330718758eb2d7fd3205eebff397ed1a9fec1b81e20",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/bad/feedback.md",
+      "target": "codex-home/harness/evals/golden/L1/bad/feedback.md",
+      "sha256": "fea3b32d90f82b2fa9abb9a12eb1b29da8b60b17d6736f8e81cebf5c8944441b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/bad/progress.json",
+      "target": "codex-home/harness/evals/golden/L1/bad/progress.json",
+      "sha256": "81a00efc5a931b84cc16da33d80f4c01078c00e786eaae18efd08475f8d7f6ba",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/good/feedback.md",
+      "target": "codex-home/harness/evals/golden/L1/good/feedback.md",
+      "sha256": "de6e0b47ce6c3f2b3eebf4a8ce1fac591e30453f743f07b7f86378b689158fa7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/good/progress.json",
+      "target": "codex-home/harness/evals/golden/L1/good/progress.json",
+      "sha256": "5c93ce92f5cc2bab92890330718758eb2d7fd3205eebff397ed1a9fec1b81e20",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/scope-violation/feedback.md",
+      "target": "codex-home/harness/evals/golden/L1/scope-violation/feedback.md",
+      "sha256": "de6e0b47ce6c3f2b3eebf4a8ce1fac591e30453f743f07b7f86378b689158fa7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/L1/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/L1/scope-violation/progress.json",
+      "target": "codex-home/harness/evals/golden/L1/scope-violation/progress.json",
+      "sha256": "5c93ce92f5cc2bab92890330718758eb2d7fd3205eebff397ed1a9fec1b81e20",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/N1/alternative/README.md",
+      "target": "codex-home/harness/evals/golden/N1/alternative/README.md",
+      "sha256": "61b5dbd9954d87077ae39ea9d01e24e3ffe996404affed06cfc169fe5b555fbd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/N1/bad/README.md",
+      "target": "codex-home/harness/evals/golden/N1/bad/README.md",
+      "sha256": "090be33e304966c662c4e929b6687708d28511bf86d9395221f7dd07b4f71191",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/N1/good/README.md",
+      "target": "codex-home/harness/evals/golden/N1/good/README.md",
+      "sha256": "61b5dbd9954d87077ae39ea9d01e24e3ffe996404affed06cfc169fe5b555fbd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/N1/scope-violation/README.md",
+      "target": "codex-home/harness/evals/golden/N1/scope-violation/README.md",
+      "sha256": "61b5dbd9954d87077ae39ea9d01e24e3ffe996404affed06cfc169fe5b555fbd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/N1/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/N1/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/alternative/analysis.json",
+      "target": "codex-home/harness/evals/golden/R1/alternative/analysis.json",
+      "sha256": "335b1bd10ec839486c47525ff8dad4861b3dd1ba50cf3e809365e6e22ffdc5a0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/alternative/synthesis.md",
+      "target": "codex-home/harness/evals/golden/R1/alternative/synthesis.md",
+      "sha256": "3db8a21ed69e5569a1ca9f36debb3968cdffa1050e0947574e82a3d3f3d4a222",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/bad/analysis.json",
+      "target": "codex-home/harness/evals/golden/R1/bad/analysis.json",
+      "sha256": "f646f946242539fe87109e9fbe9bc84ca665721fb4c899b7a225efd3fb51739a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/bad/synthesis.md",
+      "target": "codex-home/harness/evals/golden/R1/bad/synthesis.md",
+      "sha256": "2873bebeb361e67a2d30cd592dd1fe8d8912aafaa9a77684d54be2edc2a3170c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/good/analysis.json",
+      "target": "codex-home/harness/evals/golden/R1/good/analysis.json",
+      "sha256": "335b1bd10ec839486c47525ff8dad4861b3dd1ba50cf3e809365e6e22ffdc5a0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/good/synthesis.md",
+      "target": "codex-home/harness/evals/golden/R1/good/synthesis.md",
+      "sha256": "fbb49bfa65bf4bf01c7f4c8f6fba3688d97dd5bbd7114f705982840e5fda957e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/scope-violation/analysis.json",
+      "target": "codex-home/harness/evals/golden/R1/scope-violation/analysis.json",
+      "sha256": "335b1bd10ec839486c47525ff8dad4861b3dd1ba50cf3e809365e6e22ffdc5a0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/scope-violation/notes/keep.txt",
+      "target": "codex-home/harness/evals/golden/R1/scope-violation/notes/keep.txt",
+      "sha256": "10c191e2fa15af8dd897c3824671d326b3c397a9756aae9e087e0fa7acd289c9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/golden/R1/scope-violation/synthesis.md",
+      "target": "codex-home/harness/evals/golden/R1/scope-violation/synthesis.md",
+      "sha256": "fbb49bfa65bf4bf01c7f4c8f6fba3688d97dd5bbd7114f705982840e5fda957e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/graders/__init__.py",
+      "target": "codex-home/harness/evals/graders/__init__.py",
+      "sha256": "def748fb1291f692873bdcb3359112b7600b725105518a34cca8823ed21ba5f3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/graders/checks.py",
+      "target": "codex-home/harness/evals/graders/checks.py",
+      "sha256": "58df4ed5ed4cacf95b06aab81cebf4418be9625212ad6a1f7ddd33dcc0cb89f1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/C1.txt",
+      "target": "codex-home/harness/evals/prompts/C1.txt",
+      "sha256": "b5b22dc49fd94c885c6ba0c30001a96bd4e0a09e226c5ecb16646f6dd075b43d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/C2.txt",
+      "target": "codex-home/harness/evals/prompts/C2.txt",
+      "sha256": "efe1c5cef91d753c2a7965decc3dc356b96e7f6facb094cb3375b65ecc7a3240",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/C3.txt",
+      "target": "codex-home/harness/evals/prompts/C3.txt",
+      "sha256": "ea4d5d8c90d9490d3f1830405d5c9784f4c7498aa6f8fdbdd53252ec17f89b93",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/D1.txt",
+      "target": "codex-home/harness/evals/prompts/D1.txt",
+      "sha256": "72e5c6b1e05b1fac740140ded2ab47293fce1558319cfc993089e6873cddfc65",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/D2.txt",
+      "target": "codex-home/harness/evals/prompts/D2.txt",
+      "sha256": "21f318a80c3a67a63417486b023bfb949d194b22c17e1ef0a194d4b5772714d2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/L1.txt",
+      "target": "codex-home/harness/evals/prompts/L1.txt",
+      "sha256": "bd340378cc0e1734fed3ef2fceff337781601bc01cc40d78fb7c8ed1fab63525",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/N1.txt",
+      "target": "codex-home/harness/evals/prompts/N1.txt",
+      "sha256": "7e001ac33360d3061fb0f85d6809578f2252f2fb547ded6330e03062febdef06",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/prompts/R1.txt",
+      "target": "codex-home/harness/evals/prompts/R1.txt",
+      "sha256": "5d6030c0a2c92a77f79a6bffbe404b9bd576140c3378cbd5b6a8e49fa80b3198",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/runner.py",
+      "target": "codex-home/harness/evals/runner.py",
+      "sha256": "dd228dc5bc2eb216ce9c5702171b338f2888bf142a847b61a4d29766a0414473",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/suite.json",
+      "target": "codex-home/harness/evals/suite.json",
+      "sha256": "be2d0fa423bf69f213e99d04a81f7a9b2eeabb42e388279767949f1bde2a0f2f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/test_runner.py",
+      "target": "codex-home/harness/evals/test_runner.py",
+      "sha256": "fdd9a538ee7cc1ebbef18bdf9d738a0dcee1fd705d0d63f1c97f96f840efc5cf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/evals/verify.py",
+      "target": "codex-home/harness/evals/verify.py",
+      "sha256": "29f45011e205009080418d9322468f01d268de1a8a3faff5c2c7b79b9623b3a6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/base.txt",
+      "target": "codex-home/harness/improvement-example/base.txt",
+      "sha256": "4ffbbc520461a5d875118f95ea29e80211fe610b57647daae3d79805ac075df8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/candidate.txt",
+      "target": "codex-home/harness/improvement-example/candidate.txt",
+      "sha256": "db3790464ffb5d4438a8b4dc0606e92111355f44c5f247d6fe2bfdab9cfe1324",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/dev-baseline.txt",
+      "target": "codex-home/harness/improvement-example/dev-baseline.txt",
+      "sha256": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/dev-candidate.txt",
+      "target": "codex-home/harness/improvement-example/dev-candidate.txt",
+      "sha256": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/dev-case.txt",
+      "target": "codex-home/harness/improvement-example/dev-case.txt",
+      "sha256": "6c55dd76958d959a5484c231693c8e8dcf29437fe9df859d644217c9c5b8f0ae",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/environment.txt",
+      "target": "codex-home/harness/improvement-example/environment.txt",
+      "sha256": "cc224a4192d188c4009a9e29ac9ad94bc74a58853154db645d8ac632ce36a04e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/grader.txt",
+      "target": "codex-home/harness/improvement-example/grader.txt",
+      "sha256": "87fdaef28b874fa55f8b7e642ec3e103eacd9b301400394e529c5190a1bdee03",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/heldout-baseline.txt",
+      "target": "codex-home/harness/improvement-example/heldout-baseline.txt",
+      "sha256": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/heldout-candidate.txt",
+      "target": "codex-home/harness/improvement-example/heldout-candidate.txt",
+      "sha256": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/heldout-case.txt",
+      "target": "codex-home/harness/improvement-example/heldout-case.txt",
+      "sha256": "489401884456ed9a50f93d432de9cc48b48726bef77ff5aab153c0d79b820b45",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/improvement.json",
+      "target": "codex-home/harness/improvement-example/improvement.json",
+      "sha256": "ff23b14abd24f842c01b13061b3896e863ef99827845249c5f31ea24f3321abf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/negative-baseline.txt",
+      "target": "codex-home/harness/improvement-example/negative-baseline.txt",
+      "sha256": "096a138d188d7341a83fbf41e2685295c346cef67ab4b40fb46d33865910a6ab",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/negative-candidate.txt",
+      "target": "codex-home/harness/improvement-example/negative-candidate.txt",
+      "sha256": "905b0ff1c4d44bbed1b39c4bbda792e715c5dd242a958787fc6db5e5b87768b0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/negative-case.txt",
+      "target": "codex-home/harness/improvement-example/negative-case.txt",
+      "sha256": "7ac2962cf108e79b00719e39d8ca34665f0022b99e777a57dea4e5c690135d08",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement-example/review.txt",
+      "target": "codex-home/harness/improvement-example/review.txt",
+      "sha256": "83edbeecc629182b944415d0aad08ac3d900cb579cb054105201c539b51fde89",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/improvement_bundle.py",
+      "target": "codex-home/harness/improvement_bundle.py",
+      "sha256": "f80e0aaab935b7d960c88eff48f04e027e36a8ae82f22c7653532454cfd71a38",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/native-eval-bridge/README.md",
+      "target": "codex-home/harness/native-eval-bridge/README.md",
+      "sha256": "3e65720b11d4fbeeb2538176c0772cb9b7055ca13fde61b0f3daa1ca98872ad7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/native-eval-bridge/native_eval.py",
+      "target": "codex-home/harness/native-eval-bridge/native_eval.py",
+      "sha256": "a5f85acf4bce838fd0616c5ab027e491af65cd7225a08c3d537624fd2a7bda5f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/native-eval-bridge/test_native_eval.py",
+      "target": "codex-home/harness/native-eval-bridge/test_native_eval.py",
+      "sha256": "6e00f3fc1fdaeff1a2a001ea2f78b492642dd617e5b69a6142d77349996371f6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/native-observer/README.md",
+      "target": "codex-home/harness/native-observer/README.md",
+      "sha256": "bbf91a75450538c0fd71e041161d2ee8220d00917631e2b47bc4141f6f79129f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/native-observer/native_observer.py",
+      "target": "codex-home/harness/native-observer/native_observer.py",
+      "sha256": "65d8675c480582cf652922e604f09b5cadda9d952096ec261206605c4267c6aa",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/native-observer/test_native_observer.py",
+      "target": "codex-home/harness/native-observer/test_native_observer.py",
+      "sha256": "b5e9a50fb5436c7a5e54d615d16e6f8044411bf321fc76a5888b7212805a1a23",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/portable-handoff/README.md",
+      "target": "codex-home/harness/portable-handoff/README.md",
+      "sha256": "1a507673f7bfe65acfac42d18ff27cd22589318891924a0cfbe7ac7d472c1429",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/portable-handoff/execution_plan.py",
+      "target": "codex-home/harness/portable-handoff/execution_plan.py",
+      "sha256": "180daef51f48c08eeddec0e645c52fe45efd8c9bf6bf16a0d903014485dbdaa5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/portable-handoff/handoff.py",
+      "target": "codex-home/harness/portable-handoff/handoff.py",
+      "sha256": "c38129d4101dfde8b237f0c3e2ef1551d2d1448337c0233dbd98d7264b63a2cd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/portable-handoff/safe_io.py",
+      "target": "codex-home/harness/portable-handoff/safe_io.py",
+      "sha256": "b1a427e5099fa778cbe012a3d8d9c4db14db5938cfede5c9eefa2bf419192764",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/portable-handoff/test_execution_plan.py",
+      "target": "codex-home/harness/portable-handoff/test_execution_plan.py",
+      "sha256": "67bf063127acea2d8c61c5e3c0677ac5232775257cdeb511670644dc3bbb79bf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/portable-handoff/test_handoff.py",
+      "target": "codex-home/harness/portable-handoff/test_handoff.py",
+      "sha256": "e2333d45bc67701e781524d0a4b64835a433a024e5bb87603714b25ce0c0e454",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/skill-read-evidence/COLLECTOR.md",
+      "target": "codex-home/harness/skill-read-evidence/COLLECTOR.md",
+      "sha256": "94df8cd8c14283828b4b959c33f802890d6198bb3c59c2ff25f7f55a9684ccc2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/skill-read-evidence/ROUTING-PROTOCOL.md",
+      "target": "codex-home/harness/skill-read-evidence/ROUTING-PROTOCOL.md",
+      "sha256": "db29c36884e4a2340f7fa2aef6d84683d8a4b2acca2cb8e3b86ce583945d2077",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/skill-read-evidence/parse_skill_commands.ps1",
+      "target": "codex-home/harness/skill-read-evidence/parse_skill_commands.ps1",
+      "sha256": "1fc9f2a5ff125fb5186129d9e121519b19e364b7a8d005b6cb4216e03e0b629d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/skill-read-evidence/routing_diagnostics.py",
+      "target": "codex-home/harness/skill-read-evidence/routing_diagnostics.py",
+      "sha256": "e48125160b5726a17f7ac5d8c2aff5fc733ad7a51defdb3bf455cf0c44df1a01",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/skill-read-evidence/skill_read_evidence.py",
+      "target": "codex-home/harness/skill-read-evidence/skill_read_evidence.py",
+      "sha256": "513abfc08870deb38e7c7f8a27616e928f901c22c581fe0d7119793eac34b681",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/skill-read-evidence/test_routing_diagnostics.py",
+      "target": "codex-home/harness/skill-read-evidence/test_routing_diagnostics.py",
+      "sha256": "6cbf89d346e6ee44688e9f87fc84ed8638b7f33f05502b918a15b16434520b46",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/skill-read-evidence/test_skill_read_evidence.py",
+      "target": "codex-home/harness/skill-read-evidence/test_skill_read_evidence.py",
+      "sha256": "393ede99e48cce2e81d6feef870a5b2ddf5bcae22e468dcedc653753c37afc63",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/task_ledger.py",
+      "target": "codex-home/harness/task_ledger.py",
+      "sha256": "002fa5e80bd18ca0c28768ef6e0f00a71d194e0dbf8c9712dfe6de400d688984",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/test_improvement_bundle.py",
+      "target": "codex-home/harness/test_improvement_bundle.py",
+      "sha256": "510df7a4ad67fdef53372b5d4a9d7bfcc7fbd03d87c2f02311af83f2e968127f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/harness/test_task_ledger.py",
+      "target": "codex-home/harness/test_task_ledger.py",
+      "sha256": "b3708a8e8855833c6404afa2f4a4cd8c28e9590577c767287aaeb7b01f005e9c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-environment/SKILL.md",
+      "target": "codex-home/skills/agent-environment/SKILL.md",
+      "sha256": "ece89a79bef76bacb314b9bceeb63bff73c486771bc32ea110eb8d0e0f543d27",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-environment/references/local-runtime.md",
+      "target": "codex-home/skills/agent-environment/references/local-runtime.md",
+      "sha256": "690d14d4164936872af1949c670f237abe96d0b15a32829cef6493f28f14f898",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-environment/references/tool-output-contract.md",
+      "target": "codex-home/skills/agent-environment/references/tool-output-contract.md",
+      "sha256": "3efa52ceb861c229a0fe625fa9ffae980c895fd4c0f8c7893f541bd051fcbb63",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-environment/references/workflow-selection.md",
+      "target": "codex-home/skills/agent-environment/references/workflow-selection.md",
+      "sha256": "ad296ccffc025f34f7b6d8e2bdcee6dfec276072134c4938dcd61ce3893d433d",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-introspection-debugging/SKILL.md",
+      "target": "codex-home/skills/agent-introspection-debugging/SKILL.md",
+      "sha256": "486307a7d544c1c7535444170e4b959e2f443cc2f2964af7d99390f67372abb6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-introspection-debugging/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/agent-introspection-debugging/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-introspection-debugging/agents/openai.yaml",
+      "target": "codex-home/skills/agent-introspection-debugging/agents/openai.yaml",
+      "sha256": "350e2efb28a45c2b5419fa734dee2e03d1f1d006fc142387753a3e32cb0921dd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-sort/SKILL.md",
+      "target": "codex-home/skills/agent-sort/SKILL.md",
+      "sha256": "6de3adf50659d3cc3d350b388587bdc6b61d2f657c5afd3502f265aa40e058b4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-sort/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/agent-sort/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/agent-sort/agents/openai.yaml",
+      "target": "codex-home/skills/agent-sort/agents/openai.yaml",
+      "sha256": "b3d9c45c30991c1f7fe00baa9a36cf07eea9cfcab3924e1bf653a523babfba05",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/LICENSE",
+      "target": "codex-home/skills/api-design/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/SKILL.md",
+      "target": "codex-home/skills/api-design/SKILL.md",
+      "sha256": "5aa16a271c83b94f3b785d55833c7ee3d20dd5f783f1484e388d973b79689a34",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/agents/openai.yaml",
+      "target": "codex-home/skills/api-design/agents/openai.yaml",
+      "sha256": "5660de146d1bfd038cc014f43c446315f17536ffe79b1b7296bc25c4a2a23dfc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/references/adapter-examples.md",
+      "target": "codex-home/skills/api-design/references/adapter-examples.md",
+      "sha256": "5312b2143a1e52f6793ebb69a09f20597db4cf56596aae99f1ddb9a8f111754f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/references/http-contracts.md",
+      "target": "codex-home/skills/api-design/references/http-contracts.md",
+      "sha256": "22f2906fb40b6515013f5739c3f0c088b3623c99d784bd7bc6aae5f41704ff98",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/references/limits-and-compatibility.md",
+      "target": "codex-home/skills/api-design/references/limits-and-compatibility.md",
+      "sha256": "67aec9de07b5d766326f95989abedde43da92509897e7d220a39b09b320e7253",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/references/pagination-and-query.md",
+      "target": "codex-home/skills/api-design/references/pagination-and-query.md",
+      "sha256": "529bc35962ee80c34b537defc89cae793af45cb62898a2d09b54b215266a4103",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/api-design/references/provenance.md",
+      "target": "codex-home/skills/api-design/references/provenance.md",
+      "sha256": "81d4fa44ab232ab456924d546e8a65d27347de395f60db7e6cbfa3b27d298fd5",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/article-writing/SKILL.md",
+      "target": "codex-home/skills/article-writing/SKILL.md",
+      "sha256": "d3b43b442a9964ffe057486db2528d7b3a42c857e515bb2fc87a4c8be36d0ec6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/article-writing/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/article-writing/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/article-writing/agents/openai.yaml",
+      "target": "codex-home/skills/article-writing/agents/openai.yaml",
+      "sha256": "1140e35088ff8547dc9b359a37eae0edd54acd7c41f4bde79a51467b4aad5400",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/article-writing/references/meaning-first.md",
+      "target": "codex-home/skills/article-writing/references/meaning-first.md",
+      "sha256": "7ec9f3c292327ffbac7422901466cd45f35dd3f4f39bab2d7d55591106c4b603",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/LICENSE",
+      "target": "codex-home/skills/backend-patterns/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/SKILL.md",
+      "target": "codex-home/skills/backend-patterns/SKILL.md",
+      "sha256": "c1f28f721f601d7d648d39a039fc63759bca097fdf2d604a3e05e696c882b02d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/agents/openai.yaml",
+      "target": "codex-home/skills/backend-patterns/agents/openai.yaml",
+      "sha256": "82ff7c3b5baf4be34ae6e2a38d320d7f4a82b209929f7f818f12749466869e82",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/references/application-structure.md",
+      "target": "codex-home/skills/backend-patterns/references/application-structure.md",
+      "sha256": "c8147260a9c1c5ced176aad2b28e92e5f4d41dc548ea298d3d8dafdb07abb50d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/references/data-and-caching.md",
+      "target": "codex-home/skills/backend-patterns/references/data-and-caching.md",
+      "sha256": "a21aefab44dab9e3fe655d7e04c9da6b2c44e35ee5c3abb8c183bda5332070b6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/references/identity-and-middleware.md",
+      "target": "codex-home/skills/backend-patterns/references/identity-and-middleware.md",
+      "sha256": "8278b652659b48f6f6fa1d285818001cc227c589b265147f45eec0f7e7f3a2b3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/references/operational-contracts.md",
+      "target": "codex-home/skills/backend-patterns/references/operational-contracts.md",
+      "sha256": "a233b7ddb761b4e6b5a626f07e5a30a53f04db5d02fa7c988df0762674329100",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/backend-patterns/references/provenance.md",
+      "target": "codex-home/skills/backend-patterns/references/provenance.md",
+      "sha256": "41e437f7f2ac361b5ac1aeb32f4ebcd614f3d57a2a3d7c9421a1407a0690013c",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/brand-voice/SKILL.md",
+      "target": "codex-home/skills/brand-voice/SKILL.md",
+      "sha256": "a4577e1b8062eaed4ed721987989c404dd399449eef61bf515b4d68b3bb03e41",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/brand-voice/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/brand-voice/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/brand-voice/agents/openai.yaml",
+      "target": "codex-home/skills/brand-voice/agents/openai.yaml",
+      "sha256": "f4a0e01da4c502215d204113bd894f99078514a4f1e698020df71059e2b5f20a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/brand-voice/references/voice-profile-schema.md",
+      "target": "codex-home/skills/brand-voice/references/voice-profile-schema.md",
+      "sha256": "f7180467bf575f1b93216b3b2e0a4101fd463b042b6e790b56977740a38f102e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/bun-runtime/SKILL.md",
+      "target": "codex-home/skills/bun-runtime/SKILL.md",
+      "sha256": "cd604bc70c2d7899a2671b2e771aac0c656f1d1bc8d48c37fe2a05e0894d73e2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/bun-runtime/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/bun-runtime/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/bun-runtime/agents/openai.yaml",
+      "target": "codex-home/skills/bun-runtime/agents/openai.yaml",
+      "sha256": "5975929332a1ce6b501a5defad81cd7364ccaf42a50ac4cc5aecc77a22974951",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/coding-standards/LICENSE",
+      "target": "codex-home/skills/coding-standards/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/coding-standards/SKILL.md",
+      "target": "codex-home/skills/coding-standards/SKILL.md",
+      "sha256": "55b31319685e085c74cf6e6515ef898e3860c794c610b97c022aefd2683573f9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/coding-standards/agents/openai.yaml",
+      "target": "codex-home/skills/coding-standards/agents/openai.yaml",
+      "sha256": "48c6416932ff35d7e1fc234e01efedcf8d6523586c0fe275ecc13db5063d368d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/coding-standards/references/conventions.md",
+      "target": "codex-home/skills/coding-standards/references/conventions.md",
+      "sha256": "7441e44d49fde389a9ce9596c8d22d899a5cb788ab45663653bc5310002555ca",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/coding-standards/references/provenance.md",
+      "target": "codex-home/skills/coding-standards/references/provenance.md",
+      "sha256": "80bc24f73cd4786977e654ed9b2fa45cab58b1dc44baf416ba5648ad83c42249",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/connected-workflows/SKILL.md",
+      "target": "codex-home/skills/connected-workflows/SKILL.md",
+      "sha256": "8464e851ac37fb04b51e5d5f026115c3c9229a52ca970f00ccda478f7aa2d90f",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/content-engine/SKILL.md",
+      "target": "codex-home/skills/content-engine/SKILL.md",
+      "sha256": "6689e996f37fe862ee20a180180adfe34c2ff73dcb81d7071707e21aad66665e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/content-engine/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/content-engine/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/content-engine/agents/openai.yaml",
+      "target": "codex-home/skills/content-engine/agents/openai.yaml",
+      "sha256": "0334807d35952296486c4e858903cc229851522814174ad0dcc80bf96ffa8ad7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/crosspost/SKILL.md",
+      "target": "codex-home/skills/crosspost/SKILL.md",
+      "sha256": "7b30badf3509f483076759b2b55ae0ae891f21c06bfee342815f3465d5bc6c9c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/crosspost/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/crosspost/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/crosspost/agents/openai.yaml",
+      "target": "codex-home/skills/crosspost/agents/openai.yaml",
+      "sha256": "75632068c9bd27fe7a8742281cbb2c01364e650e6d6ddeabdc1e0238d1f70dcf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/deep-research/SKILL.md",
+      "target": "codex-home/skills/deep-research/SKILL.md",
+      "sha256": "1f4a110ea17797cad33e33362df7840bce7edf8e6fd7f271b010281cd6edb404",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/deep-research/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/deep-research/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/deep-research/agents/openai.yaml",
+      "target": "codex-home/skills/deep-research/agents/openai.yaml",
+      "sha256": "17bab3f1fef6ad02d8f2fa513767d9bc010750c26add61e04dc4e246be17f2e7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/deep-research/references/local-html.md",
+      "target": "codex-home/skills/deep-research/references/local-html.md",
+      "sha256": "f761d5ab1cee70bbc339a54df03d8b74e61a8fc8a71886a540ec2de45ffb579b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/deploy-to-vercel/SKILL.md",
+      "target": "codex-home/skills/deploy-to-vercel/SKILL.md",
+      "sha256": "54f680296c734b87a4d38245c53f8fd3a6d87b0a9c39fae8398fcb9d64d9299a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/deploy-to-vercel/resources/deploy-codex.sh",
+      "target": "codex-home/skills/deploy-to-vercel/resources/deploy-codex.sh",
+      "sha256": "18b411e2bfe07778bca11d7f0e1ec9c95e5764011dd2e3838f51066728646855",
+      "executable": true
+    },
+    {
+      "source": "bundle/codex-home/skills/deploy-to-vercel/resources/deploy.sh",
+      "target": "codex-home/skills/deploy-to-vercel/resources/deploy.sh",
+      "sha256": "418da6ff48c582790799d850a88fd83ca00f2ee00502665caf8dbb06d4dab8b9",
+      "executable": true
+    },
+    {
+      "source": "bundle/codex-home/skills/design-taste-frontend/SKILL.md",
+      "target": "codex-home/skills/design-taste-frontend/SKILL.md",
+      "sha256": "0b04176be752925b4ef03c6ec5298dbde0e0ccb57609abbf118c8de42b172b90",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/design-taste-frontend/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/design-taste-frontend/UPSTREAM-LICENSE.txt",
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/dmux-workflows/SKILL.md",
+      "target": "codex-home/skills/dmux-workflows/SKILL.md",
+      "sha256": "2fdbe94d3fd98d4063f31e46ec7d02ea1bf5d32cf6343d21399b6904be13d059",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/dmux-workflows/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/dmux-workflows/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/dmux-workflows/agents/openai.yaml",
+      "target": "codex-home/skills/dmux-workflows/agents/openai.yaml",
+      "sha256": "3482dfa9f97b4e89979bb90ba8e360944a46cc0c613af9be6d0a0fcc1e48f1f5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/documentation-lookup/SKILL.md",
+      "target": "codex-home/skills/documentation-lookup/SKILL.md",
+      "sha256": "e086b3eff7af88590147cae4147daaef82bb14c74f7e5cf5eb70d636cfb58ce6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/documentation-lookup/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/documentation-lookup/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/documentation-lookup/agents/openai.yaml",
+      "target": "codex-home/skills/documentation-lookup/agents/openai.yaml",
+      "sha256": "c54987091da07f17c729da36cbb7f06bdd7cf54350f54d2d1c98b8467e79edb3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/LICENSE.txt",
+      "target": "codex-home/skills/docx/LICENSE.txt",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/SKILL.md",
+      "target": "codex-home/skills/docx/SKILL.md",
+      "sha256": "d4ca679d5f58a2f2187dbe3a597ba5c646d8100352f9d4cbe049f542a6f3b7ac",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/__init__.py",
+      "target": "codex-home/skills/docx/scripts/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/accept_changes.py",
+      "target": "codex-home/skills/docx/scripts/accept_changes.py",
+      "sha256": "0c991d2bc7304a1248e9f3bf9b1498f0b6e76641fc457e7cbd73c99b4eef3a74",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/comment.py",
+      "target": "codex-home/skills/docx/scripts/comment.py",
+      "sha256": "37d116e5f56bb142b208c6c6a4bbcf960495abf470ddb7c6675ccfac864ba3d7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/merge_runs.py",
+      "target": "codex-home/skills/docx/scripts/merge_runs.py",
+      "sha256": "3ab367fd7fba4647943d0aa5e65203b15458551410f5ffc821d902616a4b9f40",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/helpers/__init__.py",
+      "target": "codex-home/skills/docx/scripts/office/helpers/__init__.py",
+      "sha256": "678e42456d9e10923c8b9a93691cdd993de3433448a184fa72a0c31f4ae086d5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/helpers/pptx_chart.py",
+      "target": "codex-home/skills/docx/scripts/office/helpers/pptx_chart.py",
+      "sha256": "47ac266f7d39d11ede6bb0d1f3a19d801394fd2964636f1b48beb701f1832964",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/helpers/pptx_slide.py",
+      "target": "codex-home/skills/docx/scripts/office/helpers/pptx_slide.py",
+      "sha256": "7b9f69b4a5bd6a2d9eabf9e0e3e796d7a421373145f6a8cd11f60b7ba2d6a5d0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/helpers/pptx_theme.py",
+      "target": "codex-home/skills/docx/scripts/office/helpers/pptx_theme.py",
+      "sha256": "ebb54c56e9c13807f5f98f0cae22d47cdd0162da8525eaa664e3f2c8c8d6bb03",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/mce/mc.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/mce/mc.xsd",
+      "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+      "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+      "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+      "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "target": "codex-home/skills/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/soffice.py",
+      "target": "codex-home/skills/docx/scripts/office/soffice.py",
+      "sha256": "df2c8d7249c132a4512d744482e4b5ed0ecbe885f0bcfb1295e7e6a7ced0432c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/validate.py",
+      "target": "codex-home/skills/docx/scripts/office/validate.py",
+      "sha256": "346a4c89d92fff55e610f11efda48c30228815b29bdb10b987e48f7af70acf1e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/validators/__init__.py",
+      "target": "codex-home/skills/docx/scripts/office/validators/__init__.py",
+      "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/validators/base.py",
+      "target": "codex-home/skills/docx/scripts/office/validators/base.py",
+      "sha256": "f818ea28c793ba42960fa4498265e2632a62c86f7b5d6aff6fa89dacc02d59ea",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/validators/docx.py",
+      "target": "codex-home/skills/docx/scripts/office/validators/docx.py",
+      "sha256": "93d3444c0ef3f043d21a2285c46d2cda478426b930dc33dcf3b11265935517b5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/validators/pptx.py",
+      "target": "codex-home/skills/docx/scripts/office/validators/pptx.py",
+      "sha256": "17eadad2b7a8374ccbe4cda45693bcd6a36f9d61a7d60f9c9ceef9464dec8299",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/office/validators/redlining.py",
+      "target": "codex-home/skills/docx/scripts/office/validators/redlining.py",
+      "sha256": "ed50d0885eee4b9c387f546b059bcaed64086815880a5167336244f93e305123",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/templates/comments.xml",
+      "target": "codex-home/skills/docx/scripts/templates/comments.xml",
+      "sha256": "a08ba83ee8790ac9e3dc61921f4988f19edd7e06ac09d6f1897a877c1581818d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/templates/commentsExtended.xml",
+      "target": "codex-home/skills/docx/scripts/templates/commentsExtended.xml",
+      "sha256": "544eeecfeceed4b468fff163cd9c366d33641c8b8ab691ce002576197846afe8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/templates/commentsExtensible.xml",
+      "target": "codex-home/skills/docx/scripts/templates/commentsExtensible.xml",
+      "sha256": "bad10b3283e6ad6e7ef6d1ca5169683721ed690ee331282c65df04017e080631",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/templates/commentsIds.xml",
+      "target": "codex-home/skills/docx/scripts/templates/commentsIds.xml",
+      "sha256": "db20f9616e004ec42ef736e80c2384e45db0f8d1194d31dc8b37c7d6ecdd6420",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/docx/scripts/templates/people.xml",
+      "target": "codex-home/skills/docx/scripts/templates/people.xml",
+      "sha256": "056f63aa1197fd8c9dda980c9f1b9ff016fd5fa4a462df8aec5f384f39d23e37",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/e2e-testing/SKILL.md",
+      "target": "codex-home/skills/e2e-testing/SKILL.md",
+      "sha256": "8f0cc60b086327f814c049e2c6de778aaf2cb2696a8969155d50a2bd930274b8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/e2e-testing/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/e2e-testing/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/e2e-testing/agents/openai.yaml",
+      "target": "codex-home/skills/e2e-testing/agents/openai.yaml",
+      "sha256": "5c1e33e3af7ad45473895dab6f8a1f9c029accb397dd1242be627050a15df599",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/eval-harness/SKILL.md",
+      "target": "codex-home/skills/eval-harness/SKILL.md",
+      "sha256": "a07120c16c6e93fb62bc7ce6a8f160cba44668283444aa5a6b1c891e8f58a479",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/eval-harness/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/eval-harness/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/eval-harness/agents/openai.yaml",
+      "target": "codex-home/skills/eval-harness/agents/openai.yaml",
+      "sha256": "68282ce295cc58c2d47a4459f418a8d2833d4f2ab5b7275c4534d5187b17ae86",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/eval-harness/references/improvement-contract.md",
+      "target": "codex-home/skills/eval-harness/references/improvement-contract.md",
+      "sha256": "a33216568ed1353c50f692bd619acb7319086a80a308387e961772033141d8eb",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/eval-harness/references/local-performance.md",
+      "target": "codex-home/skills/eval-harness/references/local-performance.md",
+      "sha256": "6f11b1f9181f63303526ee3fa9d88c227cf6d14bbdcac17ed491d611c0eb336b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/eval-harness/references/native-observation.md",
+      "target": "codex-home/skills/eval-harness/references/native-observation.md",
+      "sha256": "de276b5027b3e16778c42691669c297c296281d1af66e693790025e52233d2d0",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/everything-claude-code/SKILL.md",
+      "target": "codex-home/skills/everything-claude-code/SKILL.md",
+      "sha256": "665cb51edd2c55353e1d7e78e8e270188cbe444ec979a3a03f5307105017cfc5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/everything-claude-code/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/everything-claude-code/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/everything-claude-code/agents/openai.yaml",
+      "target": "codex-home/skills/everything-claude-code/agents/openai.yaml",
+      "sha256": "f4147737ff54ec6c4ac324341c15d04e0e3c5155a082dbc91bcc959ae74a3470",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/evidence-driven-work/SKILL.md",
+      "target": "codex-home/skills/evidence-driven-work/SKILL.md",
+      "sha256": "1d919a2dbb28b450656f169d3bf234dd6e2b1033fc497a486b1c465919ce0842",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/evidence-driven-work/references/comparison-and-research.md",
+      "target": "codex-home/skills/evidence-driven-work/references/comparison-and-research.md",
+      "sha256": "a50c9d7171e28dce841dee2e64ef7350782deb3ae2f50a9b5e9e9c43d2721997",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/evidence-driven-work/references/evidence-and-continuation.md",
+      "target": "codex-home/skills/evidence-driven-work/references/evidence-and-continuation.md",
+      "sha256": "c921c1269e3c62b7580d6127d02f60f90d11ca9909d6ad25c43dc7b068d0d7db",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/evidence-driven-work/references/research-basis.md",
+      "target": "codex-home/skills/evidence-driven-work/references/research-basis.md",
+      "sha256": "8d5d01d9068df775925e351233065b7f76a615f970ca07f12b614399b7fae0e7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/evidence-driven-work/references/review-and-verification.md",
+      "target": "codex-home/skills/evidence-driven-work/references/review-and-verification.md",
+      "sha256": "52fcb1c44af86faabdfc7d84e5c3d6ef52d4a53602bb4066495d24294de0e896",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/exa-search/SKILL.md",
+      "target": "codex-home/skills/exa-search/SKILL.md",
+      "sha256": "c84a41c974229e79513dd67730855a0ad8ac31b5169b081a3ec10f5451978ad8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/exa-search/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/exa-search/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/exa-search/agents/openai.yaml",
+      "target": "codex-home/skills/exa-search/agents/openai.yaml",
+      "sha256": "213b70dec7c775c88eea46de8f0aec83820d4cb1a802a405129cbf6bfc71952a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/execution-routing/SKILL.md",
+      "target": "codex-home/skills/execution-routing/SKILL.md",
+      "sha256": "d3046afc0e8e0a737694d80c3fe55b9e23e0fa3078e51035cea585c1b2cfc5d1",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/execution-routing/references/providers.md",
+      "target": "codex-home/skills/execution-routing/references/providers.md",
+      "sha256": "993f1b58d82622e825a881b85b5959a4ccdbdebc7b1ab7acdb926e0ae5e8ae06",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/fal-ai-media/SKILL.md",
+      "target": "codex-home/skills/fal-ai-media/SKILL.md",
+      "sha256": "cf25736dce74853ae6a4f77ba20ac89372646b75320f2981784a625ae16455ce",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/fal-ai-media/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/fal-ai-media/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/fal-ai-media/agents/openai.yaml",
+      "target": "codex-home/skills/fal-ai-media/agents/openai.yaml",
+      "sha256": "a1f9c86892dff094fb0245ae3efb55c6512f1fd6d55157f1f4ef6b30f7276afb",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-design/LICENSE.txt",
+      "target": "codex-home/skills/frontend-design/LICENSE.txt",
+      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-design/SKILL.md",
+      "target": "codex-home/skills/frontend-design/SKILL.md",
+      "sha256": "e519cf71c81b9db8882e4b78b4ae2f22ecf4ea3191fbfbaec76b677d10908eca",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/LICENSE",
+      "target": "codex-home/skills/frontend-patterns/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/SKILL.md",
+      "target": "codex-home/skills/frontend-patterns/SKILL.md",
+      "sha256": "b908df152f03c9c8a5bb3e608995001a885a3ab2dfb9308097982898162895d0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/agents/openai.yaml",
+      "target": "codex-home/skills/frontend-patterns/agents/openai.yaml",
+      "sha256": "071d6f572a568338533d60b51653645de2488ed4cdde7cf2fb1b7b746f5eb0d2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/references/components-and-state.md",
+      "target": "codex-home/skills/frontend-patterns/references/components-and-state.md",
+      "sha256": "00a886059231591efcdf64076640ffd71c32afa24e56b3f09fa5a3c114f2aae5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/references/effects-and-data.md",
+      "target": "codex-home/skills/frontend-patterns/references/effects-and-data.md",
+      "sha256": "c12221685232c8b28f5570e947b62540f7e33d925599aa59dfe0e60d37c978cd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/references/forms-and-interaction.md",
+      "target": "codex-home/skills/frontend-patterns/references/forms-and-interaction.md",
+      "sha256": "2db3cfc97404858eb4e3656bd12f53e7ef259551fae1eada4e026979f2a5d2c1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/references/performance.md",
+      "target": "codex-home/skills/frontend-patterns/references/performance.md",
+      "sha256": "f95f0aa9d6fb2c47c7976054b1b904d770accf6df3b21182efaf52716de7bc6b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-patterns/references/provenance.md",
+      "target": "codex-home/skills/frontend-patterns/references/provenance.md",
+      "sha256": "b05e2e511b463b0156f152ff797f2194195a4db08bbb54f3b5f5b706b71ed091",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-slides/SKILL.md",
+      "target": "codex-home/skills/frontend-slides/SKILL.md",
+      "sha256": "eb6d83e66a372663ea23f23abe855b07f61450e2eea0bd8761a47b45b4dadcba",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-slides/STYLE_PRESETS.md",
+      "target": "codex-home/skills/frontend-slides/STYLE_PRESETS.md",
+      "sha256": "ffec91f6b7bf4a7240e18578f99a6436734dfb9f52f846dc6f99b2fcd29d96fe",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-slides/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/frontend-slides/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/frontend-slides/agents/openai.yaml",
+      "target": "codex-home/skills/frontend-slides/agents/openai.yaml",
+      "sha256": "8e9b4ceeabdd0c45e197a48212a373dd7c45d8da39bf6091f822a8061442703b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/.gitignore",
+      "target": "codex-home/skills/good-learning/.gitignore",
+      "sha256": "1362739ae777fcdb8ead90b4d8ccc95fe8224e1bdf50ecf4fc60363f0c746d60",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/LICENSE",
+      "target": "codex-home/skills/good-learning/LICENSE",
+      "sha256": "ab76adc704d07a340163e889281a3946b368e02b4040d3ae83cd2766af555b92",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/PROVENANCE.json",
+      "target": "codex-home/skills/good-learning/PROVENANCE.json",
+      "sha256": "402a9ce2e1ddb3af956af876213ef8dd31432b01b940bce30d857381a3cc4de8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/README.md",
+      "target": "codex-home/skills/good-learning/README.md",
+      "sha256": "b87919e65e9cbd18a114f0a2a75558ec289bfb4dc799433cc01798305a505a5a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/SKILL.md",
+      "target": "codex-home/skills/good-learning/SKILL.md",
+      "sha256": "f21c53e6148ab04ff4efc73d6d3fbb96c89ec72e8cef84f6598e428a0b6402aa",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/agents/openai.yaml",
+      "target": "codex-home/skills/good-learning/agents/openai.yaml",
+      "sha256": "5954c1dbfac172a474c4f6a4d159469494cf0b6f187c1a8eda34c08082ec05a9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/examples/summary-map.json",
+      "target": "codex-home/skills/good-learning/examples/summary-map.json",
+      "sha256": "c13c3640396a183b33e8c13afcdd6b2d22ba12edaca68de22c13b7acbcd29b89",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/references/daily-study.md",
+      "target": "codex-home/skills/good-learning/references/daily-study.md",
+      "sha256": "f73e63b092a05a9bde1aa2f5190e07674d54670af5a7494c3e667e71146819bb",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/references/latex-export.md",
+      "target": "codex-home/skills/good-learning/references/latex-export.md",
+      "sha256": "c317962c18c3ea8acca515417414dfe13bb68514b0089b2b26eefb358534b278",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/references/prepare-and-plan.md",
+      "target": "codex-home/skills/good-learning/references/prepare-and-plan.md",
+      "sha256": "b0f6e97a69e7f469c659f21014b850df198aab50ebf1c6d5c5113daca9ca3daf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/references/progress-recording.md",
+      "target": "codex-home/skills/good-learning/references/progress-recording.md",
+      "sha256": "4ffb26c74c81ae4f3e34a927acdde2cd95a4004c8d4329726d941a6357d2e53f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/references/source-search.md",
+      "target": "codex-home/skills/good-learning/references/source-search.md",
+      "sha256": "79bf2b722a50adc59d0446faee60a58a3b6954abafa77b227a14403d79a6863d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/references/visual-map-design.md",
+      "target": "codex-home/skills/good-learning/references/visual-map-design.md",
+      "sha256": "d64e87d9c3424bfdf4e837255b7412bb7c91a573323bf518d964dacccf63e0ab",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/requirements.txt",
+      "target": "codex-home/skills/good-learning/requirements.txt",
+      "sha256": "eba706c9d68de87a8b421685604dbbdd6036cb833ed57c4000b1921413cdef41",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/scripts/compile_study_pdf.py",
+      "target": "codex-home/skills/good-learning/scripts/compile_study_pdf.py",
+      "sha256": "3a41e2df1129ad49d3712f7ffa6e9a0b759bbdf19f85b0c2ecf037fc7dce61c4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/scripts/render_study_pdf.py",
+      "target": "codex-home/skills/good-learning/scripts/render_study_pdf.py",
+      "sha256": "a36590a119eabaa16167e4740065cb058ec9926e4d8d77fbfe707d3a0dd5afe5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/scripts/render_summary_map.py",
+      "target": "codex-home/skills/good-learning/scripts/render_summary_map.py",
+      "sha256": "79476c6fa9bf6354df7c9ba3d515dc966cc4c24ffa55f782f90cfaecf6e9ef63",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/scripts/study_progress.py",
+      "target": "codex-home/skills/good-learning/scripts/study_progress.py",
+      "sha256": "baf980490868ed2e5dfc8b1c53671020c312e1415d6b0d20f8551720316da962",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/good-learning/tests/test_study_progress.py",
+      "target": "codex-home/skills/good-learning/tests/test_study_progress.py",
+      "sha256": "3ad189ace225f1fd83e24a60697c0f8d7a09fc45dcb6b026a69f0089e708d537",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/investor-materials/SKILL.md",
+      "target": "codex-home/skills/investor-materials/SKILL.md",
+      "sha256": "399943e8f1fe963d5e76d97e9ef7a590f444ef87a1086729656b560bac194e47",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/investor-materials/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/investor-materials/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/investor-materials/agents/openai.yaml",
+      "target": "codex-home/skills/investor-materials/agents/openai.yaml",
+      "sha256": "7bce81412d41eba44e2d1d84a516183a092aeeafde10408aa5a64088201a6ac1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/investor-outreach/SKILL.md",
+      "target": "codex-home/skills/investor-outreach/SKILL.md",
+      "sha256": "415ead86217676c371d3f12b450b4c901ffabe07f0de0fe2040e9e699144d4ba",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/investor-outreach/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/investor-outreach/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/investor-outreach/agents/openai.yaml",
+      "target": "codex-home/skills/investor-outreach/agents/openai.yaml",
+      "sha256": "e4a93c43067d6e559fff395b21bffd9ab6a47f256bf2e7ad98e98ed5f2924e77",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/local-data-sql/SKILL.md",
+      "target": "codex-home/skills/local-data-sql/SKILL.md",
+      "sha256": "b6ac470c4a3e23ab50c27bec64bf249845bbf668478b6d29c8ce59919830a4eb",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/local-knowledge-search/SKILL.md",
+      "target": "codex-home/skills/local-knowledge-search/SKILL.md",
+      "sha256": "f13064316be030baeab18872c91f3c24d8be6e01e5db6cc396adb4a2e58646e5",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/marimo-notebooks/SKILL.md",
+      "target": "codex-home/skills/marimo-notebooks/SKILL.md",
+      "sha256": "2d155483e214dde072cf060f2eb8ac7ce820644388da54634a7760d67f45e39b",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/market-research/SKILL.md",
+      "target": "codex-home/skills/market-research/SKILL.md",
+      "sha256": "1e6004dc7bedfd84ae6d13272e7de68104e54df33de6904103a93da75742810a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/market-research/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/market-research/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/market-research/agents/openai.yaml",
+      "target": "codex-home/skills/market-research/agents/openai.yaml",
+      "sha256": "e7a5549a4fc9d322004b8557734f2c0135a1b5a853b224a86c478c76ab9dd847",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/mcp-server-patterns/SKILL.md",
+      "target": "codex-home/skills/mcp-server-patterns/SKILL.md",
+      "sha256": "3969184360fce55bdb42327157a9cd9bb9d973458d0ffe0c3f14e2064177b7b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/mcp-server-patterns/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/mcp-server-patterns/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/mcp-server-patterns/agents/openai.yaml",
+      "target": "codex-home/skills/mcp-server-patterns/agents/openai.yaml",
+      "sha256": "4161fe46e9b82ee542177b13b18609ebbd17e53cc21f723f1590be3ec05af17a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/mcp-server-patterns/references/inspector-checks.md",
+      "target": "codex-home/skills/mcp-server-patterns/references/inspector-checks.md",
+      "sha256": "973c1d617d00493de1b00b1b3fc7ee525c06e9eccfeb9c3d74d162eac6b99ec1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/nextjs-turbopack/SKILL.md",
+      "target": "codex-home/skills/nextjs-turbopack/SKILL.md",
+      "sha256": "3efdaa9a4ff1472388fea61bc419265e130e9376432b23f5b34b34340c0753e6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/nextjs-turbopack/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/nextjs-turbopack/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/nextjs-turbopack/agents/openai.yaml",
+      "target": "codex-home/skills/nextjs-turbopack/agents/openai.yaml",
+      "sha256": "7ecc07e58c6ab9f4657e56ab82c0034846e004529645171e0529d55e406c2b4c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/LICENSE.txt",
+      "target": "codex-home/skills/playwright/LICENSE.txt",
+      "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/NOTICE.txt",
+      "target": "codex-home/skills/playwright/NOTICE.txt",
+      "sha256": "a43ad22fc7381a9901c88798479a0617b8397581c67847401d1971f8738d3e03",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/SKILL.md",
+      "target": "codex-home/skills/playwright/SKILL.md",
+      "sha256": "67d4f1c9f6a4751bd95dc41424172c9480e18511af5401bee8e8462059100667",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/agents/openai.yaml",
+      "target": "codex-home/skills/playwright/agents/openai.yaml",
+      "sha256": "dfc22e6c764f025e5e520fe2e1781e119f6262f406feddafe84ff8aaf9a4ff21",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/assets/playwright-small.svg",
+      "target": "codex-home/skills/playwright/assets/playwright-small.svg",
+      "sha256": "5ecfaf38d817a6abbc453114191cc9afb3f0799a557dae1c2c1a1445c8a7b386",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/assets/playwright.png",
+      "target": "codex-home/skills/playwright/assets/playwright.png",
+      "sha256": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/references/cli.md",
+      "target": "codex-home/skills/playwright/references/cli.md",
+      "sha256": "da94ffe5a7c368e233eac1cdfa2d5207cb85a2a0571607af0e43402c6e12cd45",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/references/local-browser-routing.md",
+      "target": "codex-home/skills/playwright/references/local-browser-routing.md",
+      "sha256": "f89dd8d0f6e20c3e12112e0d369349801906d23dc1ee352be41c2f482ea97d94",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/references/workflows.md",
+      "target": "codex-home/skills/playwright/references/workflows.md",
+      "sha256": "621d2b8542a91d1d5cd65a5a7774ea250683e4c217e00e9c90d301eb6367d86e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/playwright/scripts/playwright_cli.sh",
+      "target": "codex-home/skills/playwright/scripts/playwright_cli.sh",
+      "sha256": "3fce0ea2b9875179f701d9f4c03425545c441b2769cd6c6df964cc7d1d1dbfa8",
+      "executable": true
+    },
+    {
+      "source": "bundle/codex-home/skills/product-capability/SKILL.md",
+      "target": "codex-home/skills/product-capability/SKILL.md",
+      "sha256": "6d9c086c64895ecafdcd89f15c29920128402ac08535d5725cc2910dced87212",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/product-capability/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/product-capability/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/product-capability/agents/openai.yaml",
+      "target": "codex-home/skills/product-capability/agents/openai.yaml",
+      "sha256": "65c930ea748c43449f9210b4ce27c5abe470ec291b37042046a81460f6a67ccf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/project-environments/SKILL.md",
+      "target": "codex-home/skills/project-environments/SKILL.md",
+      "sha256": "a861b6b496ac5290b0b0366c6cee43e3a1b6fddc222de50eed20e4e1aec132ff",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/project-workflow/SKILL.md",
+      "target": "codex-home/skills/project-workflow/SKILL.md",
+      "sha256": "07f803fe2377a54319e4fc977314329854e2726872459596fe3377490c7799b2",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/repository-intelligence/SKILL.md",
+      "target": "codex-home/skills/repository-intelligence/SKILL.md",
+      "sha256": "0db6bbdfacdee7c3e5d84911e9ce373e775baa281a1ac10cba54c39d5c8f0dc9",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/repository-intelligence/references/repository-graphs.md",
+      "target": "codex-home/skills/repository-intelligence/references/repository-graphs.md",
+      "sha256": "92e9a63e3d06f145919d934e1bedb92310ec85a46bed945d13895521637aa3ba",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/research-paper-writer/SKILL.md",
+      "target": "codex-home/skills/research-paper-writer/SKILL.md",
+      "sha256": "c9f12268dca0de46702fca5821157db5b76a5a0cc84c6ba38e989e210da6e3ee",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/research-paper-writer/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/research-paper-writer/UPSTREAM-LICENSE.txt",
+      "sha256": "54b4f16fb0656250ba34218867cab067818633760cd0f045d3471464dc569bdf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/research-paper-writer/assets/README.md",
+      "target": "codex-home/skills/research-paper-writer/assets/README.md",
+      "sha256": "97e784b2930bed9bd2d6a9061e7e41c79f1c651d81099e49ffe2630a8a143eef",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/research-paper-writer/references/acm_formatting_specs.md",
+      "target": "codex-home/skills/research-paper-writer/references/acm_formatting_specs.md",
+      "sha256": "61d1024b6cfa943d8b0aaeb09d52778e4c445411507bcf46ca7e8439fcbf0044",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/research-paper-writer/references/ieee_formatting_specs.md",
+      "target": "codex-home/skills/research-paper-writer/references/ieee_formatting_specs.md",
+      "sha256": "684601652ea9ebea62b4b6bebd5e00ca5fc84b5b32264015f05c3da4984164bf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/research-paper-writer/references/writing_style_guide.md",
+      "target": "codex-home/skills/research-paper-writer/references/writing_style_guide.md",
+      "sha256": "044b5602e70531753d8fd5d0e2ee5534890e19051eb58b818deaa5709fd506a6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/reverse-engineer-anything/SKILL.md",
+      "target": "codex-home/skills/reverse-engineer-anything/SKILL.md",
+      "sha256": "8e21f28fec11eaa72d5995be093a085c2229c6ece89bf855328e7098c671910c",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/LICENSE",
+      "target": "codex-home/skills/security-review/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/SKILL.md",
+      "target": "codex-home/skills/security-review/SKILL.md",
+      "sha256": "2be98692eb306a76f706cefcad30f333791dc3df733e23e22029e2cd97873ca8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/agents/openai.yaml",
+      "target": "codex-home/skills/security-review/agents/openai.yaml",
+      "sha256": "301f835fd4a2c58bf1d504d3d38b100ec82ba83f8c9d2a95f2d9136ea3fb0cfd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/references/identity-and-sessions.md",
+      "target": "codex-home/skills/security-review/references/identity-and-sessions.md",
+      "sha256": "e64eb57c7edc5a38424139d9fdbd2abff3a162f85d6220187897e94cbe2c87ea",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/references/input-and-output.md",
+      "target": "codex-home/skills/security-review/references/input-and-output.md",
+      "sha256": "aef737ce38c4c7a27f45089a35de50e195f6f844bc3f5f448d8164f7a216cd22",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/references/local-taint-checks.md",
+      "target": "codex-home/skills/security-review/references/local-taint-checks.md",
+      "sha256": "ff7d109787e489f986ab7b73f38cec42370f596202a0d5a7a84cdebb945c0ad1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/references/operational-checks.md",
+      "target": "codex-home/skills/security-review/references/operational-checks.md",
+      "sha256": "d00313f4d1aeec19252050a4432654cc4d8f6339b4cda3e3528db3e15c6ed6b3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/references/provenance.md",
+      "target": "codex-home/skills/security-review/references/provenance.md",
+      "sha256": "ad31eebf32b4fce9f02f14ab237d8a7d6d608ad72cb7c2b774238eb12bbb2dd0",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/security-review/references/wallet-contracts.md",
+      "target": "codex-home/skills/security-review/references/wallet-contracts.md",
+      "sha256": "6486da377225af7057c9ec7670713d0b65e74455bfd96e8245641a0fdef8f43a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/strategic-compact/SKILL.md",
+      "target": "codex-home/skills/strategic-compact/SKILL.md",
+      "sha256": "7e95c01ca8afb1d8d716f2602e7cb34b0d4c1eb03556de44981d0f578f1753ef",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/strategic-compact/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/strategic-compact/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/strategic-compact/agents/openai.yaml",
+      "target": "codex-home/skills/strategic-compact/agents/openai.yaml",
+      "sha256": "9f28697e279286f3ac843bb8e1bbfe483b8b49478b9a35c78810e85d666663fb",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/structured-document-extraction/SKILL.md",
+      "target": "codex-home/skills/structured-document-extraction/SKILL.md",
+      "sha256": "421617ac337743dd50b1ffd5f9abb1a4a66b3cb42f5169ba2b74b764b26bd1e3",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/skills/systematic-debugging/LICENSE",
+      "target": "codex-home/skills/systematic-debugging/LICENSE",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/systematic-debugging/PROVENANCE.json",
+      "target": "codex-home/skills/systematic-debugging/PROVENANCE.json",
+      "sha256": "2446dcaf26af48fa2f7b687ffb5f16a20cd1910c18f4750256ddb72b2ebf73cc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/systematic-debugging/SKILL.md",
+      "target": "codex-home/skills/systematic-debugging/SKILL.md",
+      "sha256": "2b2d5c0982e057c9378ab7101b177e98cf1d897a81a8a09242cf58d002e09420",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/systematic-debugging/references/condition-based-waiting.md",
+      "target": "codex-home/skills/systematic-debugging/references/condition-based-waiting.md",
+      "sha256": "576f257b97eddae1e8eec5abb5747556a31d9438909c824ba122e16615ede5f1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/systematic-debugging/references/root-cause-tracing.md",
+      "target": "codex-home/skills/systematic-debugging/references/root-cause-tracing.md",
+      "sha256": "6fe5f69d98e549a0448c48409a16ac0edd4212005751524dca11407b73bfe28d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/tdd-workflow/SKILL.md",
+      "target": "codex-home/skills/tdd-workflow/SKILL.md",
+      "sha256": "b7feb01eedcc50c143a37e7c27abeed3c59ba3362db8d941abec7fae32a0dfb4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/tdd-workflow/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/tdd-workflow/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/tdd-workflow/agents/openai.yaml",
+      "target": "codex-home/skills/tdd-workflow/agents/openai.yaml",
+      "sha256": "f9bd58463a728823a9a2427ff3b185f2a9dae368b2ef1f28f43aef52c93617e6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/LICENSE.txt",
+      "target": "codex-home/skills/theme-factory/LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/SKILL.md",
+      "target": "codex-home/skills/theme-factory/SKILL.md",
+      "sha256": "11cb5e640234d8ea95103a505d1fed18ffd6abee617e7b8a6e8ecdf102f6705c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/theme-showcase.pdf",
+      "target": "codex-home/skills/theme-factory/theme-showcase.pdf",
+      "sha256": "3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/arctic-frost.md",
+      "target": "codex-home/skills/theme-factory/themes/arctic-frost.md",
+      "sha256": "868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/botanical-garden.md",
+      "target": "codex-home/skills/theme-factory/themes/botanical-garden.md",
+      "sha256": "222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/desert-rose.md",
+      "target": "codex-home/skills/theme-factory/themes/desert-rose.md",
+      "sha256": "bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/forest-canopy.md",
+      "target": "codex-home/skills/theme-factory/themes/forest-canopy.md",
+      "sha256": "ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/golden-hour.md",
+      "target": "codex-home/skills/theme-factory/themes/golden-hour.md",
+      "sha256": "3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/midnight-galaxy.md",
+      "target": "codex-home/skills/theme-factory/themes/midnight-galaxy.md",
+      "sha256": "0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/modern-minimalist.md",
+      "target": "codex-home/skills/theme-factory/themes/modern-minimalist.md",
+      "sha256": "b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/ocean-depths.md",
+      "target": "codex-home/skills/theme-factory/themes/ocean-depths.md",
+      "sha256": "a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/sunset-boulevard.md",
+      "target": "codex-home/skills/theme-factory/themes/sunset-boulevard.md",
+      "sha256": "658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/theme-factory/themes/tech-innovation.md",
+      "target": "codex-home/skills/theme-factory/themes/tech-innovation.md",
+      "sha256": "183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-cli-with-tokens/SKILL.md",
+      "target": "codex-home/skills/vercel-cli-with-tokens/SKILL.md",
+      "sha256": "1475b535469455c0f94f15c20bc6f14e2bb9a6955a573d29c0ebd31e37841534",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/AGENTS.md",
+      "target": "codex-home/skills/vercel-composition-patterns/AGENTS.md",
+      "sha256": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/README.md",
+      "target": "codex-home/skills/vercel-composition-patterns/README.md",
+      "sha256": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/SKILL.md",
+      "target": "codex-home/skills/vercel-composition-patterns/SKILL.md",
+      "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/metadata.json",
+      "target": "codex-home/skills/vercel-composition-patterns/metadata.json",
+      "sha256": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/_sections.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/_sections.md",
+      "sha256": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/_template.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/_template.md",
+      "sha256": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "sha256": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/architecture-compound-components.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/architecture-compound-components.md",
+      "sha256": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/patterns-children-over-render-props.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/patterns-children-over-render-props.md",
+      "sha256": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/patterns-explicit-variants.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/patterns-explicit-variants.md",
+      "sha256": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/react19-no-forwardref.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/react19-no-forwardref.md",
+      "sha256": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/state-context-interface.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/state-context-interface.md",
+      "sha256": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/state-decouple-implementation.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/state-decouple-implementation.md",
+      "sha256": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-composition-patterns/rules/state-lift-state.md",
+      "target": "codex-home/skills/vercel-composition-patterns/rules/state-lift-state.md",
+      "sha256": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/AGENTS.md",
+      "target": "codex-home/skills/vercel-react-best-practices/AGENTS.md",
+      "sha256": "1fe182a457585dc5d1f532beef4c956f2d071d452a1fa243602297c97b7eb7e4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/README.md",
+      "target": "codex-home/skills/vercel-react-best-practices/README.md",
+      "sha256": "9eafb2123d3b8b2aef41fba0db2648a3f4f49996f8c7c8bb2c86263befd8b48a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/SKILL.md",
+      "target": "codex-home/skills/vercel-react-best-practices/SKILL.md",
+      "sha256": "37e0676f23e8c9895c249dd0b5820e1bb6564f69ed61118e9cffa9a90c48720e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/metadata.json",
+      "target": "codex-home/skills/vercel-react-best-practices/metadata.json",
+      "sha256": "c4e18bac3290fbe1b471a605867d4df68b03144ea26b8befdbe8f9d8fd124354",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/_sections.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/_sections.md",
+      "sha256": "01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/_template.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/_template.md",
+      "sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
+      "sha256": "55ed8f9f27a1bff803d6fa55828176207714b02123cbb97ddb8a90d88024a723",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md",
+      "sha256": "a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/advanced-init-once.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/advanced-init-once.md",
+      "sha256": "3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/advanced-use-latest.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/advanced-use-latest.md",
+      "sha256": "8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/async-api-routes.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/async-api-routes.md",
+      "sha256": "523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/async-cheap-condition-before-await.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/async-cheap-condition-before-await.md",
+      "sha256": "03107c1f70a293cd58a8abc5474c5548e20ea4efdf01b6d45aae7ad0ac1cb32c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/async-defer-await.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/async-defer-await.md",
+      "sha256": "f3c142d090615abdcc99d31c123be37b31f0f1ed8d9ec9f7789a3bc6883ae0fb",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/async-dependencies.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/async-dependencies.md",
+      "sha256": "16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/async-parallel.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/async-parallel.md",
+      "sha256": "6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md",
+      "sha256": "de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/bundle-analyzable-paths.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/bundle-analyzable-paths.md",
+      "sha256": "62090b5c815fd71bf1133dce754f51abc16a9456d0ccd025fd627de27726e92a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/bundle-barrel-imports.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/bundle-barrel-imports.md",
+      "sha256": "e648f6d54525f07a691357040ca5bff6ea3424788a91ff63812adb29622a671b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/bundle-conditional.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/bundle-conditional.md",
+      "sha256": "09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md",
+      "sha256": "3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md",
+      "sha256": "401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/bundle-preload.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/bundle-preload.md",
+      "sha256": "d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/client-event-listeners.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/client-event-listeners.md",
+      "sha256": "242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/client-localstorage-schema.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/client-localstorage-schema.md",
+      "sha256": "0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md",
+      "sha256": "1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/client-swr-dedup.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/client-swr-dedup.md",
+      "sha256": "644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-batch-dom-css.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-batch-dom-css.md",
+      "sha256": "480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-cache-function-results.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-cache-function-results.md",
+      "sha256": "3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-cache-property-access.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-cache-property-access.md",
+      "sha256": "73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-cache-storage.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-cache-storage.md",
+      "sha256": "11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-combine-iterations.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-combine-iterations.md",
+      "sha256": "71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-early-exit.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-early-exit.md",
+      "sha256": "925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-flatmap-filter.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-flatmap-filter.md",
+      "sha256": "9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-hoist-regexp.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-hoist-regexp.md",
+      "sha256": "f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-index-maps.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-index-maps.md",
+      "sha256": "5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-length-check-first.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-length-check-first.md",
+      "sha256": "8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-min-max-loop.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-min-max-loop.md",
+      "sha256": "87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-request-idle-callback.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-request-idle-callback.md",
+      "sha256": "ee08f83905b4011abbc33d594033157d77561b5bbd9b36b04f0f409581ffec32",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-set-map-lookups.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-set-map-lookups.md",
+      "sha256": "a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md",
+      "sha256": "d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-activity.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-activity.md",
+      "sha256": "1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "sha256": "9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-conditional-render.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-conditional-render.md",
+      "sha256": "2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-content-visibility.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-content-visibility.md",
+      "sha256": "64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md",
+      "sha256": "93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "sha256": "dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md",
+      "sha256": "915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-resource-hints.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-resource-hints.md",
+      "sha256": "351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md",
+      "sha256": "4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-svg-precision.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-svg-precision.md",
+      "sha256": "ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md",
+      "sha256": "3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-defer-reads.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-defer-reads.md",
+      "sha256": "234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-dependencies.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-dependencies.md",
+      "sha256": "17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md",
+      "sha256": "cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-derived-state.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-derived-state.md",
+      "sha256": "1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md",
+      "sha256": "5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md",
+      "sha256": "4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md",
+      "sha256": "81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-memo.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-memo.md",
+      "sha256": "1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md",
+      "sha256": "abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md",
+      "sha256": "1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md",
+      "sha256": "5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md",
+      "sha256": "6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-transitions.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-transitions.md",
+      "sha256": "60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md",
+      "sha256": "8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md",
+      "sha256": "f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-after-nonblocking.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-after-nonblocking.md",
+      "sha256": "d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-auth-actions.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-auth-actions.md",
+      "sha256": "a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-cache-lru.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-cache-lru.md",
+      "sha256": "1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-cache-react.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-cache-react.md",
+      "sha256": "fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-dedup-props.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-dedup-props.md",
+      "sha256": "c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-hoist-static-io.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-hoist-static-io.md",
+      "sha256": "5abea4dd882b13661bd5f7dfb93f9e547d5f08176c61c448ade91b210ed5d49f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-no-shared-module-state.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-no-shared-module-state.md",
+      "sha256": "4d869bf1cd2f1632e5ca4c0e64b1cf0e71c5f5a0f940bc8a22174d205e735ed7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-parallel-fetching.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-parallel-fetching.md",
+      "sha256": "569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-parallel-nested-fetching.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-parallel-nested-fetching.md",
+      "sha256": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-best-practices/rules/server-serialization.md",
+      "target": "codex-home/skills/vercel-react-best-practices/rules/server-serialization.md",
+      "sha256": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/AGENTS.md",
+      "target": "codex-home/skills/vercel-react-native-skills/AGENTS.md",
+      "sha256": "72996343b8260800fbeb9af63ddaed91f14b65dc547e0922f9f8e9bd72076cbf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/README.md",
+      "target": "codex-home/skills/vercel-react-native-skills/README.md",
+      "sha256": "d60d7623005a833b928be6a109ed9d14dea43d7217fb534e8f2e4de5fc1f0ddf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/SKILL.md",
+      "target": "codex-home/skills/vercel-react-native-skills/SKILL.md",
+      "sha256": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/metadata.json",
+      "target": "codex-home/skills/vercel-react-native-skills/metadata.json",
+      "sha256": "59ee2274cadbd95b2220727028f0dbc26d3e0251e7937226edc9e7640756ba21",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/_sections.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/_sections.md",
+      "sha256": "21d7445e92bd7d393b420118c3fb9ebbf30aaf123a15143afb6c0b1b562cfdfd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/_template.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/_template.md",
+      "sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/animation-derived-value.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/animation-derived-value.md",
+      "sha256": "689228e9d59227934f296563963951aa9368be0afb2a188f650de161203b1862",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/animation-gesture-detector-press.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/animation-gesture-detector-press.md",
+      "sha256": "69408d4be669e74689d865c5f50a22fc3a802d521fe493371761abd20526e58e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/animation-gpu-properties.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/animation-gpu-properties.md",
+      "sha256": "f885e4179445da27cbc225e0a4aa3ed9016fc3507ca6f864392ba7a9d0bd7516",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/design-system-compound-components.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/design-system-compound-components.md",
+      "sha256": "dcb10900a58fcf57cca2e27c062d02df2325a7949e08fb45e9e05cc2b132b1a6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/fonts-config-plugin.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/fonts-config-plugin.md",
+      "sha256": "b92568774064a604e7a479d4c8d7263aed5609740e9161d2f2764bfff761905d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/imports-design-system-folder.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/imports-design-system-folder.md",
+      "sha256": "aa6337f7f2869a46a9141ec65e02c3da5c3bf051023899b82e0f0aef5bff8423",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/js-hoist-intl.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/js-hoist-intl.md",
+      "sha256": "b4b08622465ffcd5e5961878eb8c6d7359aa242d16c990b59941c9111962fe46",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-callbacks.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-callbacks.md",
+      "sha256": "db800e9dfe0080eb4954b96e2a362ee8344d08e08b1ed06bc8059450f3e6f0dd",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-function-references.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-function-references.md",
+      "sha256": "b54470e41d578b207ee3223f6853efb7fbf8e5f83d9aecf8da16989072f99544",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-images.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-images.md",
+      "sha256": "e88f16ac113c29230d674b7aa2c66c31d5772a74b1ea378d48a97b1143fe6c19",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-inline-objects.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-inline-objects.md",
+      "sha256": "e2a80aac0f29c6abaf0163c1cc273d09cc8a0030ec077ca2022bbf5c309e4625",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-item-expensive.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-item-expensive.md",
+      "sha256": "a68cc8ec5dba3c55761bd5df9dfd3d98485f63076868d3e03af15f1e58907ce3",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-item-memo.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-item-memo.md",
+      "sha256": "38ec1d149ee485434d11c2b9e2101dfc914afadae4a0738ca905f26b05f708c1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-item-types.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-item-types.md",
+      "sha256": "eed225f4e9e504bfa7db01f5395d1402545cc47de8adf1829a9408cd5d158cf6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/list-performance-virtualize.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/list-performance-virtualize.md",
+      "sha256": "98cad308118acb4d6e8e975c0168ce56e2d48ca52ed47f23bc9a30667c066ada",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/monorepo-native-deps-in-app.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/monorepo-native-deps-in-app.md",
+      "sha256": "8368b109027fcec1b8a81bfb99718aef2b64edaba77107f73d7c465cc5a14217",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/monorepo-single-dependency-versions.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/monorepo-single-dependency-versions.md",
+      "sha256": "61c01b9eaab1e319bf078204231fb573bdfea3c43a6eb99e7ef73ee95d474ccc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/navigation-native-navigators.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/navigation-native-navigators.md",
+      "sha256": "6642dedb57e72f0b56df5fbc3d5b8aaa91fc4456932c12712cfd076d393f32c6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/react-compiler-destructure-functions.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/react-compiler-destructure-functions.md",
+      "sha256": "8048926a4fa3fbd28fc0ecf4ba4c383a2f0ed06c2fd7330dd4a15d7f4e548044",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/react-compiler-reanimated-shared-values.md",
+      "sha256": "3174303a72b6849ff0eda5cd9f9650f26baa5f31ed28d35a75076af714fb2ffc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/react-state-dispatcher.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/react-state-dispatcher.md",
+      "sha256": "7ec5b653e3ff8d9ca97d8d66981cce5590c0e49fa79ab708fd6324542b588870",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/react-state-fallback.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/react-state-fallback.md",
+      "sha256": "eb76e386d71680bfdfc0ab64dba1221f4d3d0fdcb4980bb4a871381d58e9e58b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/react-state-minimize.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/react-state-minimize.md",
+      "sha256": "31b989de61defda1c61d8578c4700efd64a427218c3f3dbb7062a1666e1cbe43",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/rendering-no-falsy-and.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/rendering-no-falsy-and.md",
+      "sha256": "7300fa45ac3a4968db144727a21052421bc62de9b5e9f6f59e28bd16d2fff001",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/rendering-text-in-text-component.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/rendering-text-in-text-component.md",
+      "sha256": "fc67897b6126b6b5574f4d284a6c5b2282528fe89de8ec08e6cfd2a86ab5b235",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/scroll-position-no-state.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/scroll-position-no-state.md",
+      "sha256": "70aa1ee679e755556d7b01b326431fe898d3c23ddba40d0da6bdac23c87a1525",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/state-ground-truth.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/state-ground-truth.md",
+      "sha256": "9f3efc73d2e66a5deb3199c9774f42524cd6a0f69784af38301946be5d747cb5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-expo-image.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-expo-image.md",
+      "sha256": "c3c13cce3dd2cc7f8a9b4861e5743af98f62e28f5699f72f492e79a335cfae55",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-image-gallery.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-image-gallery.md",
+      "sha256": "b34d1ba03710ed9622187716541ae618968e7d03bc28895c2ac918d3cc5853f1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-measure-views.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-measure-views.md",
+      "sha256": "170d058abc4900ea9e851e54f5e8b437ffffc2c9d3847ae35e30a515c8990c3d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-menus.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-menus.md",
+      "sha256": "5964adbecfe9aeb28d736a4eaacec6469a1c4ca3f48779d243eb38b6d181cfe9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-native-modals.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-native-modals.md",
+      "sha256": "d803493b3046ad31cbb2c189f1fffb948fd0055050e3c322589bd548421e23a8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-pressable.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-pressable.md",
+      "sha256": "52cdbad127d713d7d32c59ef74ab1bbd6dca211edc9b25993453f7f4545e79fa",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-safe-area-scroll.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-safe-area-scroll.md",
+      "sha256": "3dd776caef2344d73529010940b50042861d06d31a192122a4df64bc06aed0e8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-scrollview-content-inset.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-scrollview-content-inset.md",
+      "sha256": "89e4bbe5e9a602660f4155e9d4c0dee09db1adf21c73f47213cd67ec896e5a13",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-native-skills/rules/ui-styling.md",
+      "target": "codex-home/skills/vercel-react-native-skills/rules/ui-styling.md",
+      "sha256": "cdef4d8b1a097b844e5992ab78e66a2dc604faf1e90f8d325a0eb116e8ef6a7e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/AGENTS.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/AGENTS.md",
+      "sha256": "a3a4d425dac20da09b99a06493a3421a098e81377aae8af47b70eb237551d394",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/README.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/README.md",
+      "sha256": "c13315993224f8c69046e780f8cc815830d4f7894a58bbb52be595a6a51a33a4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/SKILL.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/SKILL.md",
+      "sha256": "6be213c558db1c42cb8fbb74f16a1008fb5604246bbb5f4d89218d5dc5b226d5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/metadata.json",
+      "target": "codex-home/skills/vercel-react-view-transitions/metadata.json",
+      "sha256": "b1a5ae09f3904dc83dab79f518d033bd98f1e2f55caabfdb5beeeaaf0ca5e4c2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/references/css-recipes.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/references/css-recipes.md",
+      "sha256": "c75e195a3c80fe12be65a0ff439bb80bb06a5629a1850208c4cf220c60339102",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/references/implementation.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/references/implementation.md",
+      "sha256": "41d94b246fb60a8b63e7843e3e4008dc6f050467f290ff26a18f189889f080ed",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/references/nextjs.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/references/nextjs.md",
+      "sha256": "6da6d83465635dff8b01641e31c94eff317e6562b67adfcf09372a59f6f618cb",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/references/patterns.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/references/patterns.md",
+      "sha256": "7c29da4ad7ce36e90ee557a277a6dcbcf28edbd4032c265ca95968ddc011bad9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/vercel-react-view-transitions/references/troubleshooting.md",
+      "target": "codex-home/skills/vercel-react-view-transitions/references/troubleshooting.md",
+      "sha256": "fc02b6c54bc30b749ceec228732abeb2a5c8cf779fa4bcab91344ebedd0eda07",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/verification-loop/SKILL.md",
+      "target": "codex-home/skills/verification-loop/SKILL.md",
+      "sha256": "16f4f4fb6ca781a0156cd50a8742648fb7ca04240ed7696435aca8c49bb8f4f7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/verification-loop/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/verification-loop/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/verification-loop/agents/openai.yaml",
+      "target": "codex-home/skills/verification-loop/agents/openai.yaml",
+      "sha256": "df0ed5667105918b3d5ba38b4e5a85f6ae9d9901e020ca1aadd49ab8d1ceb680",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/verification-loop/references/local-document-checks.md",
+      "target": "codex-home/skills/verification-loop/references/local-document-checks.md",
+      "sha256": "ff76eca9e3d9ea5c8a5f9f1af32e3d59d9e48bb5dad35cf904a3e276eee9d99a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/video-editing/SKILL.md",
+      "target": "codex-home/skills/video-editing/SKILL.md",
+      "sha256": "f42427cb9737ed0f8eb7098a6f3a73a0f751a824e667edf79b742cfe5597a5f8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/video-editing/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/video-editing/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/video-editing/agents/openai.yaml",
+      "target": "codex-home/skills/video-editing/agents/openai.yaml",
+      "sha256": "ad682abea973c8d3231ae9e768afe3f7fa4ff781629d96e3eee2526a4d829ff2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/web-artifacts-builder/LICENSE.txt",
+      "target": "codex-home/skills/web-artifacts-builder/LICENSE.txt",
+      "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/web-artifacts-builder/SKILL.md",
+      "target": "codex-home/skills/web-artifacts-builder/SKILL.md",
+      "sha256": "6d51adcf2474415a9215254eb1b72c9054a07b55e831a0e45b3e47d0b92b3534",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/web-design-guidelines/SKILL.md",
+      "target": "codex-home/skills/web-design-guidelines/SKILL.md",
+      "sha256": "e6e86ec0e33b42c5bb1ad0b91fa9cc3fbdd2ae2cccaaef91d5a2a864f4f759b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/webapp-testing/LICENSE.txt",
+      "target": "codex-home/skills/webapp-testing/LICENSE.txt",
+      "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/webapp-testing/SKILL.md",
+      "target": "codex-home/skills/webapp-testing/SKILL.md",
+      "sha256": "3c8e94ce4e8d11adba570cc2449f1e3fe018b57d554e44e6b98241d1ef4a7139",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/webapp-testing/examples/console_logging.py",
+      "target": "codex-home/skills/webapp-testing/examples/console_logging.py",
+      "sha256": "f06fbca7cdfa44ecf5bae40813b30fc758ec3280af1aab5586aa2dd384db7ad6",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/webapp-testing/examples/element_discovery.py",
+      "target": "codex-home/skills/webapp-testing/examples/element_discovery.py",
+      "sha256": "7e99c7caf1593a75a8b2e36847128c41962fefc604f7947426581c2b9fc2361b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/webapp-testing/examples/static_html_automation.py",
+      "target": "codex-home/skills/webapp-testing/examples/static_html_automation.py",
+      "sha256": "6633d0b7c3b3bef31e6baa9cef6fac57490767ee481702fe11c281d8d013b769",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/webapp-testing/scripts/with_server.py",
+      "target": "codex-home/skills/webapp-testing/scripts/with_server.py",
+      "sha256": "b702096e90f9e1ec8d08cfbaba4cdd38ef69586d78993c42e411620309f456b9",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/wsl-coding/SKILL.md",
+      "target": "codex-home/skills/wsl-coding/SKILL.md",
+      "sha256": "4a6ddd079cc92f6bc5c177df40d7d22ef3ae58ecc1770a5b86367ae2c9287d64",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/x-api/SKILL.md",
+      "target": "codex-home/skills/x-api/SKILL.md",
+      "sha256": "96b0217b9ae154650f34a9aa566a399942f24b6ff3499e27cde2dddbfb915623",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/x-api/UPSTREAM-LICENSE.txt",
+      "target": "codex-home/skills/x-api/UPSTREAM-LICENSE.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/skills/x-api/agents/openai.yaml",
+      "target": "codex-home/skills/x-api/agents/openai.yaml",
+      "sha256": "cc2e7a1ead418353a65576cfa88ce56b319ffc139e585eb94ccb0cf3775bf1e5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/strict.config.toml",
+      "target": "codex-home/strict.config.toml",
+      "sha256": "32d6f0acfe4aa1483aef2cf231bd99e592ae3695a2a9ce5c154637e7e3575892",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/agent-kit/agent-tool.ps1",
+      "target": "codex-home/tools/agent-kit/agent-tool.ps1",
+      "sha256": "9abafdf7ef49f08628e0df7e799bb0dfceeaa0b50f16fe6fa88835fb8ce87c21",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/agent-kit/env_audit.py",
+      "target": "codex-home/tools/agent-kit/env_audit.py",
+      "sha256": "5b6b39b4b57c902e8f2fc545b32a68a77fff1574183986c26274e0a521cf3fbe",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/agent-kit/package-lock.json",
+      "target": "codex-home/tools/agent-kit/package-lock.json",
+      "sha256": "205a56902569d0d8f4bf74a27cdac89c934a291109529c9b49117366c4ae805e",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/agent-kit/package.json",
+      "target": "codex-home/tools/agent-kit/package.json",
+      "sha256": "891e75f9233eebebb71cef9cec9945c26d51f42599a6548cc9b96d096620aa12",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/agent-kit/test_env_audit.py",
+      "target": "codex-home/tools/agent-kit/test_env_audit.py",
+      "sha256": "2b2671a9d83cfa6221cc337f8a9f072ec748b6b48c52b71fa53fc5e1a22e0d89",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/beads/LICENSE",
+      "target": "codex-home/tools/beads/LICENSE",
+      "sha256": "caa2c60efbbf71e18b45ef6006a18213f8a42554b235af88883f6f1ec240b7db",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/beads/run-bd.ps1",
+      "target": "codex-home/tools/beads/run-bd.ps1",
+      "sha256": "7a6bd9eeb229f18e1012ec9b3ceb01034ba52943a9e15c63bcb5eda650f60793",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/README.md",
+      "target": "codex-home/tools/browser-lab/README.md",
+      "sha256": "8e39d9780ef8130d9ea127d28318c44724c3bb1c3fdb6ab79e314be60b23b7dd",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/browser-lab.ps1",
+      "target": "codex-home/tools/browser-lab/browser-lab.ps1",
+      "sha256": "2745dcba9385da1b6e6f5adcdaf9bbc379362124cd1ac71f56cb91e357303813",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/cdp-test.mjs",
+      "target": "codex-home/tools/browser-lab/cdp-test.mjs",
+      "sha256": "48f2bb1cba69541da9cc405c9a5004f4ecb08358fdf5ccf1c8892f467aea5bff",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/compare.mjs",
+      "target": "codex-home/tools/browser-lab/compare.mjs",
+      "sha256": "ca2b36c9bb864336162336d8e9eb0a3d2445636116e403f72a3952daf427b674",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/diagnose.mjs",
+      "target": "codex-home/tools/browser-lab/diagnose.mjs",
+      "sha256": "7bb6bce9510f041cf67c86fd60657fa3cb094645f8c409237b90a18275ae190c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/guard-test.mjs",
+      "target": "codex-home/tools/browser-lab/guard-test.mjs",
+      "sha256": "4630b1db74186fbeb79437dc91162616564a864b0e5dc3135de43c1320c476c4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/package-lock.json",
+      "target": "codex-home/tools/browser-lab/package-lock.json",
+      "sha256": "bfb9370b81cf0383e7057ed4167e8bbf2ecacb99c474ff497952135fa198a1cc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/package.json",
+      "target": "codex-home/tools/browser-lab/package.json",
+      "sha256": "2fa5963a2fd066df9b3cb68fe34139542658359e18dc27930ae3403bc9de2e45",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/browser-lab/runner.mjs",
+      "target": "codex-home/tools/browser-lab/runner.mjs",
+      "sha256": "f124b92307d1bf23cf05de5ec2b7482621e8f1dd8aaaae69801743b79401212c",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/codegraph-context/README.txt",
+      "target": "codex-home/tools/codegraph-context/README.txt",
+      "sha256": "a2db6ef9e4071a32cfba94761f5884906f6ba3c56b4eb5116c14badd1c041597",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/codegraph-context/STATUS.json",
+      "target": "codex-home/tools/codegraph-context/STATUS.json",
+      "sha256": "466358ef00d80a65aad30cac1b0ea76b94329d79dc8bc1cb80f25e35a99eb5af",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/codegraph-context/UPSTREAM_LICENSE",
+      "target": "codex-home/tools/codegraph-context/UPSTREAM_LICENSE",
+      "sha256": "ae1f0cf9b269418267c36bed45582dd2dee988c65787943368a78d108d2faaa0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/codegraph-context/readonly_mcp.py",
+      "target": "codex-home/tools/codegraph-context/readonly_mcp.py",
+      "sha256": "2fb06a22d8238e11bcea05397cfcc7d40bd93aa02733dd424d3e4a6a75649ea8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/codegraph-context/requirements.lock",
+      "target": "codex-home/tools/codegraph-context/requirements.lock",
+      "sha256": "100f01010ab85869a32e8ba1b3e5c3c967e8aece3676b1743440985744c77eb7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/codegraph-context/run_cgc.py",
+      "target": "codex-home/tools/codegraph-context/run_cgc.py",
+      "sha256": "2a2dc44c75c63dbbb008c1de463c3da79cc314fef2ecdcd89ce791639a77634d",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/docling/requirements-lock.txt",
+      "target": "codex-home/tools/docling/requirements-lock.txt",
+      "sha256": "b77d278ec7defe6b174d0dfe1329c27d5862ecc86c9a0bee09e4d5d52ec058d7",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/gitnexus/LICENSE.GitNexus.txt",
+      "target": "codex-home/tools/gitnexus/LICENSE.GitNexus.txt",
+      "sha256": "b3e617e5e5eea01b2e9153156c88706c14899e78b4a5d48b9fc14f4f10115c72",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/gitnexus/USAGE.md",
+      "target": "codex-home/tools/gitnexus/USAGE.md",
+      "sha256": "cd7c5f5297ebfcf1b573225233948429127d8a5089be5cc0be0cbbdbf6b54ca9",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/gitnexus/package-lock.json",
+      "target": "codex-home/tools/gitnexus/package-lock.json",
+      "sha256": "8f304a73bed3dd3a4ea9eb7461ecec9a179fcb014f04a3b9bc9a590b1fb40baf",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/gitnexus/package.json",
+      "target": "codex-home/tools/gitnexus/package.json",
+      "sha256": "418ea842ad563f5fcdbfee44b9170d135f16ac92c13734dc6f92567c4ead4631",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/gitnexus/run-gitnexus.ps1",
+      "target": "codex-home/tools/gitnexus/run-gitnexus.ps1",
+      "sha256": "aafb5406ad8b1c8fc9c1c066f722c86c12996a6a090eedc4ebc3a7da8383c54f",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/inspect-ai/requirements-lock.txt",
+      "target": "codex-home/tools/inspect-ai/requirements-lock.txt",
+      "sha256": "070697f4f4fc4b56bbdf64df56a4ba0f293353607fc8e91765624625f6ea0c4a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/marimo/requirements-lock.txt",
+      "target": "codex-home/tools/marimo/requirements-lock.txt",
+      "sha256": "a43796f6e206dae4397426b944449ffa8fbcb958221a78b47f942dc74dca4ee8",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/mcp-inspector/README.md",
+      "target": "codex-home/tools/mcp-inspector/README.md",
+      "sha256": "359ad4e9f6ad1e94719bf5094cdd8bf9152cd93bb7ad3e30a574d6e72bec8bae",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/mcp-inspector/package-lock.json",
+      "target": "codex-home/tools/mcp-inspector/package-lock.json",
+      "sha256": "1cf560e119dcfdb7ca3b4b55b6935bcd2b10330a98b10df43bf78abdcdde753f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/mcp-inspector/package.json",
+      "target": "codex-home/tools/mcp-inspector/package.json",
+      "sha256": "c868e28268a4530f4a2750f901e6f018f4f7c815ae6bcfdd97d54c51f1f009df",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/mcp-inspector/run-inspector.ps1",
+      "target": "codex-home/tools/mcp-inspector/run-inspector.ps1",
+      "sha256": "353571174a2bc782c505e352e1b3a275bc92a6e11c5b72a5dcf98ef1416f4d73",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/mcp-inspector/state/mcp.json",
+      "target": "codex-home/tools/mcp-inspector/state/mcp.json",
+      "sha256": "372a7f8c1e988f58480012e741582e13bb1c9c2b2611432f365ae132f519cfe5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/mise/LICENSE",
+      "target": "codex-home/tools/mise/LICENSE",
+      "sha256": "4d22d6f9222adef0a45ef895bfdd6f71d6394b1784b1001a4bebb4298b8ddc69",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/mise/mise.ps1",
+      "target": "codex-home/tools/mise/mise.ps1",
+      "sha256": "65abcca229ccae4b9a8822870c7f8d184aa379525c14a3d0b5a98897f59ddb0f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pdf-layout/README.md",
+      "target": "codex-home/tools/pdf-layout/README.md",
+      "sha256": "7601f6d2f6561fb43307346a1c4d50e0df77cdc80e65e7c8e49852a38df805a8",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/pdf-layout/layout_extract.py",
+      "target": "codex-home/tools/pdf-layout/layout_extract.py",
+      "sha256": "2d25664be2039b0ec29d326cec3260bb867956471fd75b313ddf2469b54f2298",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pdf-layout/requirements-lock.txt",
+      "target": "codex-home/tools/pdf-layout/requirements-lock.txt",
+      "sha256": "f502522281b457e77560e3f6940e394e6643326709cd6741a33590d618798656",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pi-lab/check-output-guard.mjs",
+      "target": "codex-home/tools/pi-lab/check-output-guard.mjs",
+      "sha256": "2e977031f072d0e63c402170b3af0477e5b65e088d74b9dfb1db9c4be3f33227",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pi-lab/package-lock.json",
+      "target": "codex-home/tools/pi-lab/package-lock.json",
+      "sha256": "cf65a683b3bfd50016b850044ee61ed104260e1350c08ab1c6692ba2173d0e01",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pi-lab/package.json",
+      "target": "codex-home/tools/pi-lab/package.json",
+      "sha256": "009aa4bb85cbb3c0afb83e6d7bc22c78d2ea476e2408ab9345aa1683615a189f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pi-lab/run-trial.ps1",
+      "target": "codex-home/tools/pi-lab/run-trial.ps1",
+      "sha256": "de5021553c9ed4a7c15c0082906df8db3f9505210e1a7f7a44a43f9387986bd4",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pi-lab/trial.mjs",
+      "target": "codex-home/tools/pi-lab/trial.mjs",
+      "sha256": "a2599df164ed5d874173d27a30acb82ec5dc2101bda92e653342b8c381caa74f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pixi/LICENSE",
+      "target": "codex-home/tools/pixi/LICENSE",
+      "sha256": "679d42a76b82a6dc20ffd9048ab45fb2e5557a526113aaedc7419e12f3cfab38",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/pixi/pixi.ps1",
+      "target": "codex-home/tools/pixi/pixi.ps1",
+      "sha256": "07f4510c436a648ad9734157d45553985c66a8c394e478b037be7e5b4c51a91c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/qmd/package-lock.json",
+      "target": "codex-home/tools/qmd/package-lock.json",
+      "sha256": "3eafd7bcb90d63d2242a9ee4f48491c094110e287445aec0bde3f8d7f8bc5f3a",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/qmd/package.json",
+      "target": "codex-home/tools/qmd/package.json",
+      "sha256": "cde010e4c63a3f734a32526d80e6d77086d8f7a76ace8f397aa72728613ac309",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/qmd/qmd-workflow.ps1",
+      "target": "codex-home/tools/qmd/qmd-workflow.ps1",
+      "sha256": "1604b59073417a5ea781efcde30442eaa5d5e7a4668df94f7d6589613cd8a739",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/qmd/qmd.ps1",
+      "target": "codex-home/tools/qmd/qmd.ps1",
+      "sha256": "372feb96b89cf794f2ad335aa3fd08e577510784c5bf63bbe3bedb1a5901916a",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/README.md",
+      "target": "codex-home/tools/semgrep/README.md",
+      "sha256": "a2bc1cb7da7008a58e846eef4cf5023538a081bb54c0a67cf3540d4a01c6856a",
+      "executable": false,
+      "render": "paths"
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/bootstrap.lock",
+      "target": "codex-home/tools/semgrep/bootstrap.lock",
+      "sha256": "b41c37467ca2e46b2d15af09bee103357c0884fb64297cfa36c13e5ed4f7549f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/candidate/bootstrap.lock",
+      "target": "codex-home/tools/semgrep/candidate/bootstrap.lock",
+      "sha256": "b41c37467ca2e46b2d15af09bee103357c0884fb64297cfa36c13e5ed4f7549f",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/candidate/requirements.lock",
+      "target": "codex-home/tools/semgrep/candidate/requirements.lock",
+      "sha256": "fe333b9b96d19c5e162c01baad4267c1df9ff1dc90afb1eab7dd21ebc3325e74",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/candidate/semgrep-local.py",
+      "target": "codex-home/tools/semgrep/candidate/semgrep-local.py",
+      "sha256": "9c91cf28e177a5fc945f37f343aa0cbb2c74b00cb647d7f752bc418dc6759304",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/requirements.lock",
+      "target": "codex-home/tools/semgrep/requirements.lock",
+      "sha256": "b619eaa1618551ea45feb61453ebe43ed4b6d7abaff73064d421ae912b30fccc",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/run-semgrep.ps1",
+      "target": "codex-home/tools/semgrep/run-semgrep.ps1",
+      "sha256": "5ffff97ef741f7efb3ff19663f24c0aedfa18677becd0da4ac2d4244c03c2853",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/semgrep/semgrep-local.py",
+      "target": "codex-home/tools/semgrep/semgrep-local.py",
+      "sha256": "9c91cf28e177a5fc945f37f343aa0cbb2c74b00cb647d7f752bc418dc6759304",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/serena/requirements-lock.txt",
+      "target": "codex-home/tools/serena/requirements-lock.txt",
+      "sha256": "a484bb8eb7feeae815f9a01f4681c69e7ac5f22f4e8b34c54b3b2efbda936fd0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/serena/state/contexts/codex-readonly.yml",
+      "target": "codex-home/tools/serena/state/contexts/codex-readonly.yml",
+      "sha256": "b1aaaab5de8dd349aa1fa4d1545599cdc50b42ad46a719eb5ab193b2800ea25b",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/serena/state/modes/codex-navigation.yml",
+      "target": "codex-home/tools/serena/state/modes/codex-navigation.yml",
+      "sha256": "f71d19f6dc805800c75193bbc74633d99e931b15c67da9ed783c567082e1d217",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/utility-kit/README.md",
+      "target": "codex-home/tools/utility-kit/README.md",
+      "sha256": "cd81ba19e480f88624180409a3c79cb41b1e3899151f5fa4e8d10ced9bdda05c",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/utility-kit/trafilatura/2.3.1/requirements-lock.txt",
+      "target": "codex-home/tools/utility-kit/trafilatura/2.3.1/requirements-lock.txt",
+      "sha256": "1cc34cbf1108e8e1453f62800f4e29a60e00e8487b55ca0dd81c58af3d48aef0",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/worktrunk/LICENSE",
+      "target": "codex-home/tools/worktrunk/LICENSE",
+      "sha256": "f13b97902b45ca8bff22755a2e87bf0c00e7edfe68d5976a040ef6423a1a58f1",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/worktrunk/config.toml",
+      "target": "codex-home/tools/worktrunk/config.toml",
+      "sha256": "20cf3af40a3460cdb744a5bb79b037699d2e804038e14d0dc35cbafd64826786",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/worktrunk/project.toml",
+      "target": "codex-home/tools/worktrunk/project.toml",
+      "sha256": "20cf3af40a3460cdb744a5bb79b037699d2e804038e14d0dc35cbafd64826786",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/worktrunk/run-wt.ps1",
+      "target": "codex-home/tools/worktrunk/run-wt.ps1",
+      "sha256": "04f4536e0d2ad86197e6e8006b9d7b7c67b52a1476c916a7b1783f804d230bb5",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/tools/worktrunk/system.toml",
+      "target": "codex-home/tools/worktrunk/system.toml",
+      "sha256": "20cf3af40a3460cdb744a5bb79b037699d2e804038e14d0dc35cbafd64826786",
+      "executable": false
+    },
+    {
+      "source": "bundle/codex-home/yolo.config.toml",
+      "target": "codex-home/yolo.config.toml",
+      "sha256": "77bc3f4939c3e1b50aa0d48bc16e968d485c4e03dde89adde42518b8b31057cb",
+      "executable": false
+    },
+    {
+      "source": "bundle/project/AGENTS.md",
+      "target": "project/AGENTS.md",
+      "sha256": "10f57994300c38ed0630c0aa45a5786bc25447b5845c0ca219f1e1db35753dd8",
+      "executable": false
+    },
+    {
+      "source": "bundle/project/README.md",
+      "target": "project/README.md",
+      "sha256": "401f5044b5f1fe3132cd25e7af9a7f266320ad528766c72a0a3c89e600f1c9c3",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/LICENSE.original.txt",
+      "target": "tooling/LICENSE.original.txt",
+      "sha256": "5b937e8b0b3405ada58dde26b3ed754419670c504e0fe60d2e22f5aa9a18e431",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/THIRD_PARTY_NOTICES.md",
+      "target": "tooling/THIRD_PARTY_NOTICES.md",
+      "sha256": "ff2df54c0ca65c274a1fd7e0dd6e5afa1fcbdc7789437b903ed231a741c18fe8",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/host-settings.reference.json",
+      "target": "tooling/host-settings.reference.json",
+      "sha256": "3e47a3550861198709739a5416c8a15581cd42eb7f6f969b3a0fe0bb1a5415ce",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/licenses/AI-LABS-MIT.txt",
+      "target": "tooling/licenses/AI-LABS-MIT.txt",
+      "sha256": "54b4f16fb0656250ba34218867cab067818633760cd0f045d3471464dc569bdf",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/licenses/ECC-MIT.txt",
+      "target": "tooling/licenses/ECC-MIT.txt",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/licenses/SUPERPOWERS-MIT.txt",
+      "target": "tooling/licenses/SUPERPOWERS-MIT.txt",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/licenses/TASTE-MIT.txt",
+      "target": "tooling/licenses/TASTE-MIT.txt",
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/original.config.sanitized.toml",
+      "target": "tooling/original.config.sanitized.toml",
+      "sha256": "de65f7cbc28743b251fd68210ed6041b542a8f036032af09446f3274f969051a",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/docling.requirements.txt",
+      "target": "tooling/python/docling.requirements.txt",
+      "sha256": "b77d278ec7defe6b174d0dfe1329c27d5862ecc86c9a0bee09e4d5d52ec058d7",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/inspect-ai.requirements.txt",
+      "target": "tooling/python/inspect-ai.requirements.txt",
+      "sha256": "070697f4f4fc4b56bbdf64df56a4ba0f293353607fc8e91765624625f6ea0c4a",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/marimo.requirements.txt",
+      "target": "tooling/python/marimo.requirements.txt",
+      "sha256": "a43796f6e206dae4397426b944449ffa8fbcb958221a78b47f942dc74dca4ee8",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/pdf-layout.requirements.txt",
+      "target": "tooling/python/pdf-layout.requirements.txt",
+      "sha256": "f502522281b457e77560e3f6940e394e6643326709cd6741a33590d618798656",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/semgrep-bootstrap.requirements.txt",
+      "target": "tooling/python/semgrep-bootstrap.requirements.txt",
+      "sha256": "b41c37467ca2e46b2d15af09bee103357c0884fb64297cfa36c13e5ed4f7549f",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/semgrep.requirements.txt",
+      "target": "tooling/python/semgrep.requirements.txt",
+      "sha256": "fe333b9b96d19c5e162c01baad4267c1df9ff1dc90afb1eab7dd21ebc3325e74",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/serena.requirements.txt",
+      "target": "tooling/python/serena.requirements.txt",
+      "sha256": "a484bb8eb7feeae815f9a01f4681c69e7ac5f22f4e8b34c54b3b2efbda936fd0",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/python/trafilatura.requirements.txt",
+      "target": "tooling/python/trafilatura.requirements.txt",
+      "sha256": "1cc34cbf1108e8e1453f62800f4e29a60e00e8487b55ca0dd81c58af3d48aef0",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/rules/read-only.example.rules",
+      "target": "tooling/rules/read-only.example.rules",
+      "sha256": "7b6b4d6b686bd737afa2bccf28746b858eb2177521b69ccd9a1ca2216b064ef9",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/settings-coverage.json",
+      "target": "tooling/settings-coverage.json",
+      "sha256": "053a8fc6cf9163c0116fb7a99c66f21e7f1aae013dde5817a7cb77b44c9620c7",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/wheels/proxy_tools-0.1.0-py3-none-any.whl",
+      "target": "tooling/wheels/proxy_tools-0.1.0-py3-none-any.whl",
+      "sha256": "76cd9d4a685a5d6aecb26a71f127f6274c27e605e30064dfc4a7fbc1c4104a77",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/wheels/semgrep.json",
+      "target": "tooling/wheels/semgrep.json",
+      "sha256": "434f3d50adb417213542751ad55087817b8863cba094bbd3cf7dd84d91266c3a",
+      "executable": false
+    },
+    {
+      "source": "bundle/tooling/wheels/serena.json",
+      "target": "tooling/wheels/serena.json",
+      "sha256": "12a424a90a72843d74c76e5a7575b88621549cb708d4395b9cf4539bf9b5ae0c",
+      "executable": false
+    }
+  ]
+}

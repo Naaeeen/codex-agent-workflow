@@ -1,0 +1,707 @@
+{
+  "skills": [
+    {
+      "name": "agent-introspection-debugging",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "agent-sort",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "api-design",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "article-writing",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "backend-patterns",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "brand-voice",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "bun-runtime",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "coding-standards",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "content-engine",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "crosspost",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "deep-research",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "deploy-to-vercel",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "reference_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "MIT",
+      "upstream_path": "skills/deploy-to-vercel/SKILL.md"
+    },
+    {
+      "name": "design-taste-frontend",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/leonxlnx/taste-skill",
+      "reference_commit": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "license": "MIT",
+      "upstream_path": "skills/taste-skill/SKILL.md"
+    },
+    {
+      "name": "dmux-workflows",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "documentation-lookup",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "e2e-testing",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "eval-harness",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "everything-claude-code",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "evidence-driven-work",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "exa-search",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "fal-ai-media",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "frontend-design",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/anthropics/skills",
+      "reference_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "license": "Apache-2.0",
+      "upstream_path": "skills/frontend-design/SKILL.md"
+    },
+    {
+      "name": "frontend-patterns",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "frontend-slides",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "investor-materials",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "investor-outreach",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "market-research",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "mcp-server-patterns",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "nextjs-turbopack",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "product-capability",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "research-paper-writer",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/ailabs-393/ai-labs-claude-skills",
+      "reference_commit": "1a12bc7aadcc7b211f77a7455db454b77a71f827",
+      "license": "MIT",
+      "upstream_path": "packages/skills/research-paper-writer/SKILL.md"
+    },
+    {
+      "name": "security-review",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "strategic-compact",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "tdd-workflow",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "vercel-cli-with-tokens",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "reference_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "MIT",
+      "upstream_path": "skills/vercel-cli-with-tokens/SKILL.md"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "reference_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "MIT",
+      "upstream_path": "skills/composition-patterns/SKILL.md"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "reference_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "MIT",
+      "upstream_path": "skills/react-best-practices/SKILL.md"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "reference_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "MIT",
+      "upstream_path": "skills/react-native-skills/SKILL.md"
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "reference_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "MIT",
+      "upstream_path": "skills/react-view-transitions/SKILL.md"
+    },
+    {
+      "name": "verification-loop",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "video-editing",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/anthropics/skills",
+      "reference_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "license": "Apache-2.0",
+      "upstream_path": "skills/web-artifacts-builder/SKILL.md"
+    },
+    {
+      "name": "web-design-guidelines",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "reference_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "MIT",
+      "upstream_path": "skills/web-design-guidelines/SKILL.md"
+    },
+    {
+      "name": "webapp-testing",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/anthropics/skills",
+      "reference_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "license": "Apache-2.0",
+      "upstream_path": "skills/webapp-testing/SKILL.md"
+    },
+    {
+      "name": "x-api",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/affaan-m/ECC",
+      "license": "MIT",
+      "revision": "historical local adaptations; see attribution",
+      "reference_commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+    },
+    {
+      "name": "agent-environment",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "connected-workflows",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "execution-routing",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "good-learning",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/yoli-mi/good-learning",
+      "reference_commit": "1255c4d7f0b602901100d29d85235ad2537eec31",
+      "license": "MIT"
+    },
+    {
+      "name": "local-data-sql",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "local-knowledge-search",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "marimo-notebooks",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "playwright",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/openai/skills",
+      "reference_commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "project-environments",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "project-workflow",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "repository-intelligence",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "structured-document-extraction",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "systematic-debugging",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/obra/superpowers",
+      "reference_commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "license": "MIT",
+      "upstream_path": "skills/systematic-debugging/SKILL.md"
+    },
+    {
+      "name": "theme-factory",
+      "relationship": "locally adapted upstream Skill",
+      "source": "https://github.com/anthropics/skills",
+      "reference_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "wsl-coding",
+      "relationship": "author-owned method, privacy-adapted where needed",
+      "source": "https://github.com/Naaeeen/codex-agent-workflow",
+      "license": "MIT"
+    },
+    {
+      "name": "docx",
+      "relationship": "official Apache replacement for the older restricted local version",
+      "source": "https://github.com/anthropics/skills/tree/2c5958ecac7cee2b583967a2c4981d0f4a75c579/skills/docx",
+      "archive_sha256": "e5b0c67dbfae471c013d0e03abe66db20ca70cc0c79ab6154a386c8b026e5195",
+      "files": 61,
+      "license": "Apache-2.0",
+      "reference_commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579"
+    }
+  ],
+  "adaptations": [
+    {
+      "target": "codex-home/skills/api-design/references/provenance.md",
+      "source": "codex-home/skills/api-design/references/provenance.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/backend-patterns/references/provenance.md",
+      "source": "codex-home/skills/backend-patterns/references/provenance.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/coding-standards/references/provenance.md",
+      "source": "codex-home/skills/coding-standards/references/provenance.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/eval-harness/references/native-observation.md",
+      "source": "codex-home/skills/eval-harness/references/native-observation.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/eval-harness/SKILL.md",
+      "source": "codex-home/skills/eval-harness/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/frontend-patterns/references/provenance.md",
+      "source": "codex-home/skills/frontend-patterns/references/provenance.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/security-review/references/provenance.md",
+      "source": "codex-home/skills/security-review/references/provenance.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/strategic-compact/SKILL.md",
+      "source": "codex-home/skills/strategic-compact/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/agent-environment/references/local-runtime.md",
+      "source": "codex-home/skills/agent-environment/references/local-runtime.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/agent-environment/references/workflow-selection.md",
+      "source": "codex-home/skills/agent-environment/references/workflow-selection.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/agent-environment/SKILL.md",
+      "source": "codex-home/skills/agent-environment/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/connected-workflows/SKILL.md",
+      "source": "codex-home/skills/connected-workflows/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/execution-routing/SKILL.md",
+      "source": "codex-home/skills/execution-routing/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/good-learning/PROVENANCE.json",
+      "source": "sanitized static provenance with private course settings omitted",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/local-data-sql/SKILL.md",
+      "source": "codex-home/skills/local-data-sql/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/local-knowledge-search/SKILL.md",
+      "source": "codex-home/skills/local-knowledge-search/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/marimo-notebooks/SKILL.md",
+      "source": "codex-home/skills/marimo-notebooks/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/project-workflow/SKILL.md",
+      "source": "codex-home/skills/project-workflow/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/repository-intelligence/SKILL.md",
+      "source": "codex-home/skills/repository-intelligence/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/reverse-engineer-anything/SKILL.md",
+      "source": "codex-home/skills/reverse-engineer-anything/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/structured-document-extraction/SKILL.md",
+      "source": "codex-home/skills/structured-document-extraction/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/wsl-coding/SKILL.md",
+      "source": "codex-home/skills/wsl-coding/SKILL.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/docx/SKILL.md",
+      "kind": "retain host-document preference and check runtime prerequisites in the Apache replacement"
+    },
+    {
+      "target": "codex-home/tools/browser-lab/browser-lab.ps1",
+      "source": "codex-home/tools/browser-lab/browser-lab.ps1",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/browser-lab/runner.mjs",
+      "source": "codex-home/tools/browser-lab/runner.mjs",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/browser-lab/README.md",
+      "source": "codex-home/tools/browser-lab/README.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/pdf-layout/README.md",
+      "source": "codex-home/tools/pdf-layout/README.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/serena/requirements-lock.txt",
+      "source": "codex-home/tools/serena/requirements-lock.txt",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/semgrep/README.md",
+      "source": "codex-home/tools/semgrep/README.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/gitnexus/run-gitnexus.ps1",
+      "source": "codex-home/tools/gitnexus/run-gitnexus.ps1",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/gitnexus/USAGE.md",
+      "source": "codex-home/tools/gitnexus/USAGE.md",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/qmd/qmd.ps1",
+      "source": "codex-home/tools/qmd/qmd.ps1",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/qmd/qmd-workflow.ps1",
+      "source": "codex-home/tools/qmd/qmd-workflow.ps1",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/tools/codegraph-context/README.txt",
+      "source": "codex-home/tools/codegraph-context/README.txt",
+      "kind": "privacy or path adaptation"
+    },
+    {
+      "target": "codex-home/skills/security-review/references/operational-checks.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/skills/vercel-react-best-practices/AGENTS.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/skills/webapp-testing/SKILL.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/skills/good-learning/README.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/skills/marimo-notebooks/SKILL.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/harness/evals/VERIFICATION.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/harness/portable-handoff/README.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/tools/agent-kit/agent-tool.ps1",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/tools/agent-kit/test_env_audit.py",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/tools/browser-lab/runner.mjs",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/tools/browser-lab/README.md",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/tools/pi-lab/run-trial.ps1",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/tools/beads/run-bd.ps1",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/tools/worktrunk/run-wt.ps1",
+      "kind": "relocate tools and remove author-run artifact paths"
+    },
+    {
+      "target": "codex-home/skills/good-learning/.gitignore",
+      "kind": "include sanitized static provenance and supporting tests in the public export"
+    },
+    {
+      "target": "codex-home/tools/serena/requirements-lock.txt",
+      "kind": "use verified reproducible wheel dependency"
+    }
+  ]
+}

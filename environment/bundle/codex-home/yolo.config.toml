@@ -1,0 +1,4 @@
+# Migrated from the same-named legacy profile; values preserved.
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+web_search = "live"

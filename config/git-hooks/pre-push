@@ -1,0 +1,158 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ECC Codex Git Hook: pre-push
+# Runs a lightweight verification flow before pushes.
+
+if [[ "${ECC_SKIP_GIT_HOOKS:-0}" == "1" || "${ECC_SKIP_PREPUSH:-0}" == "1" ]]; then
+  exit 0
+fi
+
+if [[ -f ".ecc-hooks-disable" || -f ".git/ecc-hooks-disable" ]]; then
+  exit 0
+fi
+
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  exit 0
+fi
+
+# Skip checks for branch deletion pushes (e.g., git push origin --delete <branch>).
+# The pre-push hook receives lines on stdin: <local ref> <local sha> <remote ref> <remote sha>.
+# For deletions, the local sha is the zero OID.
+is_delete_only=true
+while read -r _local_ref local_sha _remote_ref _remote_sha; do
+  if [[ ! "$local_sha" =~ ^0+$ ]]; then
+    is_delete_only=false
+  fi
+done
+if [[ "$is_delete_only" == "true" ]]; then
+  exit 0
+fi
+
+ran_any_check=0
+
+log() {
+  printf '[ECC pre-push] %s\n' "$*"
+}
+
+fail() {
+  printf '[ECC pre-push] FAILED: %s\n' "$*" >&2
+  exit 1
+}
+
+detect_pm() {
+  if [[ "$declared_pm" != "auto" ]]; then
+    echo "$declared_pm"
+  elif [[ -f "pnpm-lock.yaml" ]]; then
+    echo "pnpm"
+  elif [[ -f "bun.lock" || -f "bun.lockb" ]]; then
+    echo "bun"
+  elif [[ -f "yarn.lock" ]]; then
+    echo "yarn"
+  elif [[ -f "package-lock.json" ]]; then
+    echo "npm"
+  else
+    echo "npm"
+  fi
+}
+
+has_node_script() {
+  [[ "$node_scripts" == *$'\n'"$1"$'\n'* ]]
+}
+
+run_node_script() {
+  local pm="$1"
+  local script_name="$2"
+  case "$pm" in
+    pnpm) pnpm run "$script_name" ;;
+    bun) bun run "$script_name" ;;
+    yarn) yarn "$script_name" ;;
+    npm) npm run "$script_name" ;;
+    *) npm run "$script_name" ;;
+  esac
+}
+
+if [[ -f "package.json" ]]; then
+  # Parse once. Runtime/JSON failures must not masquerade as absent scripts.
+  if ! node_project_info="$(node -e '
+    const fs = require("fs");
+    try {
+      const p = JSON.parse(fs.readFileSync("package.json", "utf8").replace(/^\uFEFF/, ""));
+      if (!p || typeof p !== "object" || Array.isArray(p)) throw new Error();
+      const scripts = p.scripts === undefined ? {} : p.scripts;
+      if (!scripts || typeof scripts !== "object" || Array.isArray(scripts)) throw new Error();
+      let pm = "auto";
+      if (p.packageManager !== undefined) {
+        if (typeof p.packageManager !== "string") throw new Error();
+        const match = /^(npm|pnpm|yarn|bun)@[^\s]+$/.exec(p.packageManager);
+        if (!match) throw new Error();
+        pm = match[1];
+      }
+      const names = ["lint", "typecheck", "test", "build"].filter(name => {
+        if (scripts[name] === undefined) return false;
+        if (typeof scripts[name] !== "string") throw new Error();
+        return scripts[name].trim().length > 0;
+      });
+      process.stdout.write([pm, ...names].join("\n"));
+    } catch {
+      process.stderr.write("[ECC pre-push] Invalid package.json or unsupported packageManager declaration.\n");
+      process.exit(1);
+    }
+  ')"; then
+    fail "Cannot read package.json using Node.js. Check Node installation, valid JSON and packageManager."
+  fi
+  declared_pm="${node_project_info%%$'\n'*}"
+  node_scripts=$'\n'"${node_project_info#*$'\n'}"$'\n'
+  pm="$(detect_pm)"
+  log "Node project detected (package manager: $pm)"
+
+  for script_name in lint typecheck test build; do
+    if has_node_script "$script_name"; then
+      ran_any_check=1
+      log "Running: $script_name"
+      if [[ "$script_name" == "test" ]]; then
+        (export CI=true; run_node_script "$pm" "$script_name") || fail "$script_name failed"
+      else
+        run_node_script "$pm" "$script_name" || fail "$script_name failed"
+      fi
+    else
+      log "Skipping missing script: $script_name"
+    fi
+  done
+
+  if [[ "${ECC_PREPUSH_AUDIT:-0}" == "1" ]]; then
+    ran_any_check=1
+    log "Running dependency audit (ECC_PREPUSH_AUDIT=1)"
+    case "$pm" in
+      pnpm) pnpm audit --prod || fail "pnpm audit failed" ;;
+      bun) bun audit || fail "bun audit failed" ;;
+      yarn) yarn npm audit --recursive || fail "yarn audit failed" ;;
+      npm) npm audit --omit=dev || fail "npm audit failed" ;;
+      *) npm audit --omit=dev || fail "npm audit failed" ;;
+    esac
+  fi
+fi
+
+if [[ -f "go.mod" ]] && command -v go >/dev/null 2>&1; then
+  ran_any_check=1
+  log "Go project detected. Running: go test ./..."
+  go test ./... || fail "go test failed"
+fi
+
+if [[ -f "pyproject.toml" || -f "requirements.txt" ]]; then
+  if command -v pytest >/dev/null 2>&1; then
+    ran_any_check=1
+    log "Python project detected. Running: pytest -q"
+    pytest -q || fail "pytest failed"
+  else
+    log "Python project detected but pytest is not installed. Skipping."
+  fi
+fi
+
+if [[ "$ran_any_check" -eq 0 ]]; then
+  log "No supported checks found in this repository. Skipping."
+else
+  log "Verification checks passed."
+fi
+
+exit 0

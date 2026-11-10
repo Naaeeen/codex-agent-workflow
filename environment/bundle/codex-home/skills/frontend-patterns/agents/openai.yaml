@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Patterns"
+  short_description: "React state, effects and interaction implementation"
+  brand_color: "#8B5CF6"
+  default_prompt: "Use $frontend-patterns to implement React state, effects, forms and rendering behavior in the existing stack."
+policy:
+  allow_implicit_invocation: true

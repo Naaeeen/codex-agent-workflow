@@ -1,0 +1,7 @@
+interface:
+  display_name: "API Design"
+  short_description: "HTTP resource and compatibility contracts"
+  brand_color: "#F97316"
+  default_prompt: "Use $api-design to design or review HTTP resources, responses, pagination and compatibility."
+policy:
+  allow_implicit_invocation: true

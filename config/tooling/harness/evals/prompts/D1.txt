@@ -1,0 +1,8 @@
+Create brief.html as one standalone offline English HTML document using
+event.txt. Include one h1, semantic main content, a timetable table with header
+cells, lang=en, and a mailto contact link. Use embedded CSS with print rules
+(@page and @media print). Do not include scripts, frames, remote fonts/assets,
+CDNs, imports or any HTTP resources. Keep every supplied fact accurate.
+Aim for a readable one-page printed brief. Automated grading checks structure,
+offline dependencies and facts; visual layout requires a separate human/Luna
+check and must not be described as already verified.

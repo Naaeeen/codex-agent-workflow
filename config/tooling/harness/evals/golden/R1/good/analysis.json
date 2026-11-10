@@ -1,0 +1,22 @@
+{
+  "throughput_pct": 20,
+  "p95_latency_pct": 40,
+  "observations": 1,
+  "claim_status": {
+    "twofold_speedup": "unsupported",
+    "lower_latency": "contradicted",
+    "all_workloads_faster": "not_established"
+  },
+  "sources": {
+    "throughput": [
+      "BENCH-NEW"
+    ],
+    "latency": [
+      "BENCH-NEW"
+    ],
+    "twofold": [
+      "DESIGN-OLD",
+      "BENCH-NEW"
+    ]
+  }
+}

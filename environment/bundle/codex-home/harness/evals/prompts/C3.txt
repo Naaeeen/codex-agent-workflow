@@ -1,0 +1,10 @@
+Implement Copy-ReceiptSet.ps1 with mandatory -ManifestPath, -SourceRoot and
+-DestinationRoot parameters and standard -WhatIf support. CSV is UTF-8 with
+source,destination headers. Each value is a relative file path; support spaces,
+Unicode and nested destination folders. Preserve originals and never overwrite.
+Validate the entire manifest before writing anything: reject rooted paths,
+any .. path segment, missing sources, existing destination files, and duplicate
+destinations under Windows case-insensitive comparison. An invalid manifest must
+exit nonzero with no partial destination creation. -WhatIf must validate and exit
+successfully without creating the destination root. Use only built-in PowerShell
+or .NET facilities. This task operates only on synthetic fixture paths.

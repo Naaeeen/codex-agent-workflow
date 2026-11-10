@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "installed_on": "2026-10-27",
+  "upstream_repo": "https://github.com/yoli-mi/good-learning",
+  "upstream_commit": "1255c4d7f0b602901100d29d85235ad2537eec31",
+  "license": "MIT",
+  "local_version": "sprint-1",
+  "official_reference": "https://learn.chatgpt.com/use-cases/build-exam-study-system",
+  "endorsement": "Local adaptation; no official endorsement of the upstream repository is claimed.",
+  "changes": [
+    "Selectable flow; guided-practice selected",
+    "3–7 day preference without invented deadline/hours",
+    "Direct course-file teaching; source/solution identity checks",
+    "Evidence-only progress helper; no auto-grading",
+    "Actual vs assisted/simulated evidence separated",
+    "PDF/mind-map exports optional"
+  ]
+}

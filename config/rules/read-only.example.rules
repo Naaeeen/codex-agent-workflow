@@ -1,0 +1,4 @@
+# Illustrative rules only; review scope locally before installing.
+# These are not an export of historical grants.
+prefix_rule(pattern=["git", "status"], decision="allow")
+prefix_rule(pattern=["git", "diff"], decision="allow")

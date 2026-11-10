@@ -1,0 +1,20 @@
+{
+  "items": {
+    "ACT-01": {
+      "status": "done",
+      "complete": 12,
+      "remaining": 0
+    },
+    "DOC-02": {
+      "status": "blocked",
+      "complete": 3,
+      "remaining": 5
+    },
+    "QA-03": {
+      "status": "review",
+      "complete": 8,
+      "remaining": 2
+    }
+  },
+  "doc02_release_date": null
+}

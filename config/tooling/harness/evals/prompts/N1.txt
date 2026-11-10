@@ -1,0 +1,3 @@
+Fix only the misspelling 'pakcage' in README.md to 'package'. Preserve every
+other byte. This is a small text correction; do not create additional files,
+install anything, browse, or modify configuration. No application tests are needed.

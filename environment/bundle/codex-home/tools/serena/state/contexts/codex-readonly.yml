@@ -1,0 +1,15 @@
+description: Focused local symbol navigation for Codex
+prompt: |
+  Use these local tools when the task requires symbol definitions or references.
+  Basic source reads and edits remain the host agent's responsibility.
+  Activate only the explicitly selected project. Symbol references are static
+  evidence, not a complete dynamic call graph or proof of runtime behavior.
+  The host exposes a small read-only tool allowlist; do not request memory or
+  code mutation as a prerequisite to navigation.
+fixed_tools:
+  - initial_instructions
+  - activate_project
+  - get_symbols_overview
+  - find_symbol
+  - find_referencing_symbols
+tool_description_overrides: {}

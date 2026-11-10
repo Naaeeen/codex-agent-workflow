@@ -1,0 +1,14 @@
+[
+  {
+    "id": "verification",
+    "description": "Recorded results of the task's required verification commands",
+    "required": true,
+    "type": "artifact"
+  },
+  {
+    "id": "review",
+    "description": "Review findings, resolution and remaining limits",
+    "required": true,
+    "type": "review"
+  }
+]

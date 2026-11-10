@@ -1,0 +1,7 @@
+interface:
+  display_name: "Backend Patterns"
+  short_description: "Server layers, data access and operational contracts"
+  brand_color: "#F59E0B"
+  default_prompt: "Use $backend-patterns to structure server application layers, caching, middleware and jobs."
+policy:
+  allow_implicit_invocation: true

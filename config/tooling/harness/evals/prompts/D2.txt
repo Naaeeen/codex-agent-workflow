@@ -1,0 +1,7 @@
+Revise release-notes.md from evidence.csv. Do not turn a blocked/review item
+into completed work; an empty date remains unknown. Preserve the owner comment
+exactly. For each item include its ID, source status, complete and remaining
+counts on one line (table or bullet are both fine). Cite evidence.csv#ITEM-ID.
+Also create revision.json with items mapping each ID to {status,complete,remaining}
+and doc02_release_date:null. The JSON supports arithmetic/source checking, not
+a substitute for an accurate readable document. Do not invent delivery dates.

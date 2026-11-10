@@ -1,0 +1,152 @@
+"model_context_window" = 872000
+"model" = "gpt-6.1-sol"
+"model_reasoning_effort" = "max"
+"approval_policy" = "on-request"
+"approvals_reviewer" = "auto_review"
+"sandbox_mode" = "workspace-write"
+"web_search" = "live"
+"personality" = "pragmatic"
+"service_tier" = "default"
+"cli_auth_credentials_store" = "file"
+
+["windows"]
+"sandbox" = "elevated"
+
+["features"]
+"multi_agent" = true
+"memories" = true
+
+["agents"]
+"max_threads" = 6
+"max_depth" = 1
+
+["agents"."explorer"]
+"description" = "Read-only codebase explorer for gathering evidence before changes are proposed."
+"config_file" = "agents/explorer.toml"
+
+["agents"."reviewer"]
+"description" = "PR reviewer focused on correctness, security, and missing tests."
+"config_file" = "agents/reviewer.toml"
+
+["agents"."docs_researcher"]
+"description" = "Documentation specialist that verifies APIs, framework behavior, and release notes."
+"config_file" = "agents/docs-researcher.toml"
+
+["agents"."computer_operator"]
+"description" = "Bounded browser and desktop UI operator; select a capable lower-cost model or lower reasoning effort per task."
+"config_file" = "agents/computer-operator.toml"
+
+["mcp_servers"]
+
+["mcp_servers"."supabase"]
+"url" = "https://mcp.supabase.com/mcp?project_ref=YOUR_PROJECT_REF"
+"enabled" = false
+
+["mcp_servers"."supabase"."tools"]
+
+["mcp_servers"."supabase"."tools"."execute_sql"]
+"approval_mode" = "approve"
+
+["mcp_servers"."playwright"]
+"command" = "bunx"
+"args" = ["@playwright/mcp@latest"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."context7"]
+"url" = "https://mcp.context7.com/mcp"
+"enabled" = true
+"startup_timeout_sec" = 30
+
+["mcp_servers"."context7"."tools"]
+
+["mcp_servers"."context7"."tools"."resolve-library-id"]
+"output_token_limit" = 4000
+
+["mcp_servers"."context7"."tools"."query-docs"]
+"output_token_limit" = 12000
+
+["mcp_servers"."openaiDeveloperDocs"]
+"url" = "https://developers.openai.com/mcp"
+"enabled" = true
+"startup_timeout_sec" = 30
+
+["mcp_servers"."openaiDeveloperDocs"."tools"]
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."search_openai_docs"]
+"output_token_limit" = 8000
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."list_openai_docs"]
+"output_token_limit" = 6000
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."fetch_openai_doc"]
+"output_token_limit" = 16000
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."list_api_endpoints"]
+"output_token_limit" = 8000
+
+["mcp_servers"."microsoftLearn"]
+"url" = "https://learn.microsoft.com/api/mcp"
+"enabled" = true
+"startup_timeout_sec" = 30
+
+["mcp_servers"."microsoftLearn"."tools"]
+
+["mcp_servers"."microsoftLearn"."tools"."microsoft_docs_search"]
+"output_token_limit" = 8000
+
+["mcp_servers"."microsoftLearn"."tools"."microsoft_code_sample_search"]
+"output_token_limit" = 8000
+
+["mcp_servers"."microsoftLearn"."tools"."microsoft_docs_fetch"]
+"output_token_limit" = 16000
+
+["mcp_servers"."exa"]
+"url" = "https://example.invalid/reader-owned-exa-endpoint"
+"enabled" = false
+
+["mcp_servers"."github"]
+"command" = "npx"
+"args" = ["-y", "@modelcontextprotocol/server-github"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."memory"]
+"command" = "bunx"
+"args" = ["@modelcontextprotocol/server-memory"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."sequential-thinking"]
+"command" = "bunx"
+"args" = ["@modelcontextprotocol/server-sequential-thinking"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."serena"]
+"command" = "{{TOOLS_ROOT}}/serena/venv/Scripts/serena.exe"
+"args" = ["start-mcp-server", "--context", "{{TOOLS_ROOT}}/serena/state/contexts/codex-readonly.yml", "--mode", "{{TOOLS_ROOT}}/serena/state/modes/codex-navigation.yml", "--agent-interface", "tools", "--enable-web-dashboard", "false", "--open-web-dashboard", "false", "--enable-gui-log-window", "false"]
+"enabled" = true
+"startup_timeout_sec" = 45
+"tool_timeout_sec" = 90
+"enabled_tools" = ["initial_instructions", "activate_project", "get_symbols_overview", "find_symbol", "find_referencing_symbols"]
+
+["mcp_servers"."serena"."env"]
+"SERENA_HOME" = "{{TOOLS_ROOT}}/serena/state"
+
+["memories"]
+"generate_memories" = true
+"use_memories" = true
+"disable_on_external_context" = false
+
+["sandbox_workspace_write"]
+"network_access" = true
+
+["shell_environment_policy"]
+
+["shell_environment_policy"."set"]
+
+["projects"]
+
+["projects"."{{ENV_ROOT}}/project"]
+"trust_level" = "trusted"

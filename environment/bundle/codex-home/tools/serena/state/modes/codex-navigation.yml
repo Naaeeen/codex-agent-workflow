@@ -1,0 +1,6 @@
+description: Navigation-only Serena integration, without changing the host task mode
+prompt: |
+  Serena exposes only local symbol navigation in this configuration. This does
+  not put the host agent into planning mode or prevent authorized code edits
+  with the host's own tools. Follow the user's task and the host's rules.
+excluded_tools: []

@@ -1,0 +1,6 @@
+Migrate the real JavaScript SDK calls from client.legacySend(payload) to
+client.send(payload), and client.legacyPing() to client.ping(). The new API returns
+the same async values. Preserve ordering, return values, strings and comments.
+Only src/workflow.mjs and src/retry.mjs may change. Other files, including the
+archived example and decorations, are intentionally out of scope. No install is
+needed: Node's built-in test runner is available; use node --test tests/*.mjs.

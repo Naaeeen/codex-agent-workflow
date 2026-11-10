@@ -1,0 +1,63 @@
+{
+  "name": "systematic-debugging",
+  "kind": "locally adapted standalone Codex skill",
+  "upstream_repository": "https://github.com/obra/superpowers",
+  "upstream_commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+  "upstream_skill_path": "skills/systematic-debugging",
+  "upstream_license": "MIT",
+  "upstream_copyright": "Copyright (c) 2025 Jesse Vincent",
+  "review_date": "2026-09-27",
+  "reviewed_source_files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/obra/superpowers/8ca22dba9a94f28898bbce59f2537ff4d87c747d/LICENSE",
+      "bytes": 1070,
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+    },
+    {
+      "path": "skills/systematic-debugging/SKILL.md",
+      "url": "https://raw.githubusercontent.com/obra/superpowers/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/systematic-debugging/SKILL.md",
+      "bytes": 9465,
+      "sha256": "808fc5717aa88ad65efff312b11c186294d3e6ee301afb584e2f86599b137787"
+    },
+    {
+      "path": "skills/systematic-debugging/root-cause-tracing.md",
+      "url": "https://raw.githubusercontent.com/obra/superpowers/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/systematic-debugging/root-cause-tracing.md",
+      "bytes": 5321,
+      "sha256": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8"
+    },
+    {
+      "path": "skills/systematic-debugging/defense-in-depth.md",
+      "url": "https://raw.githubusercontent.com/obra/superpowers/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/systematic-debugging/defense-in-depth.md",
+      "bytes": 3650,
+      "sha256": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7"
+    },
+    {
+      "path": "skills/systematic-debugging/condition-based-waiting.md",
+      "url": "https://raw.githubusercontent.com/obra/superpowers/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/systematic-debugging/condition-based-waiting.md",
+      "bytes": 3516,
+      "sha256": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26"
+    },
+    {
+      "path": "skills/systematic-debugging/condition-based-waiting-example.ts",
+      "url": "https://raw.githubusercontent.com/obra/superpowers/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/systematic-debugging/condition-based-waiting-example.ts",
+      "bytes": 5054,
+      "sha256": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e"
+    },
+    {
+      "path": "skills/systematic-debugging/find-polluter.sh",
+      "url": "https://raw.githubusercontent.com/obra/superpowers/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills/systematic-debugging/find-polluter.sh",
+      "bytes": 1986,
+      "sha256": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c"
+    }
+  ],
+  "adaptations": [
+    "Scoped discovery to application, build, test and integration faults; distinguished agent self-debugging and comparative evaluations.",
+    "Kept reproduction, discriminating experiments, backward tracing and real regression evidence with complexity-appropriate process.",
+    "Added redacted boundary diagnostics and preserved actual test failures and non-reproduction uncertainty.",
+    "Removed mandatory sequential phases, fixed three-failure escalation, unsupported success-rate claims and whole-framework dependencies.",
+    "Rewrote tracing and waiting references to retain useful techniques without every-layer validation or universal polling defaults.",
+    "Omitted project-specific TypeScript helper, npm-only failure-masking polluter script, author creation log and pressure-test files.",
+    "Preserved existing authorization boundaries and distinguished reversible mitigation from root-cause repair."
+  ]
+}

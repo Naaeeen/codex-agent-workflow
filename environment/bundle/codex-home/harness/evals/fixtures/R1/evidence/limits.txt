@@ -1,0 +1,1 @@
+[LIMITS] Only one synthetic workload and one observation. No repeated runs, user study, or generalization across workloads.

@@ -1,0 +1,2 @@
+source,workload,baseline_throughput,candidate_throughput,baseline_p95_ms,candidate_p95_ms,observations
+BENCH-NEW,synthetic-A,100,120,100,140,1

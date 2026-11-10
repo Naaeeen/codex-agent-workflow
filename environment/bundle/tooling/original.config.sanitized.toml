@@ -1,0 +1,276 @@
+"model_context_window" = 872000
+"model" = "gpt-6.1-sol"
+"model_reasoning_effort" = "max"
+"approval_policy" = "on-request"
+"approvals_reviewer" = "auto_review"
+"sandbox_mode" = "workspace-write"
+"web_search" = "live"
+"personality" = "pragmatic"
+"service_tier" = "default"
+"notify" = ["<NOTIFY_0_PATH>", "turn-ended", "--previous-notify", "[]"]
+
+["marketplaces"]
+
+["marketplaces"."openai-bundled"]
+"source_type" = "local"
+"source" = "<MARKETPLACES_OPENAI_BUNDLED_SOURCE_PATH>"
+
+["marketplaces"."openai-primary-runtime"]
+"source_type" = "local"
+"source" = "<MARKETPLACES_OPENAI_PRIMARY_RUNTIME_SOURCE_PATH>"
+
+["windows"]
+"sandbox" = "elevated"
+
+["features"]
+"multi_agent" = true
+"memories" = true
+
+["agents"]
+"max_threads" = 6
+"max_depth" = 1
+
+["agents"."explorer"]
+"description" = "Read-only codebase explorer for gathering evidence before changes are proposed."
+"config_file" = "agents/explorer.toml"
+
+["agents"."reviewer"]
+"description" = "PR reviewer focused on correctness, security, and missing tests."
+"config_file" = "agents/reviewer.toml"
+
+["agents"."docs_researcher"]
+"description" = "Documentation specialist that verifies APIs, framework behavior, and release notes."
+"config_file" = "agents/docs-researcher.toml"
+
+["agents"."computer_operator"]
+"description" = "Bounded browser and desktop UI operator; select a capable lower-cost model or lower reasoning effort per task."
+"config_file" = "agents/computer-operator.toml"
+
+["mcp_servers"]
+
+["mcp_servers"."supabase"]
+"url" = "https://mcp.supabase.com/mcp?project_ref=<SUPABASE_PROJECT_REF>"
+
+["mcp_servers"."supabase"."tools"]
+
+["mcp_servers"."supabase"."tools"."execute_sql"]
+"approval_mode" = "approve"
+
+["mcp_servers"."playwright"]
+"command" = "bunx"
+"args" = ["@playwright/mcp@latest"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."context7"]
+"url" = "https://mcp.context7.com/mcp"
+"enabled" = true
+"startup_timeout_sec" = 30
+
+["mcp_servers"."context7"."tools"]
+
+["mcp_servers"."context7"."tools"."resolve-library-id"]
+"output_token_limit" = 4000
+
+["mcp_servers"."context7"."tools"."query-docs"]
+"output_token_limit" = 12000
+
+["mcp_servers"."openaiDeveloperDocs"]
+"url" = "https://developers.openai.com/mcp"
+"enabled" = true
+"startup_timeout_sec" = 30
+
+["mcp_servers"."openaiDeveloperDocs"."tools"]
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."search_openai_docs"]
+"output_token_limit" = 8000
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."list_openai_docs"]
+"output_token_limit" = 6000
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."fetch_openai_doc"]
+"output_token_limit" = 16000
+
+["mcp_servers"."openaiDeveloperDocs"."tools"."list_api_endpoints"]
+"output_token_limit" = 8000
+
+["mcp_servers"."microsoftLearn"]
+"url" = "https://learn.microsoft.com/api/mcp"
+"enabled" = true
+"startup_timeout_sec" = 30
+
+["mcp_servers"."microsoftLearn"."tools"]
+
+["mcp_servers"."microsoftLearn"."tools"."microsoft_docs_search"]
+"output_token_limit" = 8000
+
+["mcp_servers"."microsoftLearn"."tools"."microsoft_code_sample_search"]
+"output_token_limit" = 8000
+
+["mcp_servers"."microsoftLearn"."tools"."microsoft_docs_fetch"]
+"output_token_limit" = 16000
+
+["mcp_servers"."exa"]
+"url" = "<MCP_SERVERS_EXA_URL_URL>"
+"enabled" = false
+
+["mcp_servers"."github"]
+"command" = "npx"
+"args" = ["-y", "@modelcontextprotocol/server-github"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."memory"]
+"command" = "bunx"
+"args" = ["@modelcontextprotocol/server-memory"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."sequential-thinking"]
+"command" = "bunx"
+"args" = ["@modelcontextprotocol/server-sequential-thinking"]
+"enabled" = false
+"startup_timeout_sec" = 30
+
+["mcp_servers"."node_repl"]
+"args" = []
+"command" = "<MCP_SERVERS_NODE_REPL_COMMAND_PATH>"
+"env_vars" = ["BROWSER_USE_ACCESS_EXECUTOR_ID", "BROWSER_USE_ACCESS_PIPE_PATH", "BROWSER_USE_ACCESS_VERIFYING_IDENTITY", "CODEX_WINDOWS_REGISTERED_CORE"]
+"startup_timeout_sec" = 120
+
+["mcp_servers"."node_repl"."env"]
+"NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS_VALUE>"
+"NODE_REPL_NODE_MODULE_DIRS" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_NODE_MODULE_DIRS_VALUE>"
+"NODE_REPL_NODE_PATH" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_NODE_PATH_VALUE>"
+"NODE_REPL_TRUSTED_CODE_PATHS" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_TRUSTED_CODE_PATHS_VALUE>"
+"CODEX_HOME" = "<MCP_SERVERS_NODE_REPL_ENV_CODEX_HOME_VALUE>"
+"BROWSER_USE_AVAILABLE_BACKENDS" = "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_AVAILABLE_BACKENDS_VALUE>"
+"BROWSER_USE_TINYSKY_ENABLED" = "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_TINYSKY_ENABLED_VALUE>"
+"NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER_VALUE>"
+"NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME_VALUE>"
+"BROWSER_USE_CODEX_APP_BUILD_FLAVOR" = "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_CODEX_APP_BUILD_FLAVOR_VALUE>"
+"BROWSER_USE_CODEX_APP_VERSION" = "<MCP_SERVERS_NODE_REPL_ENV_BROWSER_USE_CODEX_APP_VERSION_VALUE>"
+"NODE_REPL_TRUSTED_SERVICES" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_TRUSTED_SERVICES_VALUE>"
+"SKY_CUA_NATIVE_PIPE" = "<MCP_SERVERS_NODE_REPL_ENV_SKY_CUA_NATIVE_PIPE_VALUE>"
+"SKY_CUA_NATIVE_PIPE_DIRECTORY" = "<MCP_SERVERS_NODE_REPL_ENV_SKY_CUA_NATIVE_PIPE_DIRECTORY_VALUE>"
+"CODEX_CLI_PATH" = "<MCP_SERVERS_NODE_REPL_ENV_CODEX_CLI_PATH_VALUE>"
+"NODE_REPL_UNTRUSTED_ENV_ALLOWLIST" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_UNTRUSTED_ENV_ALLOWLIST_VALUE>"
+"NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE" = "<MCP_SERVERS_NODE_REPL_ENV_NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE_VALUE>"
+
+["mcp_servers"."serena"]
+"command" = "<MCP_SERVERS_SERENA_COMMAND_PATH>"
+"args" = ["start-mcp-server", "--context", "<MCP_SERVERS_SERENA_ARGS_2_PATH>", "--mode", "<MCP_SERVERS_SERENA_ARGS_4_PATH>", "--agent-interface", "tools", "--enable-web-dashboard", "false", "--open-web-dashboard", "false", "--enable-gui-log-window", "false"]
+"enabled" = true
+"startup_timeout_sec" = 45
+"tool_timeout_sec" = 90
+"enabled_tools" = ["initial_instructions", "activate_project", "get_symbols_overview", "find_symbol", "find_referencing_symbols"]
+
+["mcp_servers"."serena"."env"]
+"SERENA_HOME" = "<MCP_SERVERS_SERENA_ENV_SERENA_HOME_VALUE>"
+"PATH" = "<MCP_SERVERS_SERENA_ENV_PATH_VALUE>"
+
+["notice"]
+"fast_default_opt_out" = true
+
+["projects"]
+
+["tui"]
+"screen_reader_detection_done" = true
+
+["tui"."model_availability_nux"]
+"gpt-5.5" = 4
+
+["plugins"]
+
+["plugins"."documents@openai-primary-runtime"]
+"enabled" = true
+
+["plugins"."spreadsheets@openai-primary-runtime"]
+"enabled" = true
+
+["plugins"."presentations@openai-primary-runtime"]
+"enabled" = true
+
+["plugins"."github@openai-curated"]
+"enabled" = true
+
+["plugins"."linear@openai-curated"]
+"enabled" = true
+
+["plugins"."teams@openai-curated"]
+"enabled" = true
+
+["plugins"."computer-use@openai-bundled"]
+"enabled" = true
+
+["plugins"."google-drive@openai-curated"]
+"enabled" = true
+
+["plugins"."openai-developers@openai-curated"]
+"enabled" = true
+
+["plugins"."hugging-face@openai-curated"]
+"enabled" = true
+
+["plugins"."chrome@openai-bundled"]
+"enabled" = true
+
+["plugins"."pdf@openai-primary-runtime"]
+"enabled" = true
+
+["plugins"."template-creator@openai-primary-runtime"]
+"enabled" = true
+
+["plugins"."visualize@openai-bundled"]
+"enabled" = true
+
+["plugins"."browser@openai-bundled"]
+"enabled" = true
+
+["plugins"."unified-computer-use@openai-bundled"]
+"enabled" = true
+
+["plugins"."codex-app-tools@openai-bundled"]
+"enabled" = true
+
+["desktop"]
+"ambient-suggestions-enabled" = true
+"conversationDetailMode" = "STEPS_COMMANDS"
+"show-context-window-usage" = true
+"selected-avatar-id" = "stacky"
+"keepRemoteControlAwakeWhilePluggedIn" = true
+"followUpQueueMode" = "steer"
+"hotkey-window-projectless-default-enabled" = true
+"toys-confetti-enabled" = true
+"external-agent-import-sync-enabled" = true
+"enabled-reasoning-efforts" = ["low", "medium", "high", "xhigh", "ultra", "persistent", "max"]
+"git-branch-prefix" = ""
+
+["desktop"."open-in-target-preferences"]
+"global" = "pycharm"
+
+["desktop"."open-in-target-preferences"."perPath"]
+
+["memories"]
+"generate_memories" = true
+"use_memories" = true
+"disable_on_external_context" = false
+
+["sandbox_workspace_write"]
+"network_access" = true
+
+["shell_environment_policy"]
+
+["shell_environment_policy"."set"]
+"NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S" = "<SHELL_ENVIRONMENT_POLICY_SET_NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S_VALUE>"
+
+["computer_use"]
+
+["computer_use"."windows"]
+
+["computer_use"."windows"."always_allowed_app_ids"]
+"msedge.exe" = true
+"powerpnt.exe" = true
+"OpenAI.Codex_2p2nqsd0c76g0!App" = true
+"winword.exe" = true
+"explorer.exe" = true

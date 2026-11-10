@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@ast-grep/cli-win32-x64-msvc": "0.51.1",
+    "rea-agents": "6.8.0",
+    "repomix": "1.18.1"
+  },
+  "name": "personal-codex-agent-kit",
+  "private": true,
+  "version": "1.0.0",
+  "overrides": {
+    "zod": "4.6.7",
+    "minimatch": "11.0.4",
+    "glob": "14.0.3"
+  }
+}
